@@ -8,7 +8,6 @@
     node "src\v2.0\Ring 0\exe\win-arm64.js"
     node "src\v2.0\Ring 0\msi\win-arm64.js"
     node "src\v2.0\Ring 0\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 0\msix\win-x64.js"
     node "src\v2.0\Ring 0\msix\win-x86.js"
     node "src\v2.0\Ring 0\msix\win-arm64.js"
@@ -22,7 +21,6 @@
     node "src\v2.0\Ring 1\exe\win-arm64.js"
     node "src\v2.0\Ring 1\msi\win-arm64.js"
     node "src\v2.0\Ring 1\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 1\msix\win-x64.js"
     node "src\v2.0\Ring 1\msix\win-x86.js"
     node "src\v2.0\Ring 1\msix\win-arm64.js"
@@ -36,7 +34,6 @@
     node "src\v2.0\Ring 1.5\exe\win-arm64.js"
     node "src\v2.0\Ring 1.5\msi\win-arm64.js"
     node "src\v2.0\Ring 1.5\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 1.5\msix\win-x64.js"
     node "src\v2.0\Ring 1.5\msix\win-x86.js"
     node "src\v2.0\Ring 1.5\msix\win-arm64.js"
@@ -50,7 +47,6 @@
     node "src\v2.0\Ring 1.6\exe\win-arm64.js"
     node "src\v2.0\Ring 1.6\msi\win-arm64.js"
     node "src\v2.0\Ring 1.6\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 1.6\msix\win-x64.js"
     node "src\v2.0\Ring 1.6\msix\win-x86.js"
     node "src\v2.0\Ring 1.6\msix\win-arm64.js"
@@ -64,7 +60,6 @@
     node "src\v2.0\Ring 2\exe\win-arm64.js"
     node "src\v2.0\Ring 2\msi\win-arm64.js"
     node "src\v2.0\Ring 2\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 2\msix\win-x64.js"
     node "src\v2.0\Ring 2\msix\win-x86.js"
     node "src\v2.0\Ring 2\msix\win-arm64.js"
@@ -78,7 +73,6 @@
     node "src\v2.0\Ring 3\exe\win-arm64.js"
     node "src\v2.0\Ring 3\msi\win-arm64.js"
     node "src\v2.0\Ring 3\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 3\msix\win-x64.js"
     node "src\v2.0\Ring 3\msix\win-x86.js"
     node "src\v2.0\Ring 3\msix\win-arm64.js"
@@ -92,7 +86,6 @@
     node "src\v2.0\Ring 3.6\exe\win-arm64.js"
     node "src\v2.0\Ring 3.6\msi\win-arm64.js"
     node "src\v2.0\Ring 3.6\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 3.6\msix\win-x64.js"
     node "src\v2.0\Ring 3.6\msix\win-x86.js"
     node "src\v2.0\Ring 3.6\msix\win-arm64.js"
@@ -106,7 +99,6 @@
     node "src\v2.0\Ring 3.9\exe\win-arm64.js"
     node "src\v2.0\Ring 3.9\msi\win-arm64.js"
     node "src\v2.0\Ring 3.9\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 3.9\msix\win-x64.js"
     node "src\v2.0\Ring 3.9\msix\win-x86.js"
     node "src\v2.0\Ring 3.9\msix\win-arm64.js"
@@ -120,7 +112,6 @@
     node "src\v2.0\Ring 4\exe\win-arm64.js"
     node "src\v2.0\Ring 4\msi\win-arm64.js"
     node "src\v2.0\Ring 4\pkg\osx-x64.js"
-    echo:
     node "src\v2.0\Ring 4\msix\win-x64.js"
     node "src\v2.0\Ring 4\msix\win-x86.js"
     node "src\v2.0\Ring 4\msix\win-arm64.js"
