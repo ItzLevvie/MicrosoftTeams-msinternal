@@ -27,6 +27,7 @@
     node "src\v1.0\Preview\msi\win-arm64.js"
     node "src\v1.0\Preview\pkg\osx-x64.js"
     node "src\v1.0\Preview\deb\linux-x64.js"
+    node "src\v1.0\Preview\rpm\linux-x64.js"
     echo:
     echo URLs for the latest production build of Microsoft Teams:
     node "src\v1.0\Production\exe\win-x64.js"
@@ -37,4 +38,5 @@
     node "src\v1.0\Production\msi\win-arm64.js"
     node "src\v1.0\Production\pkg\osx-x64.js"
     node "src\v1.0\Production\deb\linux-x64.js"
+    node "src\v1.0\Production\rpm\linux-x64.js"
 ) > defconfig

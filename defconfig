@@ -25,6 +25,7 @@ URLs for the latest preview build of Microsoft Teams:
 1.4.00.32771 (win-arm64) - published on Tuesday, November 23, 2021 at 5:08 PM with 114 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.4.00.32771/Teams_windows_arm64.msi
 1.4.00.34557 (osx-x64) - published on Saturday, December 11, 2021 at 9:02 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.4.00.34557/Teams_osx.pkg
 1.4.00.26453 (linux-x64) - published on Wednesday, September 29, 2021 at 7:53 AM with 81 MB: https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams-insiders/teams-insiders_1.4.00.26453_amd64.deb
+1.4.00.26453 (linux-x64) - published on Wednesday, September 29, 2021 at 7:53 AM with 110 MB: https://packages.microsoft.com/yumrepos/ms-teams/teams-insiders-1.4.00.26453-1.x86_64.rpm
 
 URLs for the latest production build of Microsoft Teams:
 1.4.00.32771 (win-x64) - published on Tuesday, November 23, 2021 at 5:20 PM with 120 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.4.00.32771/Teams_windows_x64.exe
@@ -35,3 +36,4 @@ URLs for the latest production build of Microsoft Teams:
 1.4.00.32771 (win-arm64) - published on Tuesday, November 23, 2021 at 5:08 PM with 114 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.4.00.32771/Teams_windows_arm64.msi
 1.4.00.29478 (osx-x64) - published on Thursday, October 21, 2021 at 6:12 PM with 105 MB: https://statics.teams.cdn.office.net/production-osx/1.4.00.29478/Teams_osx.pkg
 1.4.00.26453 (linux-x64) - published on Thursday, October 7, 2021 at 5:16 AM with 81 MB: https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.4.00.26453_amd64.deb
+1.4.00.26453 (linux-x64) - published on Thursday, October 7, 2021 at 5:16 AM with 110 MB: https://packages.microsoft.com/yumrepos/ms-teams/teams-1.4.00.26453-1.x86_64.rpm
