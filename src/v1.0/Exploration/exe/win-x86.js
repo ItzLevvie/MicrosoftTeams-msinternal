@@ -5,13 +5,13 @@ const https = require("https");
 const enableLogging = false;
 
 const getURL = "https://statics.teams.cdn.office.net";
-const getPartialBuild = "1.4.00.";
+const getPartialBuild = "1.5.00.";
 
 const getPlatform = "win-x86";
 const getPath = "production-windows";
 const getFile = "Teams_windows.exe";
 
-for (let getLatestBuild = 36502, getBuildLimit = getLatestBuild + 10; getLatestBuild <= getBuildLimit; getLatestBuild++) {
+for (let getLatestBuild = 409, getBuildLimit = getLatestBuild + 10; getLatestBuild <= getBuildLimit; getLatestBuild++) {
     https.get(getURL + "/" + getPath + "/" + getPartialBuild + getLatestBuild + "/" + getFile, (getResponse) => {
         if (getResponse.statusCode === 200) {
             const getDate = new Date(getResponse.headers["last-modified"]).toLocaleString("en-US", { dateStyle: "full", timeStyle: "short", timeZone: "PST" });
