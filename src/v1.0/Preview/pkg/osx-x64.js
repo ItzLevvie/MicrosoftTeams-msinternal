@@ -11,7 +11,7 @@ const getPlatform = "osx-x64";
 const getPath = "production-osx";
 const getFile = "Teams_osx.pkg";
 
-https.get("https://int.teams.microsoft.com/desktopclient/installer/osx/x64?ring=ring3_6", (getResponse) => {
+https.get("https://teams.microsoft.com/desktopclient/installer/osx/x64?ring=ring3_6", (getResponse) => {
     getResponse.on("data", (getData) => {
         if (getResponse.statusCode === 200) {
             const getLatestBuild = `${getData}`.match(/\d{3,5}/);

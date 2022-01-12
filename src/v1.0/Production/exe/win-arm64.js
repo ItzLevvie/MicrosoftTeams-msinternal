@@ -11,7 +11,7 @@ const getPlatform = "win-arm64";
 const getPath = "production-windows-arm64";
 const getFile = "Teams_windows_arm64.exe";
 
-https.get("https://int.teams.microsoft.com/desktopclient/installer/windows/arm64?ring=general", (getResponse) => {
+https.get("https://teams.microsoft.com/desktopclient/installer/windows/arm64?ring=general", (getResponse) => {
     getResponse.on("data", (getData) => {
         if (getResponse.statusCode === 200) {
             const getLatestBuild = `${getData}`.match(/\d{3,5}/);
