@@ -11,7 +11,7 @@ const getPlatform = "osx-x64";
 const getPath = "production-osx";
 const getFile = "Teams_osx.pkg";
 
-for (let getLatestBuild = 1453, getBuildLimit = getLatestBuild + 10; getLatestBuild <= getBuildLimit; getLatestBuild++) {
+for (let getLatestBuild = 1754, getBuildLimit = getLatestBuild + 10; getLatestBuild <= getBuildLimit; getLatestBuild++) {
     https.get(getURL + "/" + getPath + "/" + getPartialBuild + getLatestBuild + "/" + getFile, (getResponse) => {
         if (getResponse.statusCode === 200) {
             const getDate = new Date(getResponse.headers["last-modified"]).toLocaleString("en-US", { dateStyle: "full", timeStyle: "short", timeZone: "PST" });
