@@ -5,7 +5,7 @@ const https = require("https");
 const enableLogging = false;
 
 const getURL = "https://statics.teams.cdn.office.net";
-const getPartialBuild = "1.4.00.";
+const getPartialBuild = "1.5.00.";
 
 const getPlatform = "win-x86";
 const getPath = "production-windows";
