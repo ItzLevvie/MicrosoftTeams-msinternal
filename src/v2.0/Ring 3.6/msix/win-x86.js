@@ -10,7 +10,7 @@ const getPlatform = "win-x86";
 const getPath = "production-windows-x86";
 const getFile = "MicrosoftTeams-x86.msix";
 
-https.get("https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=life&audienceGroup=ring3_6&teamsRing=ring3_6&agent=TeamsBuilds", (getResponse) => {
+https.get("https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=ring3_6&teamsRing=ring3_6&agent=TeamsBuilds", (getResponse) => {
     getResponse.on("data", (getData) => {
         try {
             if (getResponse.statusCode === 200) {
