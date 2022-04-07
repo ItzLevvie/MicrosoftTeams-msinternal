@@ -11,7 +11,7 @@ const getPlatform = "win-x64";
 const getPath = "production-windows-x64";
 const getFile = "Teams_windows_x64.msi";
 
-for (let getLatestBuild = 9657, getBuildLimit = getLatestBuild + 10; getLatestBuild <= getBuildLimit; getLatestBuild++) {
+for (let getLatestBuild = 9763, getBuildLimit = getLatestBuild + 10; getLatestBuild <= getBuildLimit; getLatestBuild++) {
     https.get(getURL + "/" + getPath + "/" + getPartialBuild + getLatestBuild + "/" + getFile, (getResponse) => {
         if (getResponse.statusCode === 200) {
             const getDate = new Date(getResponse.headers["last-modified"]).toLocaleString("en-US", { dateStyle: "full", timeStyle: "short", timeZone: "PST" });
