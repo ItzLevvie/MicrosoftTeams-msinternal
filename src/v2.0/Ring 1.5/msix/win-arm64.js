@@ -10,7 +10,7 @@ const getPlatform = "win-arm64";
 const getPath = "production-windows-arm64";
 const getFile = "MicrosoftTeams-arm64.msix";
 
-https.get("https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=life&teamsRing=ring1_5&agent=TeamsBuilds", (getResponse) => {
+https.get("https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=life&audienceGroup=ring1_5&teamsRing=ring1_5&agent=TeamsBuilds", (getResponse) => {
     getResponse.on("data", (getData) => {
         try {
             if (getResponse.statusCode === 200) {
