@@ -12,7 +12,7 @@ const getPath = "yumrepos/ms-teams";
 https.get(getURL + "/" + getPath + "/", (getResponse) => {
     getResponse.on("data", (getData) => {
         if (getResponse.statusCode === 200) {
-            const getLatestBuild = `${getData}`.match(/1.4.00.26453/);
+            const getLatestBuild = `${getData}`.match(/1.5.00.10453/);
             const getFile = "teams-" + getLatestBuild + "-1.x86_64.rpm";
             https.get(getURL + "/" + getPath + "/" + getFile, (getResponse) => {
                 if (getResponse.statusCode === 200) {
