@@ -18,7 +18,7 @@ jobs:
           git config --local user.email msftgits@microsoft.com
 
       - run: |
-          cd tools\v1.0
+          cd .\tools\v1.0
           .\launch.ps1 > ..\..\defconfig
 
       - run: |
@@ -27,7 +27,7 @@ jobs:
           git push
 
       - run: |
-          cd tools\v2.0
+          cd .\tools\v2.0
           .\launch.ps1 > ..\..\defconfig2
 
       - run: |
