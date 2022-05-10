@@ -27,7 +27,7 @@ jobs:
           git push
 
       - run: |
-          git add \.github\ci
+          git add ..\..\.github\ci\v1.0
           git commit --message "Update to the latest CI files"
           git push
 
