@@ -1,3 +1,5 @@
+$ProgressPreference = "SilentlyContinue"
+
 $a119da4b5a9f3e8851e58d4d9a37604a = "https://statics.teams.cdn.office.net"
 $b3a439fdbf1a6ecc01de6445ee82b547 = "production-windows"
 $ae633e497ada527ef7c57413d1d1ac3c = "Teams_windows.msi"

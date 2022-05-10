@@ -1,3 +1,5 @@
+$ProgressPreference = "SilentlyContinue"
+
 $a119da4b5a9f3e8851e58d4d9a37604a = "https://packages.microsoft.com"
 $b3a439fdbf1a6ecc01de6445ee82b547 = "/repos/ms-teams/pool/main/t/teams-insiders/"
 $ae633e497ada527ef7c57413d1d1ac3c = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a$b3a439fdbf1a6ecc01de6445ee82b547").Links.href -match "teams-insiders_1.5.00.\d{5}" | Select-Object -Last 1
