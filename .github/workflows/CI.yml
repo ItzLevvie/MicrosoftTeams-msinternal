@@ -22,12 +22,12 @@ jobs:
           .\launch.ps1 > ..\..\defconfig
 
       - run: |
-          git add .\defconfig
+          git add defconfig
           git commit --message "Update to the latest Microsoft Teams builds"
           git push
 
       - run: |
-          git add ..\..\.github\ci\v1.0
+          git add .github\ci\v1.0
           git commit --message "Update to the latest CI files"
           git push
 
@@ -36,6 +36,6 @@ jobs:
           .\launch.ps1 > ..\..\defconfig2
 
       - run: |
-          git add .\defconfig2
+          git add defconfig2
           git commit --message "Update to the latest Microsoft Teams builds"
           git push
