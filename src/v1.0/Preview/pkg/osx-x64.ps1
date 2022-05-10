@@ -1,3 +1,4 @@
+$ErrorActionPreference = "SilentlyContinue"
 $ProgressPreference = "SilentlyContinue"
 
 $a119da4b5a9f3e8851e58d4d9a37604a = "https://statics.teams.cdn.office.net"
