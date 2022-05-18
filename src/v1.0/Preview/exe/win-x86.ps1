@@ -17,3 +17,5 @@ if ($f81c0741da1b5af54439d415944d3dfa) {
     $cd34ed983a00789e278cf0186c460fcf = $bc9ca387c6d3ecefe4cbe9c390372057.toString("dddd") + ", " + $bc9ca387c6d3ecefe4cbe9c390372057.toString("MMMM d") + ", " + $bc9ca387c6d3ecefe4cbe9c390372057.toString("yyyy") + " at " + $bc9ca387c6d3ecefe4cbe9c390372057.toString("h:mm tt")
     Write-Output "$f81c0741da1b5af54439d415944d3dfa ($fe6fde81dcb0a79dd8310604ca4b266a) - published on $cd34ed983a00789e278cf0186c460fcf with $ed87954bd831ca3d16ae52758005c27f MB: $a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/$f81c0741da1b5af54439d415944d3dfa/$ae633e497ada527ef7c57413d1d1ac3c"
 }
+
+Remove-Variable * -ErrorAction SilentlyContinue
