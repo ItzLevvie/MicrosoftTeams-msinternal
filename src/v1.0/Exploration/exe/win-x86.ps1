@@ -12,7 +12,7 @@ for (($fda625b81e647d7c6acd91aed9ae8ecd = [int](Get-Content -Path "..\..\.github
         if ($ab3b0e88a3e2899c2990b7cab3d3c26f) {
             $d11d435409ce704e1ae53db8dcd7f948 = [string]$ab3b0e88a3e2899c2990b7cab3d3c26f.Headers["Content-Length"] / 1024 / 1024
             $d576b5bca1bedfb596e11dd14013fa64 = [System.Math]::Round($d11d435409ce704e1ae53db8dcd7f948)
-            if ($d576b5bca1bedfb596e11dd14013fa64 -ge 125) {
+            if ($d576b5bca1bedfb596e11dd14013fa64 -ge 118) {
                 $c05e6f4daf8c300393e85febda03e9fc = @()
                 $c05e6f4daf8c300393e85febda03e9fc += $fda625b81e647d7c6acd91aed9ae8ecd
                 Write-Output "$c05e6f4daf8c300393e85febda03e9fc" > "..\..\.github\ci\v1.0\Exploration\exe\$fe6fde81dcb0a79dd8310604ca4b266a.txt"
