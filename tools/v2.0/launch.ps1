@@ -135,7 +135,7 @@ Write-Output "URLs for the latest Secure cloud GCC (R4) build of Microsoft Teams
 & "..\..\src\v2.0\Ring 4 - GCC\pkg\osx-x64.ps1"
 Write-Output ""
 Write-Output ""
-Write-Output "URLs for the latest Secure cloud GCCHigh (R4) build of Microsoft Teams:"
+Write-Output "URLs for the latest Secure cloud GCC High (R4) build of Microsoft Teams:"
 & "..\..\src\v2.0\Ring 4 - GCC High\exe\win-x64.ps1"
 & "..\..\src\v2.0\Ring 4 - GCC High\msi\win-x64.ps1"
 & "..\..\src\v2.0\Ring 4 - GCC High\exe\win-x86.ps1"
