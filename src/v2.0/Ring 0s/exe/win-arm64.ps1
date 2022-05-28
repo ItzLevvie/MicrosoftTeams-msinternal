@@ -7,7 +7,7 @@ $ae633e497ada527ef7c57413d1d1ac3c = "Teams_windows_arm64.exe"
 $fe6fde81dcb0a79dd8310604ca4b266a = "win-arm64"
 
 $a07678eec0ef2a3c2cc599c51b3cb702 = 0
-while ($a07678eec0ef2a3c2cc599c51b3cb702 -lt 5) {
+while ($a07678eec0ef2a3c2cc599c51b3cb702 -lt 10) {
     try {
         $f81c0741da1b5af54439d415944d3dfa = (Invoke-RestMethod -Uri "https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=ring0_s&teamsRing=ring0_s&agent=TeamsBuilds").BuildSettings.Desktop.arm64.latestVersion
         if ($f81c0741da1b5af54439d415944d3dfa) {
