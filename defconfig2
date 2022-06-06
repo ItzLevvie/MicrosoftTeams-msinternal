@@ -5,7 +5,7 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
 1.5.00.15459 (win-x86) - published on Friday, June 3, 2022 at 10:07 AM with 113 MB: https://statics.teams.cdn.office.net/production-windows/1.5.00.15459/Teams_windows.msi
 1.5.00.15459 (win-arm64) - published on Friday, June 3, 2022 at 10:20 AM with 113 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15459/Teams_windows_arm64.exe
 1.5.00.15459 (win-arm64) - published on Friday, June 3, 2022 at 10:20 AM with 113 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15459/Teams_windows_arm64.msi
-1.5.00.15462 (osx-x64) - published on Friday, June 3, 2022 at 2:56 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.15462/Teams_osx.pkg
+1.5.00.15760 (osx-x64) - published on Monday, June 6, 2022 at 1:36 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.15760/Teams_osx.pkg
 22153.1400.1381.3975 (win-x64) - published on Friday, June 3, 2022 at 3:12 AM with 43 MB: https://statics.teams.cdn.office.net/production-windows-x64/22153.1400.1381.3975/MicrosoftTeams-x64.msix
 22153.1400.1381.3975 (win-x86) - published on Friday, June 3, 2022 at 3:14 AM with 38 MB: https://statics.teams.cdn.office.net/production-windows-x86/22153.1400.1381.3975/MicrosoftTeams-x86.msix
 22153.1400.1381.3975 (win-arm64) - published on Friday, June 3, 2022 at 3:15 AM with 31 MB: https://statics.teams.cdn.office.net/production-windows-arm64/22153.1400.1381.3975/MicrosoftTeams-arm64.msix
@@ -70,7 +70,7 @@ URLs for the latest TAP/Beta Users (R3 or TAP) build of Microsoft Teams:
 1.5.00.15273 (win-x86) - published on Wednesday, June 1, 2022 at 4:22 PM with 113 MB: https://statics.teams.cdn.office.net/production-windows/1.5.00.15273/Teams_windows.msi
 1.5.00.15273 (win-arm64) - published on Wednesday, June 1, 2022 at 4:34 PM with 111 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15273/Teams_windows_arm64.exe
 1.5.00.15273 (win-arm64) - published on Wednesday, June 1, 2022 at 4:34 PM with 111 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15273/Teams_windows_arm64.msi
-1.5.00.12661 (osx-x64) - published on Friday, May 6, 2022 at 3:19 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.12661/Teams_osx.pkg
+1.5.00.15164 (osx-x64) - published on Tuesday, May 31, 2022 at 3:08 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.15164/Teams_osx.pkg
 22133.500.1346.3200 (win-x64) - published on Friday, May 13, 2022 at 2:08 PM with 42 MB: https://statics.teams.cdn.office.net/production-windows-x64/22133.500.1346.3200/MicrosoftTeams-x64.msix
 22133.500.1346.3200 (win-x86) - published on Friday, May 13, 2022 at 2:10 PM with 37 MB: https://statics.teams.cdn.office.net/production-windows-x86/22133.500.1346.3200/MicrosoftTeams-x86.msix
 22133.500.1346.3200 (win-arm64) - published on Friday, May 13, 2022 at 2:14 PM with 30 MB: https://statics.teams.cdn.office.net/production-windows-arm64/22133.500.1346.3200/MicrosoftTeams-arm64.msix
@@ -83,7 +83,7 @@ URLs for the latest Public Developer Preview (R3.6 or P) build of Microsoft Team
 1.5.00.15273 (win-x86) - published on Wednesday, June 1, 2022 at 4:22 PM with 113 MB: https://statics.teams.cdn.office.net/production-windows/1.5.00.15273/Teams_windows.msi
 1.5.00.15273 (win-arm64) - published on Wednesday, June 1, 2022 at 4:34 PM with 111 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15273/Teams_windows_arm64.exe
 1.5.00.15273 (win-arm64) - published on Wednesday, June 1, 2022 at 4:34 PM with 111 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15273/Teams_windows_arm64.msi
-1.5.00.12661 (osx-x64) - published on Friday, May 6, 2022 at 3:19 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.12661/Teams_osx.pkg
+1.5.00.15164 (osx-x64) - published on Tuesday, May 31, 2022 at 3:08 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.15164/Teams_osx.pkg
 22133.500.1346.3200 (win-x64) - published on Friday, May 13, 2022 at 2:08 PM with 42 MB: https://statics.teams.cdn.office.net/production-windows-x64/22133.500.1346.3200/MicrosoftTeams-x64.msix
 22133.500.1346.3200 (win-x86) - published on Friday, May 13, 2022 at 2:10 PM with 37 MB: https://statics.teams.cdn.office.net/production-windows-x86/22133.500.1346.3200/MicrosoftTeams-x86.msix
 22133.500.1346.3200 (win-arm64) - published on Friday, May 13, 2022 at 2:14 PM with 30 MB: https://statics.teams.cdn.office.net/production-windows-arm64/22133.500.1346.3200/MicrosoftTeams-arm64.msix
@@ -96,7 +96,7 @@ URLs for the latest Microsoft Outer Ring (R3.9 or MS) build of Microsoft Teams:
 1.5.00.15273 (win-x86) - published on Wednesday, June 1, 2022 at 4:22 PM with 113 MB: https://statics.teams.cdn.office.net/production-windows/1.5.00.15273/Teams_windows.msi
 1.5.00.15273 (win-arm64) - published on Wednesday, June 1, 2022 at 4:34 PM with 111 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15273/Teams_windows_arm64.exe
 1.5.00.15273 (win-arm64) - published on Wednesday, June 1, 2022 at 4:34 PM with 111 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.15273/Teams_windows_arm64.msi
-1.5.00.12661 (osx-x64) - published on Friday, May 6, 2022 at 3:19 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.12661/Teams_osx.pkg
+1.5.00.15164 (osx-x64) - published on Tuesday, May 31, 2022 at 3:08 PM with 106 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.15164/Teams_osx.pkg
 22133.500.1346.3200 (win-x64) - published on Friday, May 13, 2022 at 2:08 PM with 42 MB: https://statics.teams.cdn.office.net/production-windows-x64/22133.500.1346.3200/MicrosoftTeams-x64.msix
 22133.500.1346.3200 (win-x86) - published on Friday, May 13, 2022 at 2:10 PM with 37 MB: https://statics.teams.cdn.office.net/production-windows-x86/22133.500.1346.3200/MicrosoftTeams-x86.msix
 22133.500.1346.3200 (win-arm64) - published on Friday, May 13, 2022 at 2:14 PM with 30 MB: https://statics.teams.cdn.office.net/production-windows-arm64/22133.500.1346.3200/MicrosoftTeams-arm64.msix
