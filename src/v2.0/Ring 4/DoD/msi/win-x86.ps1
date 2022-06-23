@@ -7,7 +7,7 @@ $ae633e497ada527ef7c57413d1d1ac3c = "Teams_windows.msi"
 $fe6fde81dcb0a79dd8310604ca4b266a = "win-x86"
 
 $a07678eec0ef2a3c2cc599c51b3cb702 = 0
-while ($a07678eec0ef2a3c2cc599c51b3cb702 -lt 10) {
+while ($a07678eec0ef2a3c2cc599c51b3cb702 -lt 32) {
     try {
         $f81c0741da1b5af54439d415944d3dfa = (Invoke-RestMethod -Uri "https://config.ecs.dod.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=dod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds").BuildSettings.Desktop.windows.latestVersion
         if ($f81c0741da1b5af54439d415944d3dfa) {
