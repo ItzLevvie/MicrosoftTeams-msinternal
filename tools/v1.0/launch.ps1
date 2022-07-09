@@ -5,7 +5,7 @@ Write-Output "URLs for the latest continuous deployment build of Microsoft Teams
 & "..\..\src\v1.0\Continuous Deployment\msi\win-x86.ps1"
 & "..\..\src\v1.0\Continuous Deployment\exe\win-arm64.ps1"
 & "..\..\src\v1.0\Continuous Deployment\msi\win-arm64.ps1"
-& "..\..\src\v1.0\Continuous Deployment\pkg\osx-x64.ps1"
+& "..\..\src\v1.0\Continuous Deployment\pkg\osx-x64 + osx-arm64.ps1"
 Write-Output ""
 Write-Output "URLs for the latest exploration build of Microsoft Teams:"
 & "..\..\src\v1.0\Exploration\exe\win-x64.ps1"
