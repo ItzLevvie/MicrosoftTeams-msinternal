@@ -18,7 +18,7 @@ Write-Output "URLs for the latest Canary Slimcore (R0s) build of Microsoft Teams
 & "..\..\src\v2.0\Ring 0s\msi\win-x86.ps1"
 & "..\..\src\v2.0\Ring 0s\exe\win-arm64.ps1"
 & "..\..\src\v2.0\Ring 0s\msi\win-arm64.ps1"
-& "..\..\src\v2.0\Ring 0s\pkg\osx-x64.ps1"
+& "..\..\src\v2.0\Ring 0s\pkg\osx-x64 + osx-arm64.ps1"
 Write-Output ""
 Write-Output ""
 Write-Output "URLs for the latest Teams (R1) build of Microsoft Teams:"
