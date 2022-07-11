@@ -4,7 +4,7 @@ $ProgressPreference = "SilentlyContinue"
 $a119da4b5a9f3e8851e58d4d9a37604a = "https://statics.teams.cdn.office.net"
 $b3a439fdbf1a6ecc01de6445ee82b547 = "production-osx"
 $ae633e497ada527ef7c57413d1d1ac3c = "Teams_osx.pkg"
-$fe6fde81dcb0a79dd8310604ca4b266a = "osx-x64"
+$fe6fde81dcb0a79dd8310604ca4b266a = "osx-x64 + osx-arm64"
 
 $a07678eec0ef2a3c2cc599c51b3cb702 = 0
 while ($a07678eec0ef2a3c2cc599c51b3cb702 -lt 32) {
