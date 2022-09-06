@@ -9,7 +9,7 @@ $a07678eec0ef2a3c2cc599c51b3cb702 = 0
 while ($a07678eec0ef2a3c2cc599c51b3cb702 -lt 32) {
     try {
         $ae633e497ada527ef7c57413d1d1ac3c = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a$b3a439fdbf1a6ecc01de6445ee82b547" -Method Get).Links.href -match "teams-insiders" | Sort-Object { [System.Text.RegularExpressions.Regex]::Replace($_, "\d+", { $args[0].Value.PadLeft(5) }) } | Select-Object -Last 1
-        $f81c0741da1b5af54439d415944d3dfa = $ae633e497ada527ef7c57413d1d1ac3c.TrimStart("teams-insiders_").TrimEnd("_amd64.deb")
+        $f81c0741da1b5af54439d415944d3dfa = $ae633e497ada527ef7c57413d1d1ac3c.Replace("teams-insiders_", "").Replace("_amd64.deb", "")
         if ($ae633e497ada527ef7c57413d1d1ac3c) {
             $ab3b0e88a3e2899c2990b7cab3d3c26f = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a$b3a439fdbf1a6ecc01de6445ee82b547$ae633e497ada527ef7c57413d1d1ac3c" -Method Head)
             $c28d3d1349dbbde7c419ba13df245e25 = [string]$ab3b0e88a3e2899c2990b7cab3d3c26f.Headers["Last-Modified"]
