@@ -1,15 +1,15 @@
 $ErrorActionPreference = "SilentlyContinue"
 $ProgressPreference = "SilentlyContinue"
 
-$a119da4b5a9f3e8851e58d4d9a37604a = "https://statics.teams.cdn.office.net"
-$b3a439fdbf1a6ecc01de6445ee82b547 = "production-windows-x64"
-$ae633e497ada527ef7c57413d1d1ac3c = "MicrosoftTeams-x64.msix"
-$fe6fde81dcb0a79dd8310604ca4b266a = "win-x64"
+$a119da4b5a9f3e8851e58d4d9a37604a = "https://staticsint.teams.cdn.office.net"
+$b3a439fdbf1a6ecc01de6445ee82b547 = "production-windows-x86"
+$ae633e497ada527ef7c57413d1d1ac3c = "MicrosoftTeams-x86.msix"
+$fe6fde81dcb0a79dd8310604ca4b266a = "win-x86"
 
 $a07678eec0ef2a3c2cc599c51b3cb702 = 0
 while ($a07678eec0ef2a3c2cc599c51b3cb702 -lt 32) {
     try {
-        $f81c0741da1b5af54439d415944d3dfa = (Invoke-RestMethod -Uri "https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=ring1_6&teamsRing=ring1_6&agent=TeamsBuilds").BuildSettings.WebView2.x64.latestVersion
+        $f81c0741da1b5af54439d415944d3dfa = (Invoke-RestMethod -Uri "https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=ring1_6&teamsRing=ring1_6&agent=TeamsBuilds").BuildSettings.WebView2.x86.latestVersion
         if ($f81c0741da1b5af54439d415944d3dfa) {
             $ab3b0e88a3e2899c2990b7cab3d3c26f = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/$f81c0741da1b5af54439d415944d3dfa/$ae633e497ada527ef7c57413d1d1ac3c" -Method Head)
             $c28d3d1349dbbde7c419ba13df245e25 = [string]$ab3b0e88a3e2899c2990b7cab3d3c26f.Headers["Last-Modified"]
