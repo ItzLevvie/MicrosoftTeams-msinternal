@@ -1,7 +1,7 @@
 $ErrorActionPreference = "SilentlyContinue"
 $ProgressPreference = "SilentlyContinue"
 
-$a119da4b5a9f3e8851e58d4d9a37604a = "https://statics.teams.cdn.office.net"
+$a119da4b5a9f3e8851e58d4d9a37604a = "https://staticsint.teams.cdn.office.net"
 $b3a439fdbf1a6ecc01de6445ee82b547 = "production-windows-arm64"
 $ae633e497ada527ef7c57413d1d1ac3c = "MicrosoftTeams-arm64.msix"
 $fe6fde81dcb0a79dd8310604ca4b266a = "win-arm64"
