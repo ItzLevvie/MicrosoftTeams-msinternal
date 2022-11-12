@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-2022
 
     steps:
-      - uses: actions/checkout@v3.0.2
+      - uses: actions/checkout@v3.1.0
 
       - run: |
           git config --local core.autocrlf true
@@ -32,7 +32,7 @@ jobs:
           git push
 
       - run: |
-          cd .\tools\v2.0
+          cd ".\tools\v1.0 + v2.0"
           .\launch.ps1 > ..\..\defconfig2
 
       - run: |
