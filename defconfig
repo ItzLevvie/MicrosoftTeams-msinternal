@@ -25,6 +25,7 @@ URLs for the latest preview build of Microsoft Teams:
 1.5.00.31167 (win-arm64) - published on Monday, November 7, 2022 at 1:09 PM with 134 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.31167/Teams_windows_arm64.msi
 1.5.00.30857 (osx-x64 + osx-arm64) - published on Friday, November 4, 2022 at 12:59 PM with 207 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.30857/Teams_osx.pkg
 1.5.00.23861 (linux-x64) - published on Tuesday, September 6, 2022 at 7:05 AM with 82 MB: https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams-insiders/teams-insiders_1.5.00.23861_amd64.deb
+1.5.00.23861 (linux-x64) - published on Tuesday, September 6, 2022 at 7:05 AM with 111 MB: https://packages.microsoft.com/yumrepos/ms-teams/teams-insiders-1.5.00.23861-1.x86_64.rpm
 
 URLs for the latest production build of Microsoft Teams:
 1.5.00.31168 (win-x64) - published on Monday, November 7, 2022 at 11:59 AM with 132 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.31168/Teams_windows_x64.exe
@@ -35,3 +36,4 @@ URLs for the latest production build of Microsoft Teams:
 1.5.00.31168 (win-arm64) - published on Monday, November 7, 2022 at 12:05 PM with 135 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.5.00.31168/Teams_windows_arm64.msi
 1.5.00.31156 (osx-x64 + osx-arm64) - published on Monday, November 7, 2022 at 11:51 AM with 206 MB: https://statics.teams.cdn.office.net/production-osx/1.5.00.31156/Teams_osx.pkg
 1.5.00.23861 (linux-x64) - published on Monday, September 19, 2022 at 4:42 AM with 82 MB: https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.5.00.23861_amd64.deb
+1.5.00.23861 (linux-x64) - published on Monday, September 19, 2022 at 4:42 AM with 111 MB: https://packages.microsoft.com/yumrepos/ms-teams/teams-1.5.00.23861-1.x86_64.rpm
