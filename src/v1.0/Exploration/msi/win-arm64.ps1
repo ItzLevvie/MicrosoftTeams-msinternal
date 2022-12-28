@@ -6,7 +6,7 @@ $b3a439fdbf1a6ecc01de6445ee82b547 = "production-windows-arm64"
 $ae633e497ada527ef7c57413d1d1ac3c = "Teams_windows_arm64.msi"
 $fe6fde81dcb0a79dd8310604ca4b266a = "win-arm64"
 
-for (($fda625b81e647d7c6acd91aed9ae8ecd = [int](Get-Content -Path "..\..\.github\ci\v1.0\Exploration\msi\$fe6fde81dcb0a79dd8310604ca4b266a.txt")), ($f62d19962ff48160c9e1e0332e7ef11c = $fda625b81e647d7c6acd91aed9ae8ecd + 256); $fda625b81e647d7c6acd91aed9ae8ecd -le $f62d19962ff48160c9e1e0332e7ef11c; $fda625b81e647d7c6acd91aed9ae8ecd++) {
+for (($fda625b81e647d7c6acd91aed9ae8ecd = [int](Get-Content -Path "..\..\.github\ci\v1.0\Exploration\msi\$fe6fde81dcb0a79dd8310604ca4b266a.txt")), ($f62d19962ff48160c9e1e0332e7ef11c = $fda625b81e647d7c6acd91aed9ae8ecd + 128); $fda625b81e647d7c6acd91aed9ae8ecd -le $f62d19962ff48160c9e1e0332e7ef11c; $fda625b81e647d7c6acd91aed9ae8ecd++) {
     if ($fda625b81e647d7c6acd91aed9ae8ecd -match "^([0-9][0-9][0-9][0-4][0-9])$") {
         $ab3b0e88a3e2899c2990b7cab3d3c26f = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/1.5.00.$fda625b81e647d7c6acd91aed9ae8ecd/$ae633e497ada527ef7c57413d1d1ac3c" -Method Head)
         if ($ab3b0e88a3e2899c2990b7cab3d3c26f) {
