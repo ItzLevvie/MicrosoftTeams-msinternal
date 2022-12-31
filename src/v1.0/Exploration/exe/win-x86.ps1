@@ -7,7 +7,7 @@ $ae633e497ada527ef7c57413d1d1ac3c = "Teams_windows.exe"
 $fe6fde81dcb0a79dd8310604ca4b266a = "win-x86"
 
 for (($fda625b81e647d7c6acd91aed9ae8ecd = [int](Get-Content -Path "..\..\.github\ci\v1.0\Exploration\exe\$fe6fde81dcb0a79dd8310604ca4b266a.txt")), ($f62d19962ff48160c9e1e0332e7ef11c = $fda625b81e647d7c6acd91aed9ae8ecd + 128); $fda625b81e647d7c6acd91aed9ae8ecd -le $f62d19962ff48160c9e1e0332e7ef11c; $fda625b81e647d7c6acd91aed9ae8ecd++) {
-    if ($fda625b81e647d7c6acd91aed9ae8ecd -match "^([0-9][0-9][0-9][0-4][0-9])$") {
+    if ($fda625b81e647d7c6acd91aed9ae8ecd -match "^(\d+[0-4][0-9])$") {
         $ab3b0e88a3e2899c2990b7cab3d3c26f = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/1.5.00.$fda625b81e647d7c6acd91aed9ae8ecd/$ae633e497ada527ef7c57413d1d1ac3c" -Method Head)
         if ($ab3b0e88a3e2899c2990b7cab3d3c26f) {
             $c05e6f4daf8c300393e85febda03e9fc = @()
