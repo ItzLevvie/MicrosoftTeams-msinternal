@@ -1,4 +1,4 @@
-## Frequently Asked Questions (FAQ)
+# Frequently Asked Questions (FAQ)
 
 ### What are 'continuous deployment' builds?
 
