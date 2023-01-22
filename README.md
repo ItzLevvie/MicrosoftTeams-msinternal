@@ -19,5 +19,5 @@ This allows you to test out the latest development builds of Microsoft Teams but
 > As of Sunday, January 22, 2023 — these builds are based on Electron 19 and may change in the future.
 
 > **Warning**:
-> These builds may be unstable as per above.
+> These builds may be unstable due to Electron 19.
 > It includes various improvements to enhance performance and stability for Windows and macOS.
