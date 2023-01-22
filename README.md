@@ -12,4 +12,4 @@ This allows you to test out future builds of Microsoft Teams:
 
 > **Warning**:
 > These builds may be unstable as they are based on newer versions of Electron.
-> It contains various improvements to enhance performance and stability issues for Windows and macOS.
+> It contains various improvements to enhance performance and stability for Windows and macOS.
