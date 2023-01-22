@@ -20,4 +20,4 @@ This allows you to test out the latest development builds of Microsoft Teams but
 
 > **Warning**:
 > These builds may be unstable as per above.
-> It contains various improvements to enhance performance and stability for Windows and macOS.
+> It includes various improvements to enhance performance and stability for Windows and macOS.
