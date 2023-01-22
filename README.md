@@ -13,7 +13,8 @@ This allows you to test out latest builds of Microsoft Teams:
 This allows you to test out future builds of Microsoft Teams:
 ![image](https://user-images.githubusercontent.com/11600822/213933127-0ba37d9b-56e8-4014-8f42-a65a051f691f.png)
 
-As of Sunday, January 22, 2023 — these builds are based on Electron 19.
+> **Note**:
+> As of Sunday, January 22, 2023 — these builds are based on Electron 19.
 
 > **Warning**:
 > These builds may be unstable as per above.
