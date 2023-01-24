@@ -17,7 +17,7 @@ This allows you to test out the latest development builds of Microsoft Teams and
 
 This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron and may include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214373563-5d3d729e-1a6e-4670-ac23-185c0a6a267e.png)
+![image](https://user-images.githubusercontent.com/11600822/214418526-80fa1214-755a-4bba-803d-fb2d46df0132.png)
 
 You will also see `-E` in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
