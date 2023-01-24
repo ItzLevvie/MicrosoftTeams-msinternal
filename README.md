@@ -52,4 +52,4 @@ https://config.ecs.gov.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?
 | tenantId | Your Tenant ID. <br> <br> This repository uses `72f988bf-86f1-41af-91ab-2d7cd011db47` which is the Tenant ID for the 'Microsoft' organization. <br> <br> To check what your Tenant ID is — please visit https://ms.portal.azure.com/#settings/directory: ![image](https://user-images.githubusercontent.com/11600822/214391221-69674575-e51a-4f63-bc42-5ee43234fdd7.png) <br> <br> or https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview: ![image](https://user-images.githubusercontent.com/11600822/214384895-7bc55699-13bc-459c-90ce-d7d8b8912b2f.png) <br> <br> or https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Properties: ![image](https://user-images.githubusercontent.com/11600822/214386052-b4a31d94-7a64-4d11-b8be-083ec2c9c1ab.png) |
 | agents | `Segmentation`; `TeamsBuilds`; `TeamsNorthstar` |
 
-Once you have built the URL, you can then use JSON to parse its data.
+Once you have built the URL, you can use JSON to parse its data.
