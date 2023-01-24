@@ -42,7 +42,7 @@ https://config.ecs.gov.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?
 
 | Parameter | Value |
 | --- | --- |
-| environment | `dev`; `life`; `prod`; `gcchigh`; `dod` |
+| environment | `dev`; `life`; `prod`; `gallatin`; `gcchigh`; `dod` |
 | audienceGroup | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
 | teamsRing | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
 | id | Your Object ID. <br> <br> This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a` as the Object ID which is one of our Microsoft employees who is the Director of Product Marketing for Microsoft 365 and runs Canary (R0) builds for Microsoft Teams and other Microsoft 365 apps on a daily basis. <br> <br> Please see https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview: |
