@@ -19,7 +19,7 @@ This allows you to test out the latest development builds of Microsoft Teams but
 
 ![image](https://user-images.githubusercontent.com/11600822/214373563-5d3d729e-1a6e-4670-ac23-185c0a6a267e.png)
 
-You will also see `-E` in `About` > `Version`:
+You will also see `-E` in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
 
 > **Note**:
