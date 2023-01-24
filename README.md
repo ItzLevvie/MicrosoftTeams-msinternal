@@ -11,7 +11,7 @@ This allows you to test out the latest development builds of Microsoft Teams.
 
 > **Note**:
 > Installing these builds does not necessarily mean you have access to new features earlier than everyone else.
-> For more information — please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
+> For more information, please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
 
 ## What are 'exploration' builds?
 
@@ -24,7 +24,7 @@ This allows you to test out the latest development builds of Microsoft Teams but
 
 > **Note**:
 > Installing these builds does not necessarily mean you have access to new features earlier than everyone else.
-> For more information — please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
+> For more information, please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
 
 > **Warning**:
 > These builds may be unstable due to Electron 19.
