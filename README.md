@@ -4,7 +4,7 @@
 
 This allows you to test out the latest development builds of Microsoft Teams and may include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214418974-2b94f432-c3a0-4106-96b9-d834b8c00cad.png)
+![image](https://user-images.githubusercontent.com/11600822/214373085-6234ace7-df69-413a-9a37-c117af0b2870.png)
 
 > **Note**:
 > As of Tuesday, January 24, 2023, these builds are based on Electron 16 and may change in the future.
@@ -17,7 +17,7 @@ This allows you to test out the latest development builds of Microsoft Teams and
 
 This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron and may include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214418526-80fa1214-755a-4bba-803d-fb2d46df0132.png)
+![image](https://user-images.githubusercontent.com/11600822/214373563-5d3d729e-1a6e-4670-ac23-185c0a6a267e.png)
 
 You will also see `-E` in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
@@ -52,4 +52,4 @@ https://config.ecs.gov.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?
 | tenantId | Your Tenant ID. <br> <br> This repository uses `72f988bf-86f1-41af-91ab-2d7cd011db47` which is the Tenant ID for the 'Microsoft' organization. <br> <br> To check what your Tenant ID is — please visit https://ms.portal.azure.com/#settings/directory: ![image](https://user-images.githubusercontent.com/11600822/214391221-69674575-e51a-4f63-bc42-5ee43234fdd7.png) <br> <br> or https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Overview: ![image](https://user-images.githubusercontent.com/11600822/214384895-7bc55699-13bc-459c-90ce-d7d8b8912b2f.png) <br> <br> or https://ms.portal.azure.com/#view/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/~/Properties: ![image](https://user-images.githubusercontent.com/11600822/214386052-b4a31d94-7a64-4d11-b8be-083ec2c9c1ab.png) |
 | agents | `Segmentation`; `TeamsBuilds`; `TeamsNorthstar` |
 
-Once you have built the URL, you can use JSON to parse its data.
+Once you have built the URL then you can use JSON to parse its data.
