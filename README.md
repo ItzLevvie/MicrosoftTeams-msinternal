@@ -33,7 +33,7 @@ You will also see `-E` in the three-dot menu (`...`) > `About` > `Version`:
 > These builds may be unstable due to the move from Electron 16 to Electron 19.
 > It includes various improvements to enhance performance and stability for Windows and macOS.
 
-# API
+## How to use the API?
 
 A few example URLs:
 ```
