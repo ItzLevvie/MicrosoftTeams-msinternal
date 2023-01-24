@@ -17,7 +17,7 @@ This allows you to test out the latest development builds of Microsoft Teams.
 
 This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron.
 
-![image](https://user-images.githubusercontent.com/11600822/213933127-0ba37d9b-56e8-4014-8f42-a65a051f691f.png)
+![image](https://user-images.githubusercontent.com/11600822/214373563-5d3d729e-1a6e-4670-ac23-185c0a6a267e.png)
 
 > **Note**:
 > As of Tuesday, January 24, 2023 — these builds are based on Electron 19 and may change in the future.
