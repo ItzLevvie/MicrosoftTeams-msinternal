@@ -22,11 +22,15 @@ This allows you to test out the latest development builds of Microsoft Teams but
 > These builds may be unstable due to Electron 19.
 > It includes various improvements to enhance performance and stability for Windows and macOS.
 
-## API
+# API
 
-`
+A few example URLs:
+```
 https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=ring0&teamsRing=ring0&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&aaduserid=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
-`
+https://config.ecs.dod.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=dod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds
+https://config.ecs.gov.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=gcchigh&audienceGroup=general&teamsRing=general&agent=TeamsBuilds
+https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=general_gcc&teamsRing=general_gcc&agent=TeamsBuilds
+```
 
 | Parameter | Value |
 | --- | --- |
