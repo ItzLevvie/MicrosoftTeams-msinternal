@@ -4,7 +4,7 @@
 
 This allows you to test out the latest development builds of Microsoft Teams and may include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214373085-6234ace7-df69-413a-9a37-c117af0b2870.png)
+![image](https://user-images.githubusercontent.com/11600822/214418974-2b94f432-c3a0-4106-96b9-d834b8c00cad.png)
 
 > **Note**:
 > As of Tuesday, January 24, 2023, these builds are based on Electron 16 and may change in the future.
