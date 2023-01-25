@@ -8,10 +8,6 @@ Preview the latest development builds of Microsoft Teams:
 > **Note**:
 > As of Wednesday, January 25, 2023, these builds are based on Electron 16 and may change in the future.
 
-> **Note**:
-> Installing these builds does not necessarily mean you will have access to new features earlier than everyone else.
-> For more information, please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
-
 ## What are experimental builds?
 
 Preview the latest development builds of Microsoft Teams but with early access to newer versions of Electron:
@@ -23,17 +19,13 @@ Preview the latest development builds of Microsoft Teams but with early access t
 > **Note**:
 > As of Wednesday, January 25, 2023, these builds are based on Electron 19 and may change in the future.
 
-> **Note**:
-> Installing these builds does not necessarily mean you will have access to new features earlier than everyone else.
-> For more information, please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
-
 > **Warning**:
 > These builds may be unstable due to the move from Electron 16 to Electron 19.
 > It includes various improvements to enhance performance and stability for Windows and macOS.
 
 ## How to use the API?
 
-A few example URLs:
+Here are a few examples:
 ```
 https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=ring0&teamsRing=ring0&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&aaduserid=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agents=TeamsBuilds
 https://config.ecs.dod.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=dod&audienceGroup=general&teamsRing=general&agents=TeamsBuilds
