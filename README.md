@@ -2,8 +2,7 @@
 
 ## What are daily builds?
 
-Preview the latest development builds of Microsoft Teams.
-
+Preview the latest development builds of Microsoft Teams:
 ![image](https://user-images.githubusercontent.com/11600822/214683223-591d9551-2d4b-4cf5-9e2e-23aa4c1c81f9.png)
 
 > **Note**:
@@ -15,8 +14,7 @@ Preview the latest development builds of Microsoft Teams.
 
 ## What are experimental builds?
 
-Preview the latest development builds of Microsoft Teams but with early access to newer versions of Electron.
-
+Preview the latest development builds of Microsoft Teams but with early access to newer versions of Electron:
 ![image](https://user-images.githubusercontent.com/11600822/214683520-f252bb31-aa35-415d-9206-11a58b5411e8.png)
 
 `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
