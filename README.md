@@ -4,10 +4,10 @@
 
 This allows you to test out the latest development builds of Microsoft Teams and will include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214453597-cbc0e6b3-7c7a-40a3-8589-7d5c792d0099.png)
+![image](https://user-images.githubusercontent.com/11600822/214683223-591d9551-2d4b-4cf5-9e2e-23aa4c1c81f9.png)
 
 > **Note**:
-> As of Tuesday, January 24, 2023, these builds are based on Electron 16 and may change in the future.
+> As of Wednesday, January 25, 2023, these builds are based on Electron 16 and may change in the future.
 
 > **Note**:
 > Installing these builds does not necessarily mean you will have access to new features earlier than everyone else.
@@ -17,13 +17,13 @@ This allows you to test out the latest development builds of Microsoft Teams and
 
 This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron. It will also include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214453363-719e2599-45b6-4469-b9cb-db7fc202d81c.png)
+![image](https://user-images.githubusercontent.com/11600822/214683520-f252bb31-aa35-415d-9206-11a58b5411e8.png)
 
 You will see `-E` in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
 
 > **Note**:
-> As of Tuesday, January 24, 2023, these builds are based on Electron 19 and may change in the future.
+> As of Wednesday, January 25, 2023, these builds are based on Electron 19 and may change in the future.
 
 > **Note**:
 > Installing these builds does not necessarily mean you will have access to new features earlier than everyone else.
