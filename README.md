@@ -2,9 +2,9 @@
 
 ## What are daily builds?
 
-This allows you to test out the latest development builds of Microsoft Teams and may include newer versions of SlimCore.
+This allows you to test out the latest development builds of Microsoft Teams and will include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214373085-6234ace7-df69-413a-9a37-c117af0b2870.png)
+![image](https://user-images.githubusercontent.com/11600822/214453597-cbc0e6b3-7c7a-40a3-8589-7d5c792d0099.png)
 
 > **Note**:
 > As of Tuesday, January 24, 2023, these builds are based on Electron 16 and may change in the future.
@@ -15,9 +15,9 @@ This allows you to test out the latest development builds of Microsoft Teams and
 
 ## What are experimental builds?
 
-This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron and may include newer versions of SlimCore.
+This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron and will include newer versions of SlimCore.
 
-![image](https://user-images.githubusercontent.com/11600822/214373563-5d3d729e-1a6e-4670-ac23-185c0a6a267e.png)
+![image](https://user-images.githubusercontent.com/11600822/214453363-719e2599-45b6-4469-b9cb-db7fc202d81c.png)
 
 You will also see `-E` in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
