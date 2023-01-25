@@ -20,7 +20,7 @@ Preview the latest development builds of Microsoft Teams but with early access t
 > As of Wednesday, January 25, 2023, these builds are based on Electron 19 and may change in the future.
 
 > **Warning**:
-> These builds may be unstable due to the move from Electron 16 to Electron 19.
+> These builds may be unstable due to the recent move from Electron 16 to Electron 19.
 > It includes various improvements to enhance performance and stability for Windows and macOS.
 
 ## How to use the API?
