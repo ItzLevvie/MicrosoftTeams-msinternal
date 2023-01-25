@@ -15,7 +15,7 @@ This allows you to test out the latest development builds of Microsoft Teams and
 
 ## What are experimental builds?
 
-This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron and will include newer versions of SlimCore.
+This allows you to test out the latest development builds of Microsoft Teams but with early access to newer versions of Electron. It will also include newer versions of SlimCore.
 
 ![image](https://user-images.githubusercontent.com/11600822/214453363-719e2599-45b6-4469-b9cb-db7fc202d81c.png)
 
