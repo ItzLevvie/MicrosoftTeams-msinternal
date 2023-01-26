@@ -9,7 +9,7 @@ Preview the latest development builds of Microsoft Teams:
 > As of Thursday, January 26, 2023, these builds are based on Electron 16 and may change in the future.
 
 > **Note**:
-> Installing these builds does not necessarily mean you will have access to new features earlier than everyone else.
+> Installing these builds does not necessarily mean you will have access to new features.
 > For more information, please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
 
 ## What are experimental builds?
@@ -24,7 +24,7 @@ Preview the latest development builds of Microsoft Teams but with early access t
 > As of Thursday, January 26, 2023, these builds are based on Electron 19 and may change in the future.
 
 > **Note**:
-> Installing these builds does not necessarily mean you will have access to new features earlier than everyone else.
+> Installing these builds does not necessarily mean you will have access to new features.
 > For more information, please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
 
 > **Warning**:
