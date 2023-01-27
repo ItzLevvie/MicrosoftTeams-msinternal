@@ -27,10 +27,6 @@ Preview the latest development builds of Microsoft Teams but with early access t
 > Installing these builds does not necessarily mean you will have access to new features.
 > For more information, please visit https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426
 
-> **Warning**:
-> These builds may be unstable due to the recent move from Electron 16 to Electron 19.
-> It includes various improvements to enhance performance and stability for Windows and macOS.
-
 ## How to use the API?
 
 Here are a few examples:
