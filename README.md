@@ -3,7 +3,7 @@
 ## What are daily builds?
 
 Preview the latest development builds of Microsoft Teams:
-![image](https://user-images.githubusercontent.com/11600822/214683223-591d9551-2d4b-4cf5-9e2e-23aa4c1c81f9.png)
+![image](https://user-images.githubusercontent.com/11600822/215179865-5339525b-7766-4d59-9dfe-97b517324396.png)
 
 > **Note**:
 > As of Friday, January 27, 2023, these builds are based on Electron 19 and may change in the future.
