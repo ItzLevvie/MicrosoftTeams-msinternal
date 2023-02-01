@@ -14,7 +14,7 @@ Preview the latest development builds of Microsoft Teams:
 
 ## What are experimental builds?
 
-Preview the latest development builds of Microsoft Teams but with early access to newer versions of Electron:
+Preview the latest development builds of Microsoft Teams but with early access to newer ideas:
 ![image](https://user-images.githubusercontent.com/11600822/216157106-a19961ed-4916-4b4b-8eb8-013fcd1c1a91.png)
 
 `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
