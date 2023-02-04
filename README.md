@@ -15,7 +15,7 @@ Preview the latest development builds of Microsoft Teams:
 ## What are experimental builds?
 
 Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds:
-![image](https://user-images.githubusercontent.com/11600822/216772855-4c1bde84-26c3-48e7-be9d-695fcb16d9b7.png)
+![image](https://user-images.githubusercontent.com/11600822/216792753-0b7aba4e-0cf2-4394-a517-eb9c03124e22.png)
 
 `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
