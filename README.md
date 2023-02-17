@@ -3,10 +3,10 @@
 ## What are daily builds?
 
 Preview the latest development builds of Microsoft Teams:
-![image](https://user-images.githubusercontent.com/11600822/216792847-f2e1b479-a253-4889-91e6-db42f2294799.png)
+![image](https://user-images.githubusercontent.com/11600822/219813629-d811691b-04c1-4dda-ac81-c40ec2dedf98.png)
 
 > **Note**:
-> As of Friday, February 3, 2023, these builds are based on Electron 19 and may change in the future.
+> As of Friday, February 17, 2023, these builds are based on Electron 19 and may change in the future.
 
 > **Note**:
 > Installing these builds does not necessarily mean you will have access to new features.
@@ -15,13 +15,13 @@ Preview the latest development builds of Microsoft Teams:
 ## What are experimental builds?
 
 Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds:
-![image](https://user-images.githubusercontent.com/11600822/216792753-0b7aba4e-0cf2-4394-a517-eb9c03124e22.png)
+![image](https://user-images.githubusercontent.com/11600822/219813251-f894ebe8-289c-41c4-862e-ba617558f1f5.png)
 
 `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
 
 > **Note**:
-> As of Friday, February 3, 2023, these builds are based on Electron 19 and may change in the future.
+> As of Friday, February 17, 2023, these builds are based on Electron 19 and may change in the future.
 
 > **Note**:
 > Installing these builds does not necessarily mean you will have access to new features.
