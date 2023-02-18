@@ -6,7 +6,7 @@ Preview the latest development builds of Microsoft Teams:
 ![image](https://user-images.githubusercontent.com/11600822/219813629-d811691b-04c1-4dda-ac81-c40ec2dedf98.png)
 
 > **Note**:
-> As of Friday, February 17, 2023, these builds are based on Electron 19 and may change in the future.
+> As of Saturday, February 18, 2023, these builds are based on Electron 19 and may change in the future.
 
 > **Note**:
 > Installing these builds does not necessarily mean you will have access to new features.
@@ -21,7 +21,7 @@ Preview the latest development builds of Microsoft Teams but with access to new 
 ![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
 
 > **Note**:
-> As of Friday, February 17, 2023, these builds are based on Electron 19 and may change in the future.
+> As of Saturday, February 18, 2023, these builds are based on Electron 19 and may change in the future.
 
 > **Note**:
 > Installing these builds does not necessarily mean you will have access to new features.
