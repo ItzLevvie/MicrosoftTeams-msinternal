@@ -18,7 +18,7 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
   23254.2300.2373.6240 (win-x64) - published on Monday, September 11, 2023 at 5:45 PM with 120 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23254.2300.2373.6240/MSTeams-x64.msix
   23254.2300.2373.6240 (win-x86) - published on Monday, September 11, 2023 at 5:45 PM with 107 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/23254.2300.2373.6240/MSTeams-x86.msix
   23254.2300.2373.6240 (win-arm64) - published on Monday, September 11, 2023 at 5:46 PM with 99 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/23254.2300.2373.6240/MSTeams-arm64.msix
-  23254.2300.2373.6241 (osx-x64 + osx-arm64) - published on Monday, September 11, 2023 at 6:28 PM with 295 MB: https://staticsint.teams.cdn.office.net/production-osx/23254.2300.2373.6241/MicrosoftTeams.pkg
+  23254.2500.2373.8592 (osx-x64 + osx-arm64) - published on Monday, September 11, 2023 at 8:18 PM with 295 MB: https://staticsint.teams.cdn.office.net/production-osx/23254.2500.2373.8592/MicrosoftTeams.pkg
 
 
 URLs for the latest Canary Slimcore (R0s) build of Microsoft Teams:
@@ -30,7 +30,7 @@ URLs for the latest Canary Slimcore (R0s) build of Microsoft Teams:
   1.6.00.25458 (win-x86) - published on Monday, September 11, 2023 at 8:58 AM with 130 MB: https://staticsint.teams.cdn.office.net/production-windows/1.6.00.25458/Teams_windows.msi
   1.6.00.25458 (win-arm64) - published on Monday, September 11, 2023 at 9:00 AM with 129 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.6.00.25458/Teams_windows_arm64.exe
   1.6.00.25458 (win-arm64) - published on Monday, September 11, 2023 at 9:00 AM with 131 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.6.00.25458/Teams_windows_arm64.msi
-  1.6.00.25459 (osx-x64 + osx-arm64) - published on Monday, September 11, 2023 at 2:19 PM with 196 MB: https://staticsint.teams.cdn.office.net/production-osx/1.6.00.25459/Teams_osx.pkg
+  1.6.00.25461 (osx-x64 + osx-arm64) - published on Monday, September 11, 2023 at 6:18 PM with 196 MB: https://staticsint.teams.cdn.office.net/production-osx/1.6.00.25461/Teams_osx.pkg
 
   Teams 2.0:
   23234.900.2327.8480 (win-x64) - published on Tuesday, August 22, 2023 at 7:20 AM with 82 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23234.900.2327.8480/MicrosoftTeams-x64.msix
@@ -56,15 +56,15 @@ URLs for the latest Teams (R1) build of Microsoft Teams:
   1.6.00.25354 (osx-x64 + osx-arm64) - published on Sunday, September 10, 2023 at 11:07 PM with 197 MB: https://staticsint.teams.cdn.office.net/production-osx/1.6.00.25354/Teams_osx.pkg
 
   Teams 2.0:
-  23252.600.2370.8552 (win-x64) - published on Saturday, September 9, 2023 at 3:34 PM with 87 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23252.600.2370.8552/MicrosoftTeams-x64.msix
-  23252.600.2370.8552 (win-x86) - published on Saturday, September 9, 2023 at 3:34 PM with 82 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/23252.600.2370.8552/MicrosoftTeams-x86.msix
-  23252.600.2370.8552 (win-arm64) - published on Saturday, September 9, 2023 at 3:35 PM with 81 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/23252.600.2370.8552/MicrosoftTeams-arm64.msix
+  23254.2300.2373.6240 (win-x64) - published on Monday, September 11, 2023 at 5:44 PM with 87 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23254.2300.2373.6240/MicrosoftTeams-x64.msix
+  23254.2300.2373.6240 (win-x86) - published on Monday, September 11, 2023 at 5:44 PM with 82 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/23254.2300.2373.6240/MicrosoftTeams-x86.msix
+  23254.2300.2373.6240 (win-arm64) - published on Monday, September 11, 2023 at 5:44 PM with 81 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/23254.2300.2373.6240/MicrosoftTeams-arm64.msix
 
   Teams 2.1:
-  23252.600.2370.8552 (win-x64) - published on Saturday, September 9, 2023 at 3:35 PM with 120 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23252.600.2370.8552/MSTeams-x64.msix
-  23252.600.2370.8552 (win-x86) - published on Saturday, September 9, 2023 at 3:35 PM with 107 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/23252.600.2370.8552/MSTeams-x86.msix
-  23252.600.2370.8552 (win-arm64) - published on Saturday, September 9, 2023 at 3:36 PM with 99 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/23252.600.2370.8552/MSTeams-arm64.msix
-  23252.600.2370.8553 (osx-x64 + osx-arm64) - published on Saturday, September 9, 2023 at 3:59 PM with 300 MB: https://staticsint.teams.cdn.office.net/production-osx/23252.600.2370.8553/MicrosoftTeams.pkg
+  23254.2300.2373.6240 (win-x64) - published on Monday, September 11, 2023 at 5:45 PM with 120 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23254.2300.2373.6240/MSTeams-x64.msix
+  23254.2300.2373.6240 (win-x86) - published on Monday, September 11, 2023 at 5:45 PM with 107 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/23254.2300.2373.6240/MSTeams-x86.msix
+  23254.2300.2373.6240 (win-arm64) - published on Monday, September 11, 2023 at 5:46 PM with 99 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/23254.2300.2373.6240/MSTeams-arm64.msix
+  23254.2300.2373.6241 (osx-x64 + osx-arm64) - published on Monday, September 11, 2023 at 6:28 PM with 295 MB: https://staticsint.teams.cdn.office.net/production-osx/23254.2300.2373.6241/MicrosoftTeams.pkg
 
 
 URLs for the latest IT Admins Preview (R1.5 or BETA) build of Microsoft Teams:
