@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-2022
 
     steps:
-      - uses: actions/checkout@v4.1.0
+      - uses: actions/checkout@v4.1.1
 
       - run: |
           git config --local core.autocrlf true
