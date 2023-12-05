@@ -1,13 +1,13 @@
 URLs for the latest Canary (R0) build of Microsoft Teams:
 
   Teams 1.0:
-  1.6.00.33853 (win-x64) - published on Monday, December 4, 2023 at 3:54 AM with 137 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.6.00.33853/Teams_windows_x64.exe
-  1.6.00.33853 (win-x64) - published on Monday, December 4, 2023 at 3:54 AM with 139 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.6.00.33853/Teams_windows_x64.msi
-  1.6.00.33853 (win-x86) - published on Monday, December 4, 2023 at 3:52 AM with 128 MB: https://staticsint.teams.cdn.office.net/production-windows/1.6.00.33853/Teams_windows.exe
-  1.6.00.33853 (win-x86) - published on Monday, December 4, 2023 at 3:52 AM with 131 MB: https://staticsint.teams.cdn.office.net/production-windows/1.6.00.33853/Teams_windows.msi
-  1.6.00.33853 (win-arm64) - published on Monday, December 4, 2023 at 3:57 AM with 130 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.6.00.33853/Teams_windows_arm64.exe
-  1.6.00.33853 (win-arm64) - published on Monday, December 4, 2023 at 3:57 AM with 132 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.6.00.33853/Teams_windows_arm64.msi
-  1.6.00.33852 (osx-x64 + osx-arm64) - published on Monday, December 4, 2023 at 3:56 AM with 197 MB: https://staticsint.teams.cdn.office.net/production-osx/1.6.00.33852/Teams_osx.pkg
+  1.6.00.33953 (win-x64) - published on Tuesday, December 5, 2023 at 3:53 AM with 137 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.6.00.33953/Teams_windows_x64.exe
+  1.6.00.33953 (win-x64) - published on Tuesday, December 5, 2023 at 3:53 AM with 139 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.6.00.33953/Teams_windows_x64.msi
+  1.6.00.33953 (win-x86) - published on Tuesday, December 5, 2023 at 3:50 AM with 128 MB: https://staticsint.teams.cdn.office.net/production-windows/1.6.00.33953/Teams_windows.exe
+  1.6.00.33953 (win-x86) - published on Tuesday, December 5, 2023 at 3:50 AM with 130 MB: https://staticsint.teams.cdn.office.net/production-windows/1.6.00.33953/Teams_windows.msi
+  1.6.00.33953 (win-arm64) - published on Tuesday, December 5, 2023 at 3:56 AM with 130 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.6.00.33953/Teams_windows_arm64.exe
+  1.6.00.33953 (win-arm64) - published on Tuesday, December 5, 2023 at 3:56 AM with 132 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.6.00.33953/Teams_windows_arm64.msi
+  1.6.00.33954 (osx-x64 + osx-arm64) - published on Tuesday, December 5, 2023 at 3:41 AM with 197 MB: https://staticsint.teams.cdn.office.net/production-osx/1.6.00.33954/Teams_osx.pkg
 
   Teams 2.0:
   23338.2100.2560.4805 (win-x64) - published on Monday, December 4, 2023 at 5:25 PM with 88 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23338.2100.2560.4805/MicrosoftTeams-x64.msix
@@ -18,7 +18,7 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
   23338.2100.2560.4805 (win-x64) - published on Monday, December 4, 2023 at 5:29 PM with 124 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/23338.2100.2560.4805/MSTeams-x64.msix
   23338.2100.2560.4805 (win-x86) - published on Monday, December 4, 2023 at 5:30 PM with 113 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/23338.2100.2560.4805/MSTeams-x86.msix
   23338.2100.2560.4805 (win-arm64) - published on Monday, December 4, 2023 at 5:31 PM with 106 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/23338.2100.2560.4805/MSTeams-arm64.msix
-  23338.2700.2561.1091 (osx-x64 + osx-arm64) - published on Monday, December 4, 2023 at 10:42 PM with 296 MB: https://staticsint.teams.cdn.office.net/production-osx/23338.2700.2561.1091/MicrosoftTeams.pkg
+  23339.400.2561.7972 (osx-x64 + osx-arm64) - published on Tuesday, December 5, 2023 at 5:43 AM with 296 MB: https://staticsint.teams.cdn.office.net/production-osx/23339.400.2561.7972/MicrosoftTeams.pkg
 
 
 URLs for the latest Canary Slimcore (R0s) build of Microsoft Teams:
