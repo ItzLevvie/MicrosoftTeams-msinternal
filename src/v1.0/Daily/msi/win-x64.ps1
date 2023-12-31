@@ -11,7 +11,7 @@ for (($fda625b81e647d7c6acd91aed9ae8ecd = [int](Get-Content -Path "..\..\.github
         if ($fda625b81e647d7c6acd91aed9ae8ecd -match "^(\d+50)$") {
             continue
         }
-        $ab3b0e88a3e2899c2990b7cab3d3c26f = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/1.6.00.$fda625b81e647d7c6acd91aed9ae8ecd/$ae633e497ada527ef7c57413d1d1ac3c" -Method Head)
+        $ab3b0e88a3e2899c2990b7cab3d3c26f = (Invoke-WebRequest -Uri "$a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/1.7.00.$fda625b81e647d7c6acd91aed9ae8ecd/$ae633e497ada527ef7c57413d1d1ac3c" -Method Head)
         if ($ab3b0e88a3e2899c2990b7cab3d3c26f) {
             $c05e6f4daf8c300393e85febda03e9fc = @()
             $c05e6f4daf8c300393e85febda03e9fc += $fda625b81e647d7c6acd91aed9ae8ecd
@@ -26,6 +26,6 @@ for (($fda625b81e647d7c6acd91aed9ae8ecd = [int](Get-Content -Path "..\..\.github
     }
 }
 
-Write-Output "1.6.00.$c05e6f4daf8c300393e85febda03e9fc ($fe6fde81dcb0a79dd8310604ca4b266a) - published on $cd34ed983a00789e278cf0186c460fcf with $ed87954bd831ca3d16ae52758005c27f MB: $a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/1.6.00.$c05e6f4daf8c300393e85febda03e9fc/$ae633e497ada527ef7c57413d1d1ac3c"
+Write-Output "1.7.00.$c05e6f4daf8c300393e85febda03e9fc ($fe6fde81dcb0a79dd8310604ca4b266a) - published on $cd34ed983a00789e278cf0186c460fcf with $ed87954bd831ca3d16ae52758005c27f MB: $a119da4b5a9f3e8851e58d4d9a37604a/$b3a439fdbf1a6ecc01de6445ee82b547/1.7.00.$c05e6f4daf8c300393e85febda03e9fc/$ae633e497ada527ef7c57413d1d1ac3c"
 
 Remove-Variable * -ErrorAction SilentlyContinue
