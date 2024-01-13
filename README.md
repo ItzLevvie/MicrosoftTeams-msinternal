@@ -54,7 +54,7 @@ Preview the latest development builds of Microsoft Teams but with access to newe
 Microsoft Teams has an API that queries for builds whenever it checks for updates.
 
 Here are a few examples:
-| Domain | ECS Configuration |
+| Domain | Experimentation and Configuration Service (ECS) |
 | -------| ----------------- |
 | https://teams.microsoft.com | https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
 | https://teams.live.com | https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=life&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
