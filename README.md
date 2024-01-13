@@ -54,11 +54,11 @@ Preview the latest development builds of Microsoft Teams but with access to newe
 Microsoft Teams has an API that queries for builds whenever it checks for updates.
 
 Here are a few examples:
-1) `https://teams.microsoft.com` = `https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds`
-2) `https://teams.live.com` = `https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=life&audienceGroup=general&teamsRing=general&agent=TeamsBuilds`
-3) `https://dod.teams.microsoft.us` = `https://config.ecs.dod.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=dod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds`
-4) `https://gov.teams.microsoft.us` = `https://config.ecs.gov.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=gcchigh&audienceGroup=general&teamsRing=general&agent=TeamsBuilds`
-5) `https://teams.microsoftonline.cn` = `https://mooncake.config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=gallatin&audienceGroup=general&teamsRing=general&agent=TeamsBuilds`
+1) https://teams.microsoft.com = https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=prod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds
+2) https://teams.live.com = https://config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=life&audienceGroup=general&teamsRing=general&agent=TeamsBuilds
+3) https://dod.teams.microsoft.us = https://config.ecs.dod.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=dod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds
+4) https://gov.teams.microsoft.us = https://config.ecs.gov.teams.microsoft.us/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=gcchigh&audienceGroup=general&teamsRing=general&agent=TeamsBuilds
+5) https://teams.microsoftonline.cn = https://mooncake.config.teams.microsoft.com/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=gallatin&audienceGroup=general&teamsRing=general&agent=TeamsBuilds
 
 | Parameter | Value |
 | --------- | ----- |
