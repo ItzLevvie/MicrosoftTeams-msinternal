@@ -25,7 +25,7 @@ Preview the latest development builds of Microsoft Teams but with access to new 
 These builds may also contain newer releases of SlimCore.
 
 `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
-![image](https://user-images.githubusercontent.com/11600822/214407512-dc371d4c-9711-4fa2-ba23-3ab410fd7c9f.png)
+![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/40f41f20-d70d-450d-b2bf-463f7a2fa967)
 
 > [!NOTE]
 > Installing these builds does not necessarily mean you will have access to new features.
