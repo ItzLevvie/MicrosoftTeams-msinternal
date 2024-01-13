@@ -9,7 +9,7 @@ This repository contains various builds for Microsoft Teams.
 #### What are daily builds?
 
 Preview the latest development builds of Microsoft Teams:
-![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/42341264-049b-45e8-b7eb-4ccc901a05b8)
+![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/c7076795-93a6-4843-b0e3-174a5e45d4f5)
 
 These builds may also contain newer releases of SlimCore.
 
@@ -20,7 +20,7 @@ These builds may also contain newer releases of SlimCore.
 #### What are experimental builds?
 
 Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds:
-![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/5fed0d66-b988-4e7b-984a-38871e23ea45)
+![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/b6029708-8dd8-4a3a-a43e-49167687d6ce)
 
 These builds may also contain newer releases of SlimCore.
 
