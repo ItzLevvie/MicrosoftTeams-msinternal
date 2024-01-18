@@ -49,9 +49,9 @@ Write-Output "  Teams 1.0 — Microsoft Teams classic (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1 -Platform osx-x64 -Version 1.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.0 — Microsoft Teams (free):"
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1 -Platform win-x64 -Version 2.1 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
@@ -71,9 +71,9 @@ Write-Output "  Teams 1.0 — Microsoft Teams classic (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_5 -Platform osx-x64 -Version 1.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.0 — Microsoft Teams (free):"
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1_5 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1_5 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1_5 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_5 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_5 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_5 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_5 -Platform win-x64 -Version 2.1 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
@@ -91,9 +91,9 @@ Write-Output "  Teams 1.0 — Microsoft Teams classic (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_6 -Platform osx-x64 -Version 1.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.0 — Microsoft Teams (free):"
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1_6 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1_6 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring1_6 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_6 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_6 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_6 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring1_6 -Platform win-x64 -Version 2.1 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
@@ -111,9 +111,9 @@ Write-Output "  Teams 1.0 — Microsoft Teams classic (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring2 -Platform osx-x64 -Version 1.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.0 — Microsoft Teams (free):"
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring2 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring2 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring2 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring2 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring2 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring2 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring2 -Platform win-x64 -Version 2.1 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
@@ -131,9 +131,9 @@ Write-Output "  Teams 1.0 — Microsoft Teams classic (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3 -Platform osx-x64 -Version 1.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.0 — Microsoft Teams (free):"
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3 -Platform win-x64 -Version 2.1 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
@@ -151,9 +151,9 @@ Write-Output "  Teams 1.0 — Microsoft Teams classic (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_6 -Platform osx-x64 -Version 1.0
 Write-Output ""
 Write-Output "  Teams 2.0 — Microsoft Teams (free):"
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3_6 -Platform win-x64 -Version 2.0
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3_6 -Platform win-x86 -Version 2.0
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3_6 -Platform win-arm64 -Version 2.0
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_6 -Platform win-x64 -Version 2.0
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_6 -Platform win-x86 -Version 2.0
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_6 -Platform win-arm64 -Version 2.0
 Write-Output ""
 Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_6 -Platform win-x64 -Version 2.1
@@ -171,9 +171,9 @@ Write-Output "  Teams 1.0 — Microsoft Teams classic (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_9 -Platform osx-x64 -Version 1.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.0 — Microsoft Teams (free):"
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3_9 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3_9 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
-& ".\Get-MicrosoftTeams.ps1" -Environment life -Ring ring3_9 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_9 -Platform win-x64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_9 -Platform win-x86 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
+& ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_9 -Platform win-arm64 -Version 2.0 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
 Write-Output ""
 Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & ".\Get-MicrosoftTeams.ps1" -Environment prod -Ring ring3_9 -Platform win-x64 -Version 2.1 -UserId 3a7cf1d3-06fa-4ead-bf45-a6286ff2620a -TenantId 72f988bf-86f1-41af-91ab-2d7cd011db47
