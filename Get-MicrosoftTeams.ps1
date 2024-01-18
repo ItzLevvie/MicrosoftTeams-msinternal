@@ -136,29 +136,29 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
     try {
         $dfd1dfb880a3f7093614df7cc6364a33 = (Invoke-RestMethod -Uri "$dce146e66b2e5c0e104729239cc1ae15/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=$Environment&teamsRing=$Ring&id=$ObjectId&tenantId=$TenantId&agent=TeamsBuilds").BuildSettings
         if ($Version -eq "1.0") {
-            if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
+            if ($Type -eq "Desktop" -and $Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.windows64.latestVersion
             }
-            elseif ($Platform -eq "osx-x64 + osx-arm64") {
+            elseif ($Type -eq "Desktop" -and $Platform -eq "osx-x64 + osx-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.osx.latestVersion
             }
         }
         elseif ($Version -eq "2.0") {
-            if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
+            if ($Type -eq "Desktop" -and $Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2.x64.latestVersion
             }
-            elseif ($Platform -eq "osx-x64 + osx-arm64") {
+            elseif ($Type -eq "Desktop" -and $Platform -eq "osx-x64 + osx-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2.macOS.latestVersion
             }
         }
         elseif ($Version -eq "2.1") {
-            if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
+            if ($Type -eq "Desktop" -and $Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.x64.latestVersion
             }
-            elseif ($Platform -eq "osx-x64 + osx-arm64") {
+            elseif ($Type -eq "Desktop" -and $Platform -eq "osx-x64 + osx-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.macOS.latestVersion
             }
-            elseif ($Type -eq "Rooms") {
+            elseif ($Type -eq "Rooms" -and $Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.MTRW.x64.latestVersion
             }
         }
