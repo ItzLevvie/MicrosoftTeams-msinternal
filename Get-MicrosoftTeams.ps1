@@ -20,10 +20,15 @@ param (
     [string]
     $Version,
 
+    [Parameter(Mandatory)]
+    [ValidateSet("Desktop", "Rooms")]
+    [string]
+    $Type,
+
     [Parameter()]
     [ValidateSet("3a7cf1d3-06fa-4ead-bf45-a6286ff2620a")]
     [string]
-    $UserId,
+    $ObjectId,
 
     [Parameter()]
     [ValidateSet("72f988bf-86f1-41af-91ab-2d7cd011db47")]
@@ -34,9 +39,15 @@ param (
 $ErrorActionPreference = "SilentlyContinue"
 $ProgressPreference = "SilentlyContinue"
 
-#
-
 $Environment = $Environment.ToLower()
+$Ring = $Ring.ToLower()
+$Platform = $Platform.ToLower()
+$Version = $Version.ToLower()
+$Type = $Type.ToLower()
+$ObjectId = $ObjectId.ToLower()
+$TenantId = $TenantId.ToLower()
+
+#
 if ($Environment -eq "life" -or $Environment -eq "prod") {
     $dce146e66b2e5c0e104729239cc1ae15 = "https://config.teams.microsoft.com"
 }
@@ -51,8 +62,6 @@ elseif ($Environment -eq "gallatin") {
 }
 
 #
-
-$Ring = $Ring.ToLower()
 if ($Ring -eq "ring0" -or $Ring -eq "ring0_s" -or $Ring -eq "ring1") {
     $e783048973935431707b367c535d6ea4 = "https://staticsint.teams.cdn.office.net"
 }
@@ -61,9 +70,6 @@ elseif ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $R
 }
 
 #
-
-$Platform = $Platform.ToLower()
-$Version = $Version.ToLower()
 if ($Platform -eq "win-x64") {
     $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
     $f0fb604060316701d5b9f53e4c4cdb3d = "win-x64"
@@ -120,11 +126,10 @@ elseif ($Platform -eq "osx-x64" -or $Platform -eq "osx-arm64") {
 }
 
 #
-
 $e49bb609ef26353d2c308ca6beb0de8f = 0
 while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
     try {
-        $dfd1dfb880a3f7093614df7cc6364a33 = (Invoke-RestMethod -Uri "$dce146e66b2e5c0e104729239cc1ae15/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=$Environment&teamsRing=$Ring&id=$UserId&tenantId=$TenantId&agent=TeamsBuilds").BuildSettings
+        $dfd1dfb880a3f7093614df7cc6364a33 = (Invoke-RestMethod -Uri "$dce146e66b2e5c0e104729239cc1ae15/config/v1/MicrosoftTeams/1415_1.0.0.0?environment=$Environment&teamsRing=$Ring&id=$ObjectId&tenantId=$TenantId&agent=TeamsBuilds").BuildSettings
         if ($Version -eq "1.0") {
             if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.windows64.latestVersion
