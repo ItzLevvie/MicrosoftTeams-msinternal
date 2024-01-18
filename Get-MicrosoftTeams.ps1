@@ -80,6 +80,9 @@ if ($Platform -eq "win-x64") {
     }
     elseif ($Version -eq "2.1") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-x64.msix"
+        if ($Type -eq "Rooms") {
+            $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-Rooms-x64.msix"
+        }
     }
 }
 elseif ($Platform -eq "win-x86") {
@@ -97,6 +100,9 @@ elseif ($Platform -eq "win-x86") {
     }
     elseif ($Version -eq "2.1") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-x86.msix"
+        if ($Type -eq "Rooms") {
+            $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-Rooms-x86.msix"
+        }
     }
 }
 elseif ($Platform -eq "win-arm64") {
@@ -109,6 +115,9 @@ elseif ($Platform -eq "win-arm64") {
     }
     elseif ($Version -eq "2.1") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-arm64.msix"
+        if ($Type -eq "Rooms") {
+            $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-Rooms-arm64.msix"
+        }
     }
 }
 elseif ($Platform -eq "osx-x64 + osx-arm64") {
@@ -148,6 +157,9 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
             }
             elseif ($Platform -eq "osx-x64 + osx-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.macOS.latestVersion
+            }
+            elseif ($Type -eq "Rooms") {
+                $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.MTRW.x64.latestVersion
             }
         }
         if ($a553ddde23e7dad4144c98d2e342ba31) {
