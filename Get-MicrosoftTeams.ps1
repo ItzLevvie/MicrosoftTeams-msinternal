@@ -122,10 +122,10 @@ elseif ($Platform -eq "win-arm64") {
 }
 elseif ($Platform -eq "osx-x64 + osx-arm64") {
     $bd3078f40b0117196fdb4853563084e9 = "production-osx"
-    if ($Version -eq "1.0") {
+    if ($Type -eq "Desktop" -and $Version -eq "1.0") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_osx.pkg"
     }
-    elseif ($Version -eq "2.1") {
+    elseif ($Type -eq "Desktop" -and $Version -eq "2.1") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "MicrosoftTeams.pkg"
     }
 }
