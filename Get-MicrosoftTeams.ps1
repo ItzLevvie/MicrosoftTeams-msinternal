@@ -1,17 +1,17 @@
 [CmdletBinding()]
 param (
     [Parameter(Mandatory)]
-    [ValidateSet("life", "prod", "gcchigh", "dod", "gallatin")]
+    [ValidateSet("life", "prod", "gcchigh", "dod", "gallatin", IgnoreCase = $false)]
     [string]
     $Environment,
 
     [Parameter(Mandatory)]
-    [ValidateSet("ring0", "ring0_s", "ring1", "ring1_5", "ring1_6", "ring2", "ring3", "ring3_6", "ring3_9", "general")]
+    [ValidateSet("ring0", "ring0_s", "ring1", "ring1_5", "ring1_6", "ring2", "ring3", "ring3_6", "ring3_9", "general", IgnoreCase = $false)]
     [string]
     $Ring,
 
     [Parameter(Mandatory)]
-    [ValidateSet("win-x64", "win-x86", "win-arm64", "osx-x64 + osx-arm64")]
+    [ValidateSet("win-x64", "win-x86", "win-arm64", "osx-x64 + osx-arm64", IgnoreCase = $false)]
     [string]
     $Platform,
 
@@ -21,17 +21,17 @@ param (
     $Version,
 
     [Parameter(Mandatory)]
-    [ValidateSet("Desktop", "Rooms")]
+    [ValidateSet("Desktop", "Rooms", IgnoreCase = $false)]
     [string]
     $Type,
 
     [Parameter()]
-    [ValidateSet("3a7cf1d3-06fa-4ead-bf45-a6286ff2620a")]
+    [ValidateSet("3a7cf1d3-06fa-4ead-bf45-a6286ff2620a", IgnoreCase = $false)]
     [string]
     $ObjectId,
 
     [Parameter()]
-    [ValidateSet("72f988bf-86f1-41af-91ab-2d7cd011db47")]
+    [ValidateSet("72f988bf-86f1-41af-91ab-2d7cd011db47", IgnoreCase = $false)]
     [string]
     $TenantId
 )
