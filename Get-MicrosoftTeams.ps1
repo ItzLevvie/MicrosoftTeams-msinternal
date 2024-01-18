@@ -78,7 +78,12 @@ if ($Platform -eq "win-x64") {
     }
 }
 elseif ($Platform -eq "win-x86") {
-    $bd3078f40b0117196fdb4853563084e9 = "production-windows-x86"
+    if ($Version -eq "1.0") {
+        $bd3078f40b0117196fdb4853563084e9 = "production-windows"
+    }
+    elseif ($Version -eq "2.0" -or $Version -eq "2.1") {
+        $bd3078f40b0117196fdb4853563084e9 = "production-windows-x86"
+    }
     $f0fb604060316701d5b9f53e4c4cdb3d = "win-x86"
     if ($Version -eq "1.0") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows.exe"
