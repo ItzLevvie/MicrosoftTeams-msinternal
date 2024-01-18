@@ -71,7 +71,9 @@ elseif ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $R
 
 #
 if ($Platform -eq "win-x64") {
-    $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
+    if ($Type -eq "Desktop" -or $Type -eq "Rooms") {
+        $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
+    }
     if ($Version -eq "1.0") {
         if ($Type -eq "Desktop") {
             $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_x64.exe"
@@ -97,7 +99,7 @@ elseif ($Platform -eq "win-x86") {
             $bd3078f40b0117196fdb4853563084e9 = "production-windows"
         }
     }
-    elseif ($Version -eq "2.0" -or $Version -eq "2.1") {
+    elseif ($Type -eq "Desktop" -or $Type -eq "Rooms" -and $Version -eq "2.0" -or $Version -eq "2.1") {
         $bd3078f40b0117196fdb4853563084e9 = "production-windows-x86"
     }
     if ($Version -eq "1.0") {
