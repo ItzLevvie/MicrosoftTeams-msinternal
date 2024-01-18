@@ -11,7 +11,7 @@ param (
     $Ring,
 
     [Parameter(Mandatory)]
-    [ValidateSet("win-x64", "win-x86", "win-arm64", "osx-x64", "osx-arm64")]
+    [ValidateSet("win-x64", "win-x86", "win-arm64", "osx-x64 + osx-arm64")]
     [string]
     $Platform,
 
@@ -72,7 +72,6 @@ elseif ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $R
 #
 if ($Platform -eq "win-x64") {
     $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
-    $f0fb604060316701d5b9f53e4c4cdb3d = "win-x64"
     if ($Version -eq "1.0") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_x64.exe"
     }
@@ -90,7 +89,6 @@ elseif ($Platform -eq "win-x86") {
     elseif ($Version -eq "2.0" -or $Version -eq "2.1") {
         $bd3078f40b0117196fdb4853563084e9 = "production-windows-x86"
     }
-    $f0fb604060316701d5b9f53e4c4cdb3d = "win-x86"
     if ($Version -eq "1.0") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows.exe"
     }
@@ -103,7 +101,6 @@ elseif ($Platform -eq "win-x86") {
 }
 elseif ($Platform -eq "win-arm64") {
     $bd3078f40b0117196fdb4853563084e9 = "production-windows-arm64"
-    $f0fb604060316701d5b9f53e4c4cdb3d = "win-arm64"
     if ($Version -eq "1.0") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_arm64.exe"
     }
@@ -114,9 +111,8 @@ elseif ($Platform -eq "win-arm64") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-arm64.msix"
     }
 }
-elseif ($Platform -eq "osx-x64" -or $Platform -eq "osx-arm64") {
+elseif ($Platform -eq "osx-x64 + osx-arm64") {
     $bd3078f40b0117196fdb4853563084e9 = "production-osx"
-    $f0fb604060316701d5b9f53e4c4cdb3d = "osx-x64 + osx-arm64"
     if ($Version -eq "1.0") {
         $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_osx.pkg"
     }
@@ -134,7 +130,7 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
             if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.windows64.latestVersion
             }
-            elseif ($Platform -eq "osx-x64" -or $Platform -eq "osx-arm64") {
+            elseif ($Platform -eq "osx-x64 + osx-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.osx.latestVersion
             }
         }
@@ -142,7 +138,7 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
             if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2.x64.latestVersion
             }
-            elseif ($Platform -eq "osx-x64" -or $Platform -eq "osx-arm64") {
+            elseif ($Platform -eq "osx-x64 + osx-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2.macOS.latestVersion
             }
         }
@@ -150,7 +146,7 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
             if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.x64.latestVersion
             }
-            elseif ($Platform -eq "osx-x64" -or $Platform -eq "osx-arm64") {
+            elseif ($Platform -eq "osx-x64 + osx-arm64") {
                 $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.macOS.latestVersion
             }
         }
@@ -164,7 +160,7 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
             $abad549e7d030b408b70f72f08de798a = [string]$b0d2ed7ea6bb774a6b2c75f7f3a121eb.Headers["Content-Length"] / 1024 / 1024
             $e0167d390ca0b503d10f31ed2ded6eb4 = [System.Math]::Round($abad549e7d030b408b70f72f08de798a)
 
-            Write-Output "  $a553ddde23e7dad4144c98d2e342ba31 ($f0fb604060316701d5b9f53e4c4cdb3d) - published on $e1e240488e5eef1f776376b0ebf7609a with $e0167d390ca0b503d10f31ed2ded6eb4 MB: $e783048973935431707b367c535d6ea4/$bd3078f40b0117196fdb4853563084e9/$a553ddde23e7dad4144c98d2e342ba31/$e7782dde7d9e6e4f63894a63138afbb9"
+            Write-Output "  $a553ddde23e7dad4144c98d2e342ba31 ($Platform) - published on $e1e240488e5eef1f776376b0ebf7609a with $e0167d390ca0b503d10f31ed2ded6eb4 MB: $e783048973935431707b367c535d6ea4/$bd3078f40b0117196fdb4853563084e9/$a553ddde23e7dad4144c98d2e342ba31/$e7782dde7d9e6e4f63894a63138afbb9"
         }
         break
     }
