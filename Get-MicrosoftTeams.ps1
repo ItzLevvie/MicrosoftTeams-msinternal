@@ -99,8 +99,10 @@ elseif ($Platform -eq "win-x86") {
             $bd3078f40b0117196fdb4853563084e9 = "production-windows"
         }
     }
-    elseif ($Type -eq "Desktop" -or $Type -eq "Rooms" -and $Version -eq "2.0" -or $Version -eq "2.1") {
-        $bd3078f40b0117196fdb4853563084e9 = "production-windows-x86"
+    elseif ($Version -eq "2.0" -or $Version -eq "2.1") {
+        if ($Type -eq "Desktop" -or $Type -eq "Rooms") {
+            $bd3078f40b0117196fdb4853563084e9 = "production-windows-x86"
+        }
     }
     if ($Version -eq "1.0") {
         if ($Type -eq "Desktop") {
@@ -116,7 +118,7 @@ elseif ($Platform -eq "win-x86") {
         if ($Type -eq "Desktop") {
             $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-x86.msix"
         }
-        if ($Type -eq "Rooms") {
+        elseif ($Type -eq "Rooms") {
             $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-Rooms-x86.msix"
         }
     }
@@ -148,11 +150,15 @@ elseif ($Platform -eq "osx-x64 + osx-arm64") {
     if ($Type -eq "Desktop") {
         $bd3078f40b0117196fdb4853563084e9 = "production-osx"
     }
-    if ($Type -eq "Desktop" -and $Version -eq "1.0") {
-        $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_osx.pkg"
+    if ($Version -eq "1.0") {
+        if ($Type -eq "Desktop") { 
+            $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_osx.pkg"
+        }
     }
-    elseif ($Type -eq "Desktop" -and $Version -eq "2.1") {
-        $e7782dde7d9e6e4f63894a63138afbb9 = "MicrosoftTeams.pkg"
+    elseif ($Version -eq "2.1") {
+        if ($Type -eq "Desktop") {
+            $e7782dde7d9e6e4f63894a63138afbb9 = "MicrosoftTeams.pkg"
+        }
     }
 }
 
