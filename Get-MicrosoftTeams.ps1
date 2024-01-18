@@ -93,7 +93,9 @@ if ($Platform -eq "win-x64") {
 }
 elseif ($Platform -eq "win-x86") {
     if ($Version -eq "1.0") {
-        $bd3078f40b0117196fdb4853563084e9 = "production-windows"
+        if ($Type -eq "Desktop") {
+            $bd3078f40b0117196fdb4853563084e9 = "production-windows"
+        }
     }
     elseif ($Version -eq "2.0" -or $Version -eq "2.1") {
         $bd3078f40b0117196fdb4853563084e9 = "production-windows-x86"
