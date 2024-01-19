@@ -43,7 +43,6 @@ $Environment = $Environment.ToLower()
 $Ring = $Ring.ToLower()
 $Platform = $Platform.ToLower()
 $Version = $Version.ToLower()
-$Type = $Type.ToLower()
 $ObjectId = $ObjectId.ToLower()
 $TenantId = $TenantId.ToLower()
 
