@@ -6,7 +6,7 @@ param (
     $Environment,
 
     [Parameter(Mandatory)]
-    [ValidateSet("ring0", "ring0_s", "ring1", "ring1_5", "ring1_6", "ring2", "ring3", "ring3_6", "ring3_9", "general", IgnoreCase = $false)]
+    [ValidateSet("ring0", "ring0_s", "ring1", "ring1_5", "ring1_6", "ring2", "ring3", "ring3_6", "ring3_9", "general", "general_gcc", IgnoreCase = $false)]
     [string]
     $Ring,
 
@@ -64,7 +64,7 @@ elseif ($Environment -eq "gallatin") {
 if ($Ring -eq "ring0" -or $Ring -eq "ring0_s" -or $Ring -eq "ring1") {
     $e783048973935431707b367c535d6ea4 = "https://staticsint.teams.cdn.office.net"
 }
-elseif ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring -eq "ring3" -or $Ring -eq "ring3_6" -or $Ring -eq "ring3_9" -or $Ring -eq "general") {
+elseif ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring -eq "ring3" -or $Ring -eq "ring3_6" -or $Ring -eq "ring3_9" -or $Ring -eq "general" -or $Ring -eq "general_gcc") {
     $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
 }
 
