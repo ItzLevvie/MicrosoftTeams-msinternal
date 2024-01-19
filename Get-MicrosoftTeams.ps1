@@ -47,7 +47,10 @@ $ObjectId = $ObjectId.ToLower()
 $TenantId = $TenantId.ToLower()
 
 #
-if ($Environment -eq "life" -or $Environment -eq "prod") {
+if ($Environment -eq "life") {
+    $dce146e66b2e5c0e104729239cc1ae15 = "https://config.teams.microsoft.com"
+}
+elseif ($Environment -eq "prod") {
     $dce146e66b2e5c0e104729239cc1ae15 = "https://config.teams.microsoft.com"
 }
 elseif ($Environment -eq "gcchigh") {
@@ -61,10 +64,37 @@ elseif ($Environment -eq "gallatin") {
 }
 
 #
-if ($Ring -eq "ring0" -or $Ring -eq "ring0_s" -or $Ring -eq "ring1") {
+if ($Ring -eq "ring0") {
     $e783048973935431707b367c535d6ea4 = "https://staticsint.teams.cdn.office.net"
 }
-elseif ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring -eq "ring3" -or $Ring -eq "ring3_6" -or $Ring -eq "ring3_9" -or $Ring -eq "general" -or $Ring -eq "general_gcc") {
+elseif ($Ring -eq "ring0_s") {
+    $e783048973935431707b367c535d6ea4 = "https://staticsint.teams.cdn.office.net"
+}
+elseif ($Ring -eq "ring1") {
+    $e783048973935431707b367c535d6ea4 = "https://staticsint.teams.cdn.office.net"
+}
+elseif ($Ring -eq "ring1_5") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+elseif ($Ring -eq "ring1_6") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+elseif ($Ring -eq "ring2") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+elseif ($Ring -eq "ring3") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+elseif ($Ring -eq "ring3_6") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+elseif ($Ring -eq "ring3_9") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+elseif ($Ring -eq "general") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+elseif ($Ring -eq "general_gcc") {
     $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
 }
 
