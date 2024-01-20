@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param (
     [Parameter(Mandatory)]
-    [ValidateSet("life", "prod", "gcchigh", "dod", "gallatin", IgnoreCase = $false)]
+    [ValidateSet("dev", "prod", "life", "gcchigh", "dod", "gallatin", IgnoreCase = $false)]
     [string]
     $Environment,
 
@@ -47,10 +47,13 @@ $ObjectId = $ObjectId.ToLower()
 $TenantId = $TenantId.ToLower()
 
 #
-if ($Environment -eq "life") {
+if ($Environment -eq "dev") {
     $dce146e66b2e5c0e104729239cc1ae15 = "https://config.teams.microsoft.com"
 }
 elseif ($Environment -eq "prod") {
+    $dce146e66b2e5c0e104729239cc1ae15 = "https://config.teams.microsoft.com"
+}
+elseif ($Environment -eq "life") {
     $dce146e66b2e5c0e104729239cc1ae15 = "https://config.teams.microsoft.com"
 }
 elseif ($Environment -eq "gcchigh") {
