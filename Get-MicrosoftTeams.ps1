@@ -23,7 +23,7 @@ param (
     [Parameter(Mandatory = $true)]
     [ValidateSet("Desktop", "Rooms", IgnoreCase = $false)]
     [string]
-    $Type,
+    $ClientType,
 
     [Parameter()]
     [ArgumentCompletions("3a7cf1d3-06fa-4ead-bf45-a6286ff2620a")]
@@ -103,7 +103,7 @@ elseif ($Ring -eq "general_gcc") {
 
 #
 if ($Version -eq "1.0") {
-    if ($Type -eq "Desktop") {
+    if ($ClientType -eq "Desktop") {
         if ($Platform -eq "win-x64") {
             $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
             $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_x64.exe"
@@ -127,7 +127,7 @@ if ($Version -eq "1.0") {
     }
 }
 elseif ($Version -eq "2.0") {
-    if ($Type -eq "Desktop") {
+    if ($ClientType -eq "Desktop") {
         if ($Platform -eq "win-x64") {
             $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
             $e7782dde7d9e6e4f63894a63138afbb9 = "MicrosoftTeams-x64.msix"
@@ -146,7 +146,7 @@ elseif ($Version -eq "2.0") {
     }
 }
 elseif ($Version -eq "2.1") {
-    if ($Type -eq "Desktop") {
+    if ($ClientType -eq "Desktop") {
         if ($Platform -eq "win-x64") {
             $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
             $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-x64.msix"
@@ -168,7 +168,7 @@ elseif ($Version -eq "2.1") {
             $c53cc331b8934004bd5807be1b2b345e = "50"
         }
     }
-    if ($Type -eq "Rooms") {
+    if ($ClientType -eq "Rooms") {
         if ($Platform -eq "win-x64") {
             $bd3078f40b0117196fdb4853563084e9 = "production-windows-x64"
             $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeams-Rooms-x64.msix"
@@ -193,36 +193,36 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
     try {
         $dfd1dfb880a3f7093614df7cc6364a33 = (Invoke-RestMethod -Uri "$dce146e66b2e5c0e104729239cc1ae15/config/v1/MicrosoftTeams/$($c53cc331b8934004bd5807be1b2b345e)_1.0.0.0?environment=$Environment&teamsRing=$Ring&id=$ObjectId&tenantId=$TenantId&agent=TeamsBuilds").BuildSettings
         if ($Version -eq "1.0") {
-            if ($Type -eq "Desktop") {
+            if ($ClientType -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.windows64.latestVersion
                 }
             }
-            if ($Type -eq "Desktop") {
+            if ($ClientType -eq "Desktop") {
                 if ($Platform -eq "osx-x64 + osx-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.osx.latestVersion
                 }
             }
         }
         elseif ($Version -eq "2.0") {
-            if ($Type -eq "Desktop") {
+            if ($ClientType -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2.x64.latestVersion
                 }
             }
         }
         elseif ($Version -eq "2.1") {
-            if ($Type -eq "Desktop") {
+            if ($ClientType -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.x64.latestVersion
                 }
             }
-            if ($Type -eq "Desktop") {
+            if ($ClientType -eq "Desktop") {
                 if ($Platform -eq "osx-x64 + osx-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.macOS.latestVersion
                 }
             }
-            if ($Type -eq "Rooms") {
+            if ($ClientType -eq "Rooms") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.MTRW.x64.latestVersion
                 }
