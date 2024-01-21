@@ -1,26 +1,26 @@
 [CmdletBinding()]
 param (
-    [Parameter(Mandatory)]
+    [Parameter(Mandatory = $true)]
     [ValidateSet("dev", "prod", "life", "gcchigh", "dod", "gallatin", IgnoreCase = $false)]
     [string]
     $Environment,
 
-    [Parameter(Mandatory)]
+    [Parameter(Mandatory = $true)]
     [ValidateSet("ring0", "ring0_s", "ring1", "ring1_5", "ring1_6", "ring2", "ring3", "ring3_6", "ring3_9", "general", "general_gcc", IgnoreCase = $false)]
     [string]
     $Ring,
 
-    [Parameter(Mandatory)]
+    [Parameter(Mandatory = $true)]
     [ValidateSet("win-x64", "win-x86", "win-arm64", "osx-x64 + osx-arm64", IgnoreCase = $false)]
     [string]
     $Platform,
 
-    [Parameter(Mandatory)]
+    [Parameter(Mandatory = $true)]
     [ValidateSet("1.0", "2.0", "2.1")]
     [string]
     $Version,
 
-    [Parameter(Mandatory)]
+    [Parameter(Mandatory = $true)]
     [ValidateSet("Desktop", "Rooms", IgnoreCase = $false)]
     [string]
     $Type,
