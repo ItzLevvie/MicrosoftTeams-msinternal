@@ -190,7 +190,7 @@ elseif ($Version -eq "2.1") {
 $e49bb609ef26353d2c308ca6beb0de8f = 0
 while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
     try {
-        $dfd1dfb880a3f7093614df7cc6364a33 = (Invoke-RestMethod -Uri "$dce146e66b2e5c0e104729239cc1ae15/config/v1/MicrosoftTeams/$($c53cc331b8934004bd5807be1b2b345e)_1.0.0.0?environment=$Environment&teamsRing=$Ring&id=$ObjectId&tenantId=$TenantId&agent=TeamsBuilds").BuildSettings
+        $dfd1dfb880a3f7093614df7cc6364a33 = (Invoke-RestMethod -Uri "$dce146e66b2e5c0e104729239cc1ae15/config/v1/MicrosoftTeams/$($c53cc331b8934004bd5807be1b2b345e)_1.0.0.0?environment=$Environment&audienceGroup=$Ring&teamsRing=$Ring&id=$ObjectId&tenantId=$TenantId&agent=TeamsBuilds").BuildSettings
         if ($Version -eq "1.0") {
             if ($Type -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
