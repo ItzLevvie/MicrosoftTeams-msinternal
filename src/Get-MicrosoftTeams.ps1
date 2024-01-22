@@ -29,12 +29,12 @@ param (
     [string]
     $Type,
 
-    [Parameter()]
+    [Parameter(Mandatory = $false)]
     [ArgumentCompletions("3a7cf1d3-06fa-4ead-bf45-a6286ff2620a")]
     [string]
     $ObjectId,
 
-    [Parameter()]
+    [Parameter(Mandatory = $false)]
     [ArgumentCompletions("72f988bf-86f1-41af-91ab-2d7cd011db47")]
     [string]
     $TenantId
