@@ -1,12 +1,12 @@
 URLs for the latest Canary (R0) build of Microsoft Teams:
 
   Teams 1.0 — Microsoft Teams classic (work or school):
-  1.7.00.2454 (win-x64) - published on Wednesday, January 24, 2024 at 4:11 AM with 137 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.7.00.2454/Teams_windows_x64.exe
-  1.7.00.2454 (win-x64) - published on Wednesday, January 24, 2024 at 4:11 AM with 140 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.7.00.2454/Teams_windows_x64.msi
-  1.7.00.2454 (win-x86) - published on Wednesday, January 24, 2024 at 4:08 AM with 129 MB: https://staticsint.teams.cdn.office.net/production-windows/1.7.00.2454/Teams_windows.exe
-  1.7.00.2454 (win-x86) - published on Wednesday, January 24, 2024 at 4:08 AM with 131 MB: https://staticsint.teams.cdn.office.net/production-windows/1.7.00.2454/Teams_windows.msi
-  1.7.00.2454 (win-arm64) - published on Wednesday, January 24, 2024 at 4:13 AM with 130 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.7.00.2454/Teams_windows_arm64.exe
-  1.7.00.2454 (win-arm64) - published on Wednesday, January 24, 2024 at 4:13 AM with 132 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.7.00.2454/Teams_windows_arm64.msi
+  1.7.00.2404 (win-x64) - published on Wednesday, January 24, 2024 at 4:12 AM with 137 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.7.00.2404/Teams_windows_x64.exe
+  1.7.00.2404 (win-x64) - published on Wednesday, January 24, 2024 at 4:12 AM with 140 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/1.7.00.2404/Teams_windows_x64.msi
+  1.7.00.2404 (win-x86) - published on Wednesday, January 24, 2024 at 4:09 AM with 129 MB: https://staticsint.teams.cdn.office.net/production-windows/1.7.00.2404/Teams_windows.exe
+  1.7.00.2404 (win-x86) - published on Wednesday, January 24, 2024 at 4:09 AM with 131 MB: https://staticsint.teams.cdn.office.net/production-windows/1.7.00.2404/Teams_windows.msi
+  1.7.00.2404 (win-arm64) - published on Wednesday, January 24, 2024 at 4:15 AM with 130 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.7.00.2404/Teams_windows_arm64.exe
+  1.7.00.2404 (win-arm64) - published on Wednesday, January 24, 2024 at 4:15 AM with 132 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/1.7.00.2404/Teams_windows_arm64.msi
   1.7.00.2453 (osx-x64 + osx-arm64) - published on Wednesday, January 24, 2024 at 3:33 AM with 200 MB: https://staticsint.teams.cdn.office.net/production-osx/1.7.00.2453/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
@@ -20,7 +20,7 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
   24024.1000.2650.9878 (win-arm64) - published on Wednesday, January 24, 2024 at 9:25 AM with 112 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24024.1000.2650.9878/MSTeams-arm64.msix
   24024.800.2650.8606 (osx-x64 + osx-arm64) - published on Wednesday, January 24, 2024 at 9:22 AM with 294 MB: https://staticsint.teams.cdn.office.net/production-osx/24024.800.2650.8606/MicrosoftTeams.pkg
 
-  Microsoft Teams Rooms:
+  Teams 2.1 — Microsoft Teams Rooms:
   24024.1000.2650.9878 (win-x64) - published on Wednesday, January 24, 2024 at 9:23 AM with 117 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24024.1000.2650.9878/MSTeams-Rooms-x64.msix
   24024.1000.2650.9878 (win-x86) - published on Wednesday, January 24, 2024 at 9:24 AM with 111 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/24024.1000.2650.9878/MSTeams-Rooms-x86.msix
   24024.1000.2650.9878 (win-arm64) - published on Wednesday, January 24, 2024 at 9:25 AM with 111 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24024.1000.2650.9878/MSTeams-Rooms-arm64.msix
@@ -55,9 +55,9 @@ URLs for the latest Teams (R1) build of Microsoft Teams:
   1.7.00.1956 (osx-x64 + osx-arm64) - published on Friday, January 19, 2024 at 7:43 AM with 200 MB: https://staticsint.teams.cdn.office.net/production-osx/1.7.00.1956/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
-  24023.1900.2648.9677 (win-x64) - published on Tuesday, January 23, 2024 at 3:23 PM with 96 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24023.1900.2648.9677/MicrosoftTeams-x64.msix
-  24023.1900.2648.9677 (win-x86) - published on Tuesday, January 23, 2024 at 3:25 PM with 91 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/24023.1900.2648.9677/MicrosoftTeams-x86.msix
-  24023.1900.2648.9677 (win-arm64) - published on Tuesday, January 23, 2024 at 3:26 PM with 90 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24023.1900.2648.9677/MicrosoftTeams-arm64.msix
+  24024.800.2650.8603 (win-x64) - published on Wednesday, January 24, 2024 at 8:02 AM with 96 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24024.800.2650.8603/MicrosoftTeams-x64.msix
+  24024.800.2650.8603 (win-x86) - published on Wednesday, January 24, 2024 at 8:03 AM with 91 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/24024.800.2650.8603/MicrosoftTeams-x86.msix
+  24024.800.2650.8603 (win-arm64) - published on Wednesday, January 24, 2024 at 8:05 AM with 90 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24024.800.2650.8603/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams (work or school):
   24023.1900.2648.9677 (win-x64) - published on Tuesday, January 23, 2024 at 3:28 PM with 130 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24023.1900.2648.9677/MSTeams-x64.msix
@@ -65,7 +65,7 @@ URLs for the latest Teams (R1) build of Microsoft Teams:
   24023.1900.2648.9677 (win-arm64) - published on Tuesday, January 23, 2024 at 3:31 PM with 112 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24023.1900.2648.9677/MSTeams-arm64.msix
   24023.2000.2648.9680 (osx-x64 + osx-arm64) - published on Tuesday, January 23, 2024 at 4:01 PM with 292 MB: https://staticsint.teams.cdn.office.net/production-osx/24023.2000.2648.9680/MicrosoftTeams.pkg
 
-  Microsoft Teams Rooms:
+  Teams 2.1 — Microsoft Teams Rooms:
   24024.1000.2650.9878 (win-x64) - published on Wednesday, January 24, 2024 at 9:23 AM with 117 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24024.1000.2650.9878/MSTeams-Rooms-x64.msix
   24024.1000.2650.9878 (win-x86) - published on Wednesday, January 24, 2024 at 9:24 AM with 111 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/24024.1000.2650.9878/MSTeams-Rooms-x86.msix
   24024.1000.2650.9878 (win-arm64) - published on Wednesday, January 24, 2024 at 9:25 AM with 111 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24024.1000.2650.9878/MSTeams-Rooms-arm64.msix
@@ -83,9 +83,9 @@ URLs for the latest IT Admins Preview (R1.5 or BETA) build of Microsoft Teams:
   1.7.00.1956 (osx-x64 + osx-arm64) - published on Friday, January 19, 2024 at 8:24 AM with 200 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1956/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
-  24018.2902.2641.5130 (win-x64) - published on Friday, January 19, 2024 at 4:12 PM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24018.2902.2641.5130/MicrosoftTeams-x64.msix
-  24018.2902.2641.5130 (win-x86) - published on Friday, January 19, 2024 at 4:13 PM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24018.2902.2641.5130/MicrosoftTeams-x86.msix
-  24018.2902.2641.5130 (win-arm64) - published on Friday, January 19, 2024 at 4:13 PM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24018.2902.2641.5130/MicrosoftTeams-arm64.msix
+  24019.402.2641.4961 (win-x64) - published on Friday, January 19, 2024 at 10:45 AM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24019.402.2641.4961/MicrosoftTeams-x64.msix
+  24019.402.2641.4961 (win-x86) - published on Friday, January 19, 2024 at 10:46 AM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24019.402.2641.4961/MicrosoftTeams-x86.msix
+  24019.402.2641.4961 (win-arm64) - published on Friday, January 19, 2024 at 10:47 AM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24019.402.2641.4961/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams (work or school):
   24018.2902.2641.5130 (win-x64) - published on Friday, January 19, 2024 at 4:14 PM with 126 MB: https://statics.teams.cdn.office.net/production-windows-x64/24018.2902.2641.5130/MSTeams-x64.msix
@@ -106,9 +106,9 @@ URLs for the latest Developers Partners Preview (R1.6 or DP) build of Microsoft 
   1.7.00.1956 (osx-x64 + osx-arm64) - published on Friday, January 19, 2024 at 8:24 AM with 200 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1956/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
-  24018.2902.2641.5130 (win-x64) - published on Friday, January 19, 2024 at 4:12 PM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24018.2902.2641.5130/MicrosoftTeams-x64.msix
-  24018.2902.2641.5130 (win-x86) - published on Friday, January 19, 2024 at 4:13 PM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24018.2902.2641.5130/MicrosoftTeams-x86.msix
-  24018.2902.2641.5130 (win-arm64) - published on Friday, January 19, 2024 at 4:13 PM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24018.2902.2641.5130/MicrosoftTeams-arm64.msix
+  24019.402.2641.4961 (win-x64) - published on Friday, January 19, 2024 at 10:45 AM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24019.402.2641.4961/MicrosoftTeams-x64.msix
+  24019.402.2641.4961 (win-x86) - published on Friday, January 19, 2024 at 10:46 AM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24019.402.2641.4961/MicrosoftTeams-x86.msix
+  24019.402.2641.4961 (win-arm64) - published on Friday, January 19, 2024 at 10:47 AM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24019.402.2641.4961/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams (work or school):
   24018.2902.2641.5130 (win-x64) - published on Friday, January 19, 2024 at 4:14 PM with 126 MB: https://statics.teams.cdn.office.net/production-windows-x64/24018.2902.2641.5130/MSTeams-x64.msix
@@ -129,9 +129,9 @@ URLs for the latest Microsoft Dogfood (R2 or DF) build of Microsoft Teams:
   1.7.00.1956 (osx-x64 + osx-arm64) - published on Friday, January 19, 2024 at 8:24 AM with 200 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1956/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
-  24018.2902.2641.5130 (win-x64) - published on Friday, January 19, 2024 at 4:12 PM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24018.2902.2641.5130/MicrosoftTeams-x64.msix
-  24018.2902.2641.5130 (win-x86) - published on Friday, January 19, 2024 at 4:13 PM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24018.2902.2641.5130/MicrosoftTeams-x86.msix
-  24018.2902.2641.5130 (win-arm64) - published on Friday, January 19, 2024 at 4:13 PM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24018.2902.2641.5130/MicrosoftTeams-arm64.msix
+  24019.402.2641.4961 (win-x64) - published on Friday, January 19, 2024 at 10:45 AM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24019.402.2641.4961/MicrosoftTeams-x64.msix
+  24019.402.2641.4961 (win-x86) - published on Friday, January 19, 2024 at 10:46 AM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24019.402.2641.4961/MicrosoftTeams-x86.msix
+  24019.402.2641.4961 (win-arm64) - published on Friday, January 19, 2024 at 10:47 AM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24019.402.2641.4961/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams (work or school):
   24018.2902.2641.5130 (win-x64) - published on Friday, January 19, 2024 at 4:14 PM with 126 MB: https://statics.teams.cdn.office.net/production-windows-x64/24018.2902.2641.5130/MSTeams-x64.msix
@@ -143,23 +143,23 @@ URLs for the latest Microsoft Dogfood (R2 or DF) build of Microsoft Teams:
 URLs for the latest TAP/Beta Users (R3 or TAP) build of Microsoft Teams:
 
   Teams 1.0 — Microsoft Teams classic (work or school):
-  1.7.00.1814 (win-x64) - published on Thursday, January 18, 2024 at 4:02 PM with 137 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.1814/Teams_windows_x64.exe
-  1.7.00.1814 (win-x64) - published on Thursday, January 18, 2024 at 4:02 PM with 139 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.1814/Teams_windows_x64.msi
-  1.7.00.1814 (win-x86) - published on Thursday, January 18, 2024 at 3:59 PM with 128 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.1814/Teams_windows.exe
-  1.7.00.1814 (win-x86) - published on Thursday, January 18, 2024 at 3:59 PM with 131 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.1814/Teams_windows.msi
-  1.7.00.1814 (win-arm64) - published on Thursday, January 18, 2024 at 4:05 PM with 130 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.1814/Teams_windows_arm64.exe
-  1.7.00.1814 (win-arm64) - published on Thursday, January 18, 2024 at 4:05 PM with 132 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.1814/Teams_windows_arm64.msi
-  1.7.00.1859 (osx-x64 + osx-arm64) - published on Thursday, January 18, 2024 at 3:48 PM with 197 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1859/Teams_osx.pkg
+  1.7.00.2109 (win-x64) - published on Monday, January 22, 2024 at 2:32 AM with 137 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.2109/Teams_windows_x64.exe
+  1.7.00.2109 (win-x64) - published on Monday, January 22, 2024 at 2:32 AM with 139 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.2109/Teams_windows_x64.msi
+  1.7.00.2109 (win-x86) - published on Monday, January 22, 2024 at 2:30 AM with 129 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.2109/Teams_windows.exe
+  1.7.00.2109 (win-x86) - published on Monday, January 22, 2024 at 2:30 AM with 131 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.2109/Teams_windows.msi
+  1.7.00.2109 (win-arm64) - published on Monday, January 22, 2024 at 2:56 AM with 130 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.2109/Teams_windows_arm64.exe
+  1.7.00.2109 (win-arm64) - published on Monday, January 22, 2024 at 2:56 AM with 132 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.2109/Teams_windows_arm64.msi
+  1.7.00.1957 (osx-x64 + osx-arm64) - published on Friday, January 19, 2024 at 9:24 AM with 197 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1957/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
-  23335.232.2637.4844 (win-x64) - published on Thursday, January 18, 2024 at 3:46 AM with 88 MB: https://statics.teams.cdn.office.net/production-windows-x64/23335.232.2637.4844/MicrosoftTeams-x64.msix
-  23335.232.2637.4844 (win-x86) - published on Thursday, January 18, 2024 at 3:47 AM with 83 MB: https://statics.teams.cdn.office.net/production-windows-x86/23335.232.2637.4844/MicrosoftTeams-x86.msix
-  23335.232.2637.4844 (win-arm64) - published on Thursday, January 18, 2024 at 3:48 AM with 82 MB: https://statics.teams.cdn.office.net/production-windows-arm64/23335.232.2637.4844/MicrosoftTeams-arm64.msix
+  24019.402.2641.4961 (win-x64) - published on Friday, January 19, 2024 at 10:45 AM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24019.402.2641.4961/MicrosoftTeams-x64.msix
+  24019.402.2641.4961 (win-x86) - published on Friday, January 19, 2024 at 10:46 AM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24019.402.2641.4961/MicrosoftTeams-x86.msix
+  24019.402.2641.4961 (win-arm64) - published on Friday, January 19, 2024 at 10:47 AM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24019.402.2641.4961/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams (work or school):
-  23335.232.2637.4844 (win-x64) - published on Thursday, January 18, 2024 at 3:49 AM with 125 MB: https://statics.teams.cdn.office.net/production-windows-x64/23335.232.2637.4844/MSTeams-x64.msix
-  23335.232.2637.4844 (win-x86) - published on Thursday, January 18, 2024 at 3:49 AM with 114 MB: https://statics.teams.cdn.office.net/production-windows-x86/23335.232.2637.4844/MSTeams-x86.msix
-  23335.232.2637.4844 (win-arm64) - published on Thursday, January 18, 2024 at 3:50 AM with 106 MB: https://statics.teams.cdn.office.net/production-windows-arm64/23335.232.2637.4844/MSTeams-arm64.msix
+  24004.1304.2637.3318 (win-x64) - published on Thursday, January 18, 2024 at 8:51 PM with 125 MB: https://statics.teams.cdn.office.net/production-windows-x64/24004.1304.2637.3318/MSTeams-x64.msix
+  24004.1304.2637.3318 (win-x86) - published on Thursday, January 18, 2024 at 8:52 PM with 114 MB: https://statics.teams.cdn.office.net/production-windows-x86/24004.1304.2637.3318/MSTeams-x86.msix
+  24004.1304.2637.3318 (win-arm64) - published on Thursday, January 18, 2024 at 8:53 PM with 107 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24004.1304.2637.3318/MSTeams-arm64.msix
   24004.1303.2644.9093 (osx-x64 + osx-arm64) - published on Tuesday, January 23, 2024 at 11:09 AM with 297 MB: https://statics.teams.cdn.office.net/production-osx/24004.1303.2644.9093/MicrosoftTeams.pkg
 
 
@@ -175,9 +175,9 @@ URLs for the latest Early Access (R3.6 or EA) build of Microsoft Teams:
   1.7.00.1859 (osx-x64 + osx-arm64) - published on Thursday, January 18, 2024 at 3:48 PM with 197 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1859/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
-  23335.232.2637.4844 (win-x64) - published on Thursday, January 18, 2024 at 3:46 AM with 88 MB: https://statics.teams.cdn.office.net/production-windows-x64/23335.232.2637.4844/MicrosoftTeams-x64.msix
-  23335.232.2637.4844 (win-x86) - published on Thursday, January 18, 2024 at 3:47 AM with 83 MB: https://statics.teams.cdn.office.net/production-windows-x86/23335.232.2637.4844/MicrosoftTeams-x86.msix
-  23335.232.2637.4844 (win-arm64) - published on Thursday, January 18, 2024 at 3:48 AM with 82 MB: https://statics.teams.cdn.office.net/production-windows-arm64/23335.232.2637.4844/MicrosoftTeams-arm64.msix
+  24019.402.2641.4961 (win-x64) - published on Friday, January 19, 2024 at 10:45 AM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24019.402.2641.4961/MicrosoftTeams-x64.msix
+  24019.402.2641.4961 (win-x86) - published on Friday, January 19, 2024 at 10:46 AM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24019.402.2641.4961/MicrosoftTeams-x86.msix
+  24019.402.2641.4961 (win-arm64) - published on Friday, January 19, 2024 at 10:47 AM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24019.402.2641.4961/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams (work or school):
   23335.232.2637.4844 (win-x64) - published on Thursday, January 18, 2024 at 3:49 AM with 125 MB: https://statics.teams.cdn.office.net/production-windows-x64/23335.232.2637.4844/MSTeams-x64.msix
@@ -189,23 +189,23 @@ URLs for the latest Early Access (R3.6 or EA) build of Microsoft Teams:
 URLs for the latest Microsoft Outer Ring (R3.9 or MS) build of Microsoft Teams:
 
   Teams 1.0 — Microsoft Teams classic (work or school):
-  1.7.00.1814 (win-x64) - published on Thursday, January 18, 2024 at 4:02 PM with 137 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.1814/Teams_windows_x64.exe
-  1.7.00.1814 (win-x64) - published on Thursday, January 18, 2024 at 4:02 PM with 139 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.1814/Teams_windows_x64.msi
-  1.7.00.1814 (win-x86) - published on Thursday, January 18, 2024 at 3:59 PM with 128 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.1814/Teams_windows.exe
-  1.7.00.1814 (win-x86) - published on Thursday, January 18, 2024 at 3:59 PM with 131 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.1814/Teams_windows.msi
-  1.7.00.1814 (win-arm64) - published on Thursday, January 18, 2024 at 4:05 PM with 130 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.1814/Teams_windows_arm64.exe
-  1.7.00.1814 (win-arm64) - published on Thursday, January 18, 2024 at 4:05 PM with 132 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.1814/Teams_windows_arm64.msi
-  1.7.00.1859 (osx-x64 + osx-arm64) - published on Thursday, January 18, 2024 at 3:48 PM with 197 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1859/Teams_osx.pkg
+  1.7.00.2109 (win-x64) - published on Monday, January 22, 2024 at 2:32 AM with 137 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.2109/Teams_windows_x64.exe
+  1.7.00.2109 (win-x64) - published on Monday, January 22, 2024 at 2:32 AM with 139 MB: https://statics.teams.cdn.office.net/production-windows-x64/1.7.00.2109/Teams_windows_x64.msi
+  1.7.00.2109 (win-x86) - published on Monday, January 22, 2024 at 2:30 AM with 129 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.2109/Teams_windows.exe
+  1.7.00.2109 (win-x86) - published on Monday, January 22, 2024 at 2:30 AM with 131 MB: https://statics.teams.cdn.office.net/production-windows/1.7.00.2109/Teams_windows.msi
+  1.7.00.2109 (win-arm64) - published on Monday, January 22, 2024 at 2:56 AM with 130 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.2109/Teams_windows_arm64.exe
+  1.7.00.2109 (win-arm64) - published on Monday, January 22, 2024 at 2:56 AM with 132 MB: https://statics.teams.cdn.office.net/production-windows-arm64/1.7.00.2109/Teams_windows_arm64.msi
+  1.7.00.1957 (osx-x64 + osx-arm64) - published on Friday, January 19, 2024 at 9:24 AM with 197 MB: https://statics.teams.cdn.office.net/production-osx/1.7.00.1957/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (free):
-  23335.232.2637.4844 (win-x64) - published on Thursday, January 18, 2024 at 3:46 AM with 88 MB: https://statics.teams.cdn.office.net/production-windows-x64/23335.232.2637.4844/MicrosoftTeams-x64.msix
-  23335.232.2637.4844 (win-x86) - published on Thursday, January 18, 2024 at 3:47 AM with 83 MB: https://statics.teams.cdn.office.net/production-windows-x86/23335.232.2637.4844/MicrosoftTeams-x86.msix
-  23335.232.2637.4844 (win-arm64) - published on Thursday, January 18, 2024 at 3:48 AM with 82 MB: https://statics.teams.cdn.office.net/production-windows-arm64/23335.232.2637.4844/MicrosoftTeams-arm64.msix
+  24019.402.2641.4961 (win-x64) - published on Friday, January 19, 2024 at 10:45 AM with 96 MB: https://statics.teams.cdn.office.net/production-windows-x64/24019.402.2641.4961/MicrosoftTeams-x64.msix
+  24019.402.2641.4961 (win-x86) - published on Friday, January 19, 2024 at 10:46 AM with 91 MB: https://statics.teams.cdn.office.net/production-windows-x86/24019.402.2641.4961/MicrosoftTeams-x86.msix
+  24019.402.2641.4961 (win-arm64) - published on Friday, January 19, 2024 at 10:47 AM with 90 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24019.402.2641.4961/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams (work or school):
-  23335.232.2637.4844 (win-x64) - published on Thursday, January 18, 2024 at 3:49 AM with 125 MB: https://statics.teams.cdn.office.net/production-windows-x64/23335.232.2637.4844/MSTeams-x64.msix
-  23335.232.2637.4844 (win-x86) - published on Thursday, January 18, 2024 at 3:49 AM with 114 MB: https://statics.teams.cdn.office.net/production-windows-x86/23335.232.2637.4844/MSTeams-x86.msix
-  23335.232.2637.4844 (win-arm64) - published on Thursday, January 18, 2024 at 3:50 AM with 106 MB: https://statics.teams.cdn.office.net/production-windows-arm64/23335.232.2637.4844/MSTeams-arm64.msix
+  24004.1304.2637.3318 (win-x64) - published on Thursday, January 18, 2024 at 8:51 PM with 125 MB: https://statics.teams.cdn.office.net/production-windows-x64/24004.1304.2637.3318/MSTeams-x64.msix
+  24004.1304.2637.3318 (win-x86) - published on Thursday, January 18, 2024 at 8:52 PM with 114 MB: https://statics.teams.cdn.office.net/production-windows-x86/24004.1304.2637.3318/MSTeams-x86.msix
+  24004.1304.2637.3318 (win-arm64) - published on Thursday, January 18, 2024 at 8:53 PM with 107 MB: https://statics.teams.cdn.office.net/production-windows-arm64/24004.1304.2637.3318/MSTeams-arm64.msix
   24004.1303.2644.9093 (osx-x64 + osx-arm64) - published on Tuesday, January 23, 2024 at 11:09 AM with 297 MB: https://statics.teams.cdn.office.net/production-osx/24004.1303.2644.9093/MicrosoftTeams.pkg
 
 
