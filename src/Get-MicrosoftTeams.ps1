@@ -259,7 +259,7 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
 
             $2d12ae434d57fdb66f008265c8629877 = [string]$b0d2ed7ea6bb774a6b2c75f7f3a121eb.Headers["Last-Modified"]
             $5285c2f58cbd36531882b608e7e478e2 = [System.TimeZoneInfo]::ConvertTimeBySystemTimeZoneId((Get-Date -Date $2d12ae434d57fdb66f008265c8629877), "Pacific Standard Time")
-            $e1e240488e5eef1f776376b0ebf7609a = $5285c2f58cbd36531882b608e7e478e2.ToString("dddd") + ", " + $5285c2f58cbd36531882b608e7e478e2.ToString("MMMM d") + ", " + $5285c2f58cbd36531882b608e7e478e2.ToString("yyyy") + " at " + $5285c2f58cbd36531882b608e7e478e2.ToString("h:mm tt")
+            $e1e240488e5eef1f776376b0ebf7609a = (Get-Date -Date $5285c2f58cbd36531882b608e7e478e2 -Format "dddd, MMMM d, yyyy") + " at " + (Get-Date -Date $5285c2f58cbd36531882b608e7e478e2 -Format "h:mm tt")
 
             $abad549e7d030b408b70f72f08de798a = [string]$b0d2ed7ea6bb774a6b2c75f7f3a121eb.Headers["Content-Length"] / 1024 / 1024
             $e0167d390ca0b503d10f31ed2ded6eb4 = [System.Math]::Round($abad549e7d030b408b70f72f08de798a)
