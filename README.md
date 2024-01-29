@@ -27,8 +27,6 @@ Preview the latest development builds of Microsoft Teams.
 
 These builds may also contain newer versions of SlimCore.
 
----
-
 #### What are experimental builds?
 
 Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds.
@@ -43,8 +41,6 @@ These builds may also contain newer versions of SlimCore.
 #### What are Canary (R0) builds?
 
 Preview the latest development builds of Microsoft Teams.
-
----
 
 #### What are Canary SlimCore (R0s) builds?
 
