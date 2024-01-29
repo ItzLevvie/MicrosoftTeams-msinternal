@@ -38,6 +38,8 @@ This repository contains the source code for:
   ![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/342163d8-da9d-441b-b2c5-b927b0eaf196)
 </details>
 
+----
+
 ### Teams 2.0 — Microsoft Teams (free) & Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
 
 <details>
@@ -49,6 +51,8 @@ This repository contains the source code for:
   <summary>What are Canary SlimCore (R0s) builds?</summary>
   Preview the latest development builds of Microsoft Teams but with access to newer versions of SlimCore.
 </details>
+
+----
 
 ### How can I use this repository for my scripts?
 
@@ -80,6 +84,8 @@ Microsoft Teams uses its own Experimentation and Configuration Service (ECS) whi
 </details>
 
 Once you have built your own custom URL then you can use JSON to parse its data.
+
+----
 
 ### What are platform IDs?
 
