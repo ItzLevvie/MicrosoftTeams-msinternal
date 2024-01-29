@@ -5,7 +5,7 @@ This repository contains multiple files:
 * [defconfig2](defconfig2) which shows builds in all rings for Microsoft Teams (free), Microsoft Teams classic (work or school), Microsoft Teams (work or school), and Microsoft Teams Rooms.
 
 This repository contains the source code for:
-* [Get-MicrosoftTeams.ps1](src/Get-MicrosoftTeams.ps1) which allows you to fetch the latest builds.
+* [Get-MicrosoftTeams.ps1](src/Get-MicrosoftTeams.ps1) which allows you to fetch the latest builds in different environments, and rings.
 * [launch.ps1](tools/launch.ps1) which allows you to create your own `RELEASES` file.
 
 > [!IMPORTANT]
