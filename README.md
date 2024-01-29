@@ -3,11 +3,11 @@
 This repository contains various builds for Microsoft Teams.
 
 > [!IMPORTANT]
+> If you have any feedback related to Microsoft Teams (free) please submit them at [feedback portal for Microsoft Teams (work or school)](https://aka.ms/teamslifefeedback) <br>
 > If you have any feedback related to Microsoft Teams (work or school) please submit them at [feedback portal for Microsoft Teams (work or school)](https://aka.ms/teamsfeedback)
-> If you have any feedback related to Microsoft Teams (free) please submit them at [feedback portal for Microsoft Teams (work or school)](https://aka.ms/teamslifefeedback)
 
 > [!NOTE]
-> Installing these builds does not necessarily mean you will have access to new features.
+> Installing these builds does not necessarily mean you will have access to new features. <br>
 > For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
 
 ## Frequently Asked Questions (FAQ)
