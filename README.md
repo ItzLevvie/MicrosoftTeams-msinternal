@@ -32,6 +32,7 @@ This repository contains the source code for:
     Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds.
     These builds may also contain newer versions of SlimCore.
     `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
+    
     ![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/342163d8-da9d-441b-b2c5-b927b0eaf196)
 </details>
 
