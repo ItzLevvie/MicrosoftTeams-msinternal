@@ -41,7 +41,7 @@ Preview the latest development builds of Microsoft Teams but with access to newe
 
 ### Placeholder
 
-Microsoft Teams uses an Experimentation and Configuration Service (ECS) endpoint which contains experiments and configuration data for various rings.
+Microsoft Teams uses Experimentation and Configuration Service (ECS) which contains feature flags.
 
 Here are a few examples:
 | Domain | Experimentation and Configuration Service (ECS) |
