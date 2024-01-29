@@ -111,10 +111,10 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 
 ----
 
-### How to enable Developer Tools?
+### How can I enable Developer Tools?
 
 ```json
 {
-    "core/devMenuEnabled": true
+  "core/devMenuEnabled": true
 {
 ```
