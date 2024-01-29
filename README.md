@@ -21,20 +21,19 @@ This repository contains the source code for:
 
 ### Teams 1.0 — Microsoft Teams classic (work or school) built on Electron 19.1.8
 
-#### What are daily builds?
+<details>
+    <summary>What are daily builds?</summary>
+    Preview the latest development builds of Microsoft Teams.
+    These builds may also contain newer versions of SlimCore.
+</details>
 
-Preview the latest development builds of Microsoft Teams.
-
-These builds may also contain newer versions of SlimCore.
-
-#### What are experimental builds?
-
-Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds.
-
-These builds may also contain newer versions of SlimCore.
-
-`-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
-![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/342163d8-da9d-441b-b2c5-b927b0eaf196)
+<details>
+    <summary>What are experimental builds?</summary>
+    Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds.
+    These builds may also contain newer versions of SlimCore.
+    `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
+    ![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/342163d8-da9d-441b-b2c5-b927b0eaf196)
+</details>
 
 ### Teams 2.0 — Microsoft Teams (free) & Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
 
