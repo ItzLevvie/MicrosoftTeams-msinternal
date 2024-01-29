@@ -87,7 +87,7 @@ Once you have built your own custom URL then you can use JSON to parse its data.
 
 ----
 
-### What are platform IDs?
+### What are the different platform IDs?
 
 Microsoft Teams uses platform IDs to differentiate clients and platforms for telemetry and flighting.
 
