@@ -6,6 +6,7 @@ This repository contains multiple files:
 
 This repository contains the source code for:
 * [Get-MicrosoftTeams.ps1](src/Get-MicrosoftTeams.ps1) which allows the manual fetch of builds.
+* [launch.ps1](tools/launch.ps1) which allows you to reproduce the same results.
 
 > [!IMPORTANT]
 > If you have any feedback for Microsoft Teams (free), please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamslifeinternalfeedback).
