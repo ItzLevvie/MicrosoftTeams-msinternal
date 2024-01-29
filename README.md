@@ -4,8 +4,8 @@ This repository contains multiple files which includes various builds for Micros
 
 > [!IMPORTANT]
 > This repository is not the place to submit feedback related to Microsoft Teams. <br>
-> If you have any feedback related to `Microsoft Teams (free)`, please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback) or the [private feedback portal](https://aka.ms/teamslifeinternalfeedback) <br>
-> If you have any feedback related to `Microsoft Teams (work or school)`, please submit them to the [public feedback portal](https://aka.ms/teamsfeedback) or the [private feedback portal](https://aka.ms/teamsinternalfeedback)
+> If you have any feedback related to Microsoft Teams (free), please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback) or the [private feedback portal](https://aka.ms/teamslifeinternalfeedback) <br>
+> If you have any feedback related to Microsoft Teams (work or school), please submit them to our [public feedback portal](https://aka.ms/teamsfeedback) or the [private feedback portal](https://aka.ms/teamsinternalfeedback)
 
 > [!NOTE]
 > Installing these builds does not necessarily mean you will have access to new features.
