@@ -66,8 +66,8 @@ Here are a few examples:
 | `environment` | `dev`; `prod`; `life`; `gcchigh`; `dod`; `gallatin` |
 | `audienceGroup` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
 | `teamsRing` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc`  |
-| `id` | Your Object ID from Microsoft Entra ID. This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a`. |
-| `tenantId` | Your Tenant ID from Microsoft Entra ID. This repository uses `72f988bf-86f1-41af-91ab-2d7cd011db47` |
+| `id` | Your Object ID from Microsoft Entra ID. <br> <br> This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a`. |
+| `tenantId` | Your Tenant ID from Microsoft Entra ID. <br> <br> This repository uses `72f988bf-86f1-41af-91ab-2d7cd011db47` |
 | `agent` | `Segmentation`; `TeamsBuilds`; `TeamsNorthstar`; `TeamsWebview2` |
 
 Once you have built your own custom URL then you can use JSON to parse its data.
