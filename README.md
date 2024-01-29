@@ -59,7 +59,7 @@ This repository contains the source code for:
 Microsoft Teams uses Experimentation and Configuration Service (ECS) to receive the latest builds, experiments, feature flags, settings, and more.
 
 <details>
-  <summary>Here are a few examples</summary>
+  <summary>Here are a few examples:</summary>
 
   | Domain | Experimentation and Configuration Service (ECS) |
   | -------| ----------------- |
@@ -71,7 +71,7 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to receive 
 </details>
 
 <details>
-  <summary>Here are a few examples of these parameters</summary>
+  <summary>Here are a few examples of these parameters:</summary>
 
   | Parameter | Value |
   | --------- | ----- |
@@ -92,7 +92,7 @@ Once you have built your own custom URL then you can use JSON to parse its data.
 Microsoft Teams uses platform IDs to differentiate clients and platforms for telemetry and flighting.
 
 <details>
-  <summary>Here are a few examples</summary>
+  <summary>Here are a few examples:</summary>
 
   | Friendly Name | Platform ID |
   | ------------- | ----------- |
@@ -114,7 +114,7 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 ### How can I enable Developer Tools?
 
 <details>
-  <summary>Microsoft Teams (work or school)</summary>
+  <summary>Microsoft Teams (work or school):</summary>
 
   You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
