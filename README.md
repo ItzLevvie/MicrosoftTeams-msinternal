@@ -56,7 +56,7 @@ This repository contains the source code for:
 
 ### How can I use this repository for my scripts?
 
-Microsoft Teams uses Experimentation and Configuration Service (ECS) to receive the latest builds, experiments, feature flags, settings, and more.
+Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve the latest builds, experiments, feature flags, settings, and more.
 
 <details>
   <summary>Here are a few examples:</summary>
