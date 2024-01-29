@@ -38,13 +38,15 @@ This repository contains the source code for:
 
 ### Teams 2.0 — Microsoft Teams (free) & Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
 
-#### What are Canary (R0) builds?
+<details>
+  <summary>What are Canary (R0) builds?</summary>
+  Preview the latest development builds of Microsoft Teams.
+</details>
 
-Preview the latest development builds of Microsoft Teams.
-
-#### What are Canary SlimCore (R0s) builds?
-
-Preview the latest development builds of Microsoft Teams but with access to newer versions of SlimCore.
+<details>
+  <summary>What are Canary SlimCore (R0s) builds?</summary>
+  Preview the latest development builds of Microsoft Teams but with access to newer versions of SlimCore.
+</details>
 
 ### Placeholder
 
