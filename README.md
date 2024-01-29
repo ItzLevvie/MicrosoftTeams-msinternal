@@ -90,3 +90,4 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 | Microsoft Teams Rooms based on WebView2 (Windows) | 51 |
 | Microsoft Teams Web (Windows, macOS, and Linux) | 1415 |
 | Microsoft Teams (Android) | 1416 |
+| Microsoft Teams (iOS) | 1417 |
