@@ -117,5 +117,5 @@ You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Pac
 ```json
 {
   "core/devMenuEnabled": true
-{
+}
 ```
