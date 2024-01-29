@@ -16,6 +16,8 @@ These builds may also contain newer versions of SlimCore.
 > Installing these builds does not necessarily mean you will have access to new features.
 > For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
 
+---
+
 #### What are experimental builds?
 
 Preview the latest development builds of Microsoft Teams but with access to new ideas which may or may not ship into daily builds.
@@ -38,6 +40,8 @@ Preview the latest development builds of Microsoft Teams.
 > [!NOTE]
 > Installing these builds does not necessarily mean you will have access to new features.
 > For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
+
+---
 
 #### What are Canary SlimCore (R0s) builds?
 
