@@ -48,7 +48,7 @@ This repository contains the source code for:
   Preview the latest development builds of Microsoft Teams but with access to newer versions of SlimCore.
 </details>
 
-### Placeholder
+### How can I use this repository for my scripts?
 
 Microsoft Teams uses its own Experimentation and Configuration Service (ECS) which contains feature flags.
 
