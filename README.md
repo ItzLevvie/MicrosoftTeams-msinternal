@@ -4,7 +4,7 @@ This repository contains multiple files which includes various builds for Micros
 
 > [!IMPORTANT]
 > If you have any feedback for Microsoft Teams (free), please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamslifeinternalfeedback).
-> <br> <br>
+>
 > If you have any feedback for Microsoft Teams (work or school), please submit them to our [public feedback portal](https://aka.ms/teamsfeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamsinternalfeedback).
 
 > [!NOTE]
