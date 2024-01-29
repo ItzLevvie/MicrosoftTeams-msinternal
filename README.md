@@ -78,9 +78,11 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms.
 
 | Friendly Name | Platform ID |
 | ------------- | ----------- |
-| Microsoft Teams classic (Windows) | 27 |
-| Microsoft Teams classic (macOS) | 28 |
-| Microsoft Teams (free) | 48 |
-| Microsoft Teams (work or school) (Windows) | 49 |
-| Microsoft Teams (work or school) (macOS) | 50 |
-| Microsoft Teams Rooms (macOS) | 50 |
+| Microsoft Teams classic (work or school) based on Electron (Windows) | 27 |
+| Microsoft Teams classic (work or school) based on Electron (macOS) | 28 |
+| Microsoft Teams (free) based on WebView2 | 48 |
+| Microsoft Teams (work or school) based on WebView2 (Windows) | 49 |
+| Microsoft Teams (work or school) based on WebView2 (macOS) | 50 |
+| Microsoft Teams Rooms (macOS) based on WebView2| 50 |
+| Microsoft Teams Web | 1415 |
+| Microsoft Teams for Android | 1416 |
