@@ -71,3 +71,16 @@ Here are a few examples:
 | `agent` | `Segmentation`; `TeamsBuilds`; `TeamsNorthstar`; `TeamsWebview2` |
 
 Once you have built your own custom URL then you can use JSON to parse its data.
+
+### What are platform IDs?
+
+Microsoft Teams uses platform IDs to differentiate clients and platforms.
+
+| Friendly Name | Platform ID |
+| ------------- | ----------- |
+| Microsoft Teams classic (Windows) | 27 |
+| Microsoft Teams classic (macOS) | 28 |
+| Microsoft Teams (free) | 48 |
+| Microsoft Teams (work or school) (Windows) | 49 |
+| Microsoft Teams (work or school) (macOS) | 50 |
+| Microsoft Teams Rooms (macOS) | 50 |
