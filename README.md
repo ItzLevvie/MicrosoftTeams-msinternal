@@ -108,3 +108,13 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
   | Microsoft Teams (Android) | 1416 |
   | Microsoft Teams (iOS) | 1417 |
 </details>
+
+----
+
+### How to enable Developer Tools?
+
+```json
+{
+    "core/devMenuEnabled": true
+{
+```
