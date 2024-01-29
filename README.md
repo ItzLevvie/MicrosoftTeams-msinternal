@@ -1,6 +1,6 @@
 # Welcome to the build repository for Microsoft Teams
 
-This repository contains various builds for Microsoft Teams.
+This repository contains multiple files which includes various builds for Microsoft Teams.
 
 > [!IMPORTANT]
 > If you have any feedback related to Microsoft Teams (free), please submit them to the [feedback portal for Microsoft Teams (free)](https://aka.ms/teamslifefeedback) <br>
