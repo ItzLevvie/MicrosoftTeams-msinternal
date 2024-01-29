@@ -44,7 +44,7 @@ Preview the latest development builds of Microsoft Teams but with access to newe
 Microsoft Teams uses its own Experimentation and Configuration Service (ECS) which contains feature flags.
 
 Here are a few examples:
-| Domain | ECS |
+| Domain | Experimentation and Configuration Service (ECS) |
 | -------| ----------------- |
 | https://teams.live.com | https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
 | https://teams.microsoft.com <br> https://int.teams.microsoft.com | https://config.teams.microsoft.com/config/v1/MicrosoftTeams/49_1.0.0.0?environment=prod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
