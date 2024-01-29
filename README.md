@@ -1,8 +1,8 @@
 # Welcome to the build repository for Microsoft Teams
 
 This repository contains multiple files:
-* `defconfig` which shows all Microsoft Teams classic (work or school) builds
-* `defconfig2` which shows all Microsoft Teams (free), and Microsoft Teams classic (work or school) builds
+* `defconfig` which shows public builds, preview builds, experimental builds, and daily builds for Microsoft Teams classic (work or school).
+* `defconfig2` which shows builds in all rings for Microsoft Teams (free), and Microsoft Teams classic (work or school).
 
 This repository contains the source code for:
 * `src/Get-MicrosoftTeams.ps1` which allows the manual fetch of builds.
