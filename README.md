@@ -4,7 +4,7 @@ This repository contains various builds for Microsoft Teams.
 
 ## Frequently Asked Questions (FAQ)
 
-### Teams 1.0 — Electron
+### Teams 1.0 — Microsoft Teams classic (work or school) on Electron
 
 #### What are daily builds?
 
