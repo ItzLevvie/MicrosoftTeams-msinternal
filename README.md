@@ -71,7 +71,7 @@ Microsoft Teams uses its own Experimentation and Configuration Service (ECS) whi
 </details>
 
 <details>
-  <summary>Here are what each parameter means</summary>
+  <summary>Here are a few examples of these parameters</summary>
 
   | Parameter | Value |
   | --------- | ----- |
