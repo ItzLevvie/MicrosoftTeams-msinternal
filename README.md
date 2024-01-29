@@ -4,6 +4,9 @@ This repository contains multiple files:
 * `defconfig` which shows all Microsoft Teams classic (work or school) builds
 * `defconfig2` which shows all Microsoft Teams (free), and Microsoft Teams classic (work or school) builds
 
+This repository contains the source code for:
+* `src/Get-MicrosoftTeams.ps1` which allows the manual fetch of builds.
+
 > [!IMPORTANT]
 > If you have any feedback for Microsoft Teams (free), please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamslifeinternalfeedback).
 >
