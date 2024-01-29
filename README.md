@@ -116,7 +116,6 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
 ```json
 {
-  "core/devMenuEnabled": true,
-  "systemTray/enableSignout": true
+  "core/devMenuEnabled": true
 }
 ```
