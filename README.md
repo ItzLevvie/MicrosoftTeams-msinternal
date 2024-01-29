@@ -2,6 +2,10 @@
 
 This repository contains various builds for Microsoft Teams.
 
+> [!NOTE]
+> Installing these builds does not necessarily mean you will have access to new features.
+> For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
+
 ## Frequently Asked Questions (FAQ)
 
 ### Teams 1.0 — Microsoft Teams classic (work or school) built on Electron 19.1.8
@@ -11,10 +15,6 @@ This repository contains various builds for Microsoft Teams.
 Preview the latest development builds of Microsoft Teams.
 
 These builds may also contain newer versions of SlimCore.
-
-> [!NOTE]
-> Installing these builds does not necessarily mean you will have access to new features.
-> For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
 
 ---
 
@@ -27,29 +27,17 @@ These builds may also contain newer versions of SlimCore.
 `-E` will be displayed in the three-dot menu (`...`) > `About` > `Version`:
 ![image](https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/342163d8-da9d-441b-b2c5-b927b0eaf196)
 
-> [!NOTE]
-> Installing these builds does not necessarily mean you will have access to new features.
-> For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
-
 ### Teams 2.0 — Microsoft Teams (free) & Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
 
 #### What are Canary (R0) builds?
 
 Preview the latest development builds of Microsoft Teams.
 
-> [!NOTE]
-> Installing these builds does not necessarily mean you will have access to new features.
-> For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
-
 ---
 
 #### What are Canary SlimCore (R0s) builds?
 
 Preview the latest development builds of Microsoft Teams but with access to newer versions of SlimCore.
-
-> [!NOTE]
-> Installing these builds does not necessarily mean you will have access to new features.
-> For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
 
 ### Placeholder
 
