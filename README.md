@@ -31,8 +31,7 @@ These builds may also contain newer versions of SlimCore.
 > Installing these builds does not necessarily mean you will have access to new features.
 > For more information, please visit [this blog post](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-release-processes-why-do-i-not-see-a-feature-but/ba-p/2110426).
 
-### Teams 2.0 — Microsoft Teams (free) built on Microsoft Edge WebView2
-### Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
+### Teams 2.0 — Microsoft Teams (free) & Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
 
 #### What are Canary (R0) builds?
 
