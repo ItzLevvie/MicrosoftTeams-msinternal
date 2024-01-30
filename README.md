@@ -107,6 +107,7 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
   | Microsoft Teams Web (Windows, macOS, and Linux) | 1415 |
   | Microsoft Teams (Android) | 1416 |
   | Microsoft Teams (iOS) | 1417 |
+  | Microsoft Teams Rooms (Android) | 1449 |
 </details>
 
 ----
