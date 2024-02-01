@@ -22,7 +22,6 @@ jobs:
           .\launch.ps1 > ..\defconfig2
 
       - run: |
-          git pull
           git add defconfig2
           git commit --message "Update to the latest Microsoft Teams builds"
           git push
