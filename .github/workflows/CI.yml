@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  build:
+    runs-on: windows-2022
+
+    steps:
+      - uses: actions/checkout@v4.1.1
+
+      - run: |
+          git config --local core.autocrlf true
+          git config --local user.name "Microsoft GitHub User"
+          git config --local user.email msftgits@microsoft.com
+
+      - run: |
+          cd .\tools
+          .\launch.ps1 > ..\defconfig2
+
+      - run: |
+          git pull
+          git add defconfig2
+          git commit --message "Update to the latest Microsoft Teams builds"
+          git push
