@@ -40,7 +40,8 @@ This repository contains the source code for:
 
 ----
 
-### Teams 2.0 - Microsoft Teams (free) & Teams 2.1 - Microsoft Teams (work or school) built on Microsoft Edge WebView2
+### Teams 2.0 - Microsoft Teams (free)
+### Teams 2.1 - Microsoft Teams (work or school) built on Microsoft Edge WebView2
 
 <details>
   <summary>What are Canary (R0) builds?</summary>
