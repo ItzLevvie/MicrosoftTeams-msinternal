@@ -21,7 +21,7 @@ This repository contains the source code for:
 
 ## Frequently Asked Questions (FAQ)
 
-### Teams 1.0 — Microsoft Teams classic built on Electron 19.1.8
+### Teams 1.0 - Microsoft Teams classic built on Electron 19.1.8
 
 <details>
   <summary>What are daily builds?</summary>
@@ -40,7 +40,7 @@ This repository contains the source code for:
 
 ----
 
-### Teams 2.0 — Microsoft Teams (free) & Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
+### Teams 2.0 - Microsoft Teams (free) & Teams 2.1 - Microsoft Teams (work or school) built on Microsoft Edge WebView2
 
 <details>
   <summary>What are Canary (R0) builds?</summary>
