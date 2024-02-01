@@ -84,8 +84,6 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
   | `agent` | `Segmentation`; `TeamsBuilds`; `TeamsNorthstar`; `TeamsWebview2` |
 </details>
 
-Once you have built your own custom URL then you can use JSON to parse its data.
-
 ----
 
 ### What are the different platform IDs?
