@@ -94,20 +94,20 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 <details>
   <summary>Here are a few examples:</summary>
 
-  | Friendly Name | Platform ID |
+  | Platform ID | Friendly Name |
   | ------------- | ----------- |
-  | Microsoft Teams classic based on Electron (Windows) | 27 |
-  | Microsoft Teams classic based on Electron (macOS) | 28 |
-  | Microsoft Teams Rooms based on Electron (Windows) | 34 |
-  | Microsoft Teams classic based on Electron (Linux) | 41 |
-  | Microsoft Teams (free) based on WebView2 (Windows) | 48 |
-  | Microsoft Teams based on WebView2 (Windows) | 49 |
-  | Microsoft Teams based on WebView2 (macOS) | 50 |
-  | Microsoft Teams Rooms based on WebView2 (Windows) | 51 |
-  | Microsoft Teams Web (Windows, macOS, and Linux) | 1415 |
-  | Microsoft Teams (Android) | 1416 |
-  | Microsoft Teams (iOS) | 1417 |
-  | Microsoft Teams Rooms (Android) | 1449 |
+  | 27 | Microsoft Teams classic based on Electron (Windows) |
+  | 28 | Microsoft Teams classic based on Electron (macOS) |
+  | 34 | Microsoft Teams Rooms based on Electron (Windows)|
+  | 41 | Microsoft Teams classic based on Electron (Linux) |
+  | 48 | Microsoft Teams (free) based on WebView2 (Windows)|
+  | 49 | Microsoft Teams based on WebView2 (Windows)|
+  | 50 | Microsoft Teams based on WebView2 (macOS) |
+  | 51 | Microsoft Teams Rooms based on WebView2 (Windows) |
+  | 1415 | Microsoft Teams Web (Windows, macOS, and Linux) |
+  | 1416 | Microsoft Teams (Android) |
+  | 1417 | Microsoft Teams (iOS) |
+  | 1449 | Microsoft Teams Rooms (Android) |
 </details>
 
 ----
