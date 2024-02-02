@@ -98,10 +98,10 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
   | ------------- | ----------- |
   | 27 | Microsoft Teams classic based on Electron (Windows) |
   | 28 | Microsoft Teams classic based on Electron (macOS) |
-  | 34 | Microsoft Teams Rooms based on Electron (Windows)|
+  | 34 | Microsoft Teams Rooms based on Electron (Windows) |
   | 41 | Microsoft Teams classic based on Electron (Linux) |
-  | 48 | Microsoft Teams (free) based on WebView2 (Windows)|
-  | 49 | Microsoft Teams based on WebView2 (Windows)|
+  | 48 | Microsoft Teams (free) based on WebView2 (Windows) |
+  | 49 | Microsoft Teams based on WebView2 (Windows) |
   | 50 | Microsoft Teams based on WebView2 (macOS) |
   | 51 | Microsoft Teams Rooms based on WebView2 (Windows) |
   | 1415 | Microsoft Teams Web (Windows, macOS, and Linux) |
