@@ -3,8 +3,8 @@
 # Welcome to the build repository for Microsoft Teams
 
 This repository contains multiple files:
-* [defconfig](defconfig) which shows public builds, preview builds, experimental builds, and daily builds for Microsoft Teams classic.
-* [defconfig2](defconfig2) which shows builds in all rings for Microsoft Teams (free), Microsoft Teams classic, Microsoft Teams (work or school), and Microsoft Teams Rooms.
+* [defconfig](defconfig) which shows public builds, preview builds, experimental builds, and daily builds for Microsoft Teams classic (work or school).
+* [defconfig2](defconfig2) which shows builds in all rings for Microsoft Teams (free), Microsoft Teams classic (work or school), Microsoft Teams (work or school), and Microsoft Teams Rooms.
 
 This repository contains the source code for:
 * [Get-MicrosoftTeams.ps1](src/Get-MicrosoftTeams.ps1) which allows you to fetch the latest builds in different environments, and different rings.
@@ -21,7 +21,7 @@ This repository contains the source code for:
 
 ## Frequently Asked Questions (FAQ)
 
-### Teams 1.0 — Microsoft Teams classic built on Electron 19.1.8
+### Teams 1.0 — Microsoft Teams classic (work or school) built on Electron 19.1.8
 
 <details>
   <summary>What are daily builds?</summary>
@@ -65,7 +65,7 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
   | Domain | Experimentation and Configuration Service (ECS) |
   | -------| ----------------- |
   | https://teams.live.com | https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
-  | https://teams.microsoft.com <br> <br> https://int.teams.microsoft.com | https://config.teams.microsoft.com/config/v1/MicrosoftTeams/49_1.0.0.0?environment=prod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
+  | https://teams.microsoft.com <br> <br> https://int.teams.microsoft.com <br> <br> https://devspaces.skype.com | https://config.teams.microsoft.com/config/v1/MicrosoftTeams/49_1.0.0.0?environment=prod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
   | https://gov.teams.microsoft.us | https://config.ecs.gov.teams.microsoft.us/config/v1/MicrosoftTeams/49_1.0.0.0?environment=gcchigh&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
   | https://dod.teams.microsoft.us | https://config.ecs.dod.teams.microsoft.us/config/v1/MicrosoftTeams/49_1.0.0.0?environment=dod&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
   | https://teams.microsoftonline.cn | https://mooncake.config.teams.microsoft.com/config/v1/MicrosoftTeams/49_1.0.0.0?environment=gallatin&audienceGroup=general&teamsRing=general&agent=TeamsBuilds |
