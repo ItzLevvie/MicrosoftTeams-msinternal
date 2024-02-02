@@ -42,6 +42,7 @@ This repository contains the source code for:
 
 ### Teams 2.0 — Microsoft Teams (free) built on Microsoft Edge WebView2
 ### Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
+### Teams 2.1 — Microsoft Teams Rooms built on Microsoft Edge WebView2
 
 <details>
   <summary>What are Canary (R0) builds?</summary>
@@ -88,25 +89,25 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
 
 ### What are the different platform IDs?
 
-Microsoft Teams uses platform IDs to differentiate clients and platforms for telemetry and flighting.
+Microsoft Teams uses platform IDs to differentiate different platforms for flighting, telemetry, and more.
 
 <details>
   <summary>Here are a few examples:</summary>
 
-  | Friendly Name | Platform ID |
+  | Platform ID | Friendly Name |
   | ------------- | ----------- |
-  | Microsoft Teams classic based on Electron (Windows) | 27 |
-  | Microsoft Teams classic based on Electron (macOS) | 28 |
-  | Microsoft Teams Rooms based on Electron (Windows) | 34 |
-  | Microsoft Teams classic based on Electron (Linux) | 41 |
-  | Microsoft Teams (free) based on WebView2 (Windows) | 48 |
-  | Microsoft Teams based on WebView2 (Windows) | 49 |
-  | Microsoft Teams based on WebView2 (macOS) | 50 |
-  | Microsoft Teams Rooms based on WebView2 (Windows) | 51 |
-  | Microsoft Teams Web (Windows, macOS, and Linux) | 1415 |
-  | Microsoft Teams (Android) | 1416 |
-  | Microsoft Teams (iOS) | 1417 |
-  | Microsoft Teams Rooms (Android) | 1449 |
+  | 27 | Microsoft Teams classic based on Electron (Windows) |
+  | 28 | Microsoft Teams classic based on Electron (macOS) |
+  | 34 | Microsoft Teams Rooms based on Electron (Windows) |
+  | 41 | Microsoft Teams classic based on Electron (Linux) |
+  | 48 | Microsoft Teams (free) based on WebView2 (Windows) |
+  | 49 | Microsoft Teams based on WebView2 (Windows) |
+  | 50 | Microsoft Teams based on WebView2 (macOS) |
+  | 51 | Microsoft Teams Rooms based on WebView2 (Windows) |
+  | 1415 | Microsoft Teams Web (Windows, macOS, and Linux) |
+  | 1416 | Microsoft Teams (Android) |
+  | 1417 | Microsoft Teams (iOS) |
+  | 1449 | Microsoft Teams Rooms (Android) |
 </details>
 
 ----
@@ -114,7 +115,7 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 ### How can I enable Developer Tools?
 
 <details>
-  <summary>Microsoft Teams (free):</summary>
+  <summary>Teams 2.0 — Microsoft Teams (free):</summary>
 
   You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MicrosoftTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
@@ -125,9 +126,20 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 </details>
 
 <details>
-  <summary>Microsoft Teams (work or school):</summary>
+  <summary>Teams 2.1 — Microsoft Teams (work or school):</summary>
 
   You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
+  ```json
+  {
+    "core/devMenuEnabled": true
+  }
+  ```
+</details>
+
+<details>
+  <summary>Teams 2.1 — Microsoft Teams Rooms:</summary>
+
+  You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
   {
     "core/devMenuEnabled": true
