@@ -114,6 +114,17 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 ### How can I enable Developer Tools?
 
 <details>
+  <summary>Microsoft Teams (free):</summary>
+
+  You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MicrosoftTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
+  ```json
+  {
+    "core/devMenuEnabled": true
+  }
+  ```
+</details>
+
+<details>
   <summary>Microsoft Teams (work or school):</summary>
 
   You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
