@@ -115,7 +115,7 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 ### How can I enable Developer Tools?
 
 <details>
-  <summary>Microsoft Teams (free):</summary>
+  <summary>Teams 2.0 — Microsoft Teams (free):</summary>
 
   You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MicrosoftTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
@@ -126,7 +126,7 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 </details>
 
 <details>
-  <summary>Microsoft Teams (work or school):</summary>
+  <summary>Teams 2.1 — Microsoft Teams (work or school):</summary>
 
   You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
@@ -137,7 +137,7 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
 </details>
 
 <details>
-  <summary>Microsoft Teams Rooms:</summary>
+  <summary>Teams 2.1 — Microsoft Teams Rooms:</summary>
 
   You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
