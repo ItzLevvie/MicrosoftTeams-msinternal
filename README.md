@@ -135,3 +135,14 @@ Microsoft Teams uses platform IDs to differentiate clients and platforms for tel
   }
   ```
 </details>
+
+<details>
+  <summary>Microsoft Teams Rooms:</summary>
+
+  You will have to create a file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeamsRooms_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
+  ```json
+  {
+    "core/devMenuEnabled": true
+  }
+  ```
+</details>
