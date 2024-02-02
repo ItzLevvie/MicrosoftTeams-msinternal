@@ -87,9 +87,9 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
 
 ----
 
-### What are the different platform identifiers (IDs)?
+### What are the different platform IDs?
 
-Microsoft Teams uses platform identifiers (IDs) to differentiate clients and platforms for telemetry and flighting.
+Microsoft Teams uses platform IDs to differentiate clients and platforms for telemetry and flighting.
 
 <details>
   <summary>Here are a few examples:</summary>
