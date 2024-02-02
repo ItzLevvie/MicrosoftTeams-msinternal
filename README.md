@@ -1,4 +1,4 @@
-<img src="https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/2bd26b90-b179-43a4-98eb-962c9e35e9c4" width="256" height="256">
+<img src="https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/5fa0c07f-f495-4441-979c-336e13c4cc3b" width="256" height="256">
 
 # Welcome to the build repository for Microsoft Teams
 
@@ -99,6 +99,8 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
   | 27 | Microsoft Teams classic based on Electron (Windows) |
   | 28 | Microsoft Teams classic based on Electron (macOS) |
   | 34 | Microsoft Teams Rooms based on Electron (Windows) |
+  | 35 | Microsoft Teams for Surface Hub based on Electron (Windows) |
+  | 38 | Microsoft Teams for Surface Hub 2 based on Electron (Windows) |
   | 41 | Microsoft Teams classic based on Electron (Linux) |
   | 48 | Microsoft Teams (free) based on WebView2 (Windows) |
   | 49 | Microsoft Teams based on WebView2 (Windows) |
