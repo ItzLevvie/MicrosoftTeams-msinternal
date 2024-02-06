@@ -1,9 +1,9 @@
-<img src="https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/5fa0c07f-f495-4441-979c-336e13c4cc3b" width="256" height="256">
+<img src="https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/28e6240c-fc9d-4add-a479-6ef433f47396" width="256" height="256">
 
 # Welcome to the build repository for Microsoft Teams
 
 This repository contains multiple files:
-* [defconfig](defconfig) which shows public builds, preview builds, experimental builds, and daily builds for Microsoft Teams classic (work or school).
+* [defconfig](defconfig) which shows daily builds, experimental builds, preview builds, and public builds for Microsoft Teams classic (work or school).
 * [defconfig2](defconfig2) which shows builds in all rings for Microsoft Teams (free), Microsoft Teams classic (work or school), Microsoft Teams (work or school), and Microsoft Teams Rooms.
 
 This repository contains the source code for:
@@ -77,10 +77,14 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
 
   | Parameter | Value |
   | --------- | ----- |
-  | `environment` | `dev`; `prod`; `life`; `gcchigh`; `dod`; `gallatin` |
+  | `environment` | `dev`; `prod`; `life`; `gcc`; `gcchigh`; `dod`; `gallatin` |
   | `audienceGroup` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
-  | `teamsRing` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc`  |
+  | `teamsRing` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
+  | `experience` | `cdl-worker`; `react-web-client`; `meeting-room` |
+  | `buildType` | `production`; `container`; `local` |
+  | `osPlatform` | `windows`; `mac`; `linux` |
   | `id` | Your Object ID from Microsoft Entra ID. <br> <br> This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a` |
+  | `aaduserid` | Your Object ID from Microsoft Entra ID. <br> <br> This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a` |
   | `tenantId` | Your Tenant ID from Microsoft Entra ID. <br> <br> This repository uses `72f988bf-86f1-41af-91ab-2d7cd011db47` |
   | `agent` | `Segmentation`; `TeamsBuilds`; `TeamsNorthstar`; `TeamsWebview2` |
 </details>
