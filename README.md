@@ -77,7 +77,7 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
 
   | Parameter | Value |
   | --------- | ----- |
-  | `environment` | `dev`; `prod`; `life`; `gcchigh`; `dod`; `gallatin` |
+  | `environment` | `dev`; `prod`; `life`; `gcc`; `gcchigh`; `dod`; `gallatin` |
   | `audienceGroup` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
   | `teamsRing` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
   | `experience` | `cdl-worker`; `react-web-client`; `meeting-room` |
