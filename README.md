@@ -1,4 +1,4 @@
-<img src="https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/bb915c0a-b8d1-4a38-a774-470c184d30d8" width="256" height="256">
+<img src="https://github.com/ItzLevvie/MicrosoftTeams-msinternal/assets/11600822/28e6240c-fc9d-4add-a479-6ef433f47396" width="256" height="256">
 
 # Welcome to the build repository for Microsoft Teams
 
