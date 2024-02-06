@@ -226,8 +226,6 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.windows64.latestVersion
                 }
-            }
-            if ($Client -eq "Desktop") {
                 if ($Platform -eq "osx-x64 + osx-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.Desktop.osx.latestVersion
                 }
@@ -245,8 +243,6 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.x64.latestVersion
                 }
-            }
-            if ($Client -eq "Desktop") {
                 if ($Platform -eq "osx-x64 + osx-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2Canary.macOS.latestVersion
                 }
