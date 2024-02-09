@@ -21,7 +21,7 @@ This repository contains the source code for:
 
 ## Frequently Asked Questions (FAQ)
 
-### Teams 1.0 — Microsoft Teams classic built on Electron 19.1.8
+### Teams 1.0 — Microsoft Teams classic based on Electron 19.1.8
 
 <details>
   <summary>What are daily builds?</summary>
@@ -40,9 +40,9 @@ This repository contains the source code for:
 
 ----
 
-### Teams 2.0 — Microsoft Teams (free) built on Microsoft Edge WebView2
-### Teams 2.1 — Microsoft Teams (work or school) built on Microsoft Edge WebView2
-### Teams 2.1 — Microsoft Teams Rooms built on Microsoft Edge WebView2
+### Teams 2.0 — Microsoft Teams (free) based on Microsoft Edge WebView2
+### Teams 2.1 — Microsoft Teams (work or school) based on Microsoft Edge WebView2
+### Teams 2.1 — Microsoft Teams Rooms based on Microsoft Edge WebView2
 
 <details>
   <summary>What are Canary (R0) builds?</summary>
@@ -103,13 +103,13 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
   | 27 | Microsoft Teams classic based on Electron (Windows) |
   | 28 | Microsoft Teams classic based on Electron (macOS) |
   | 34 | Microsoft Teams Rooms based on Electron (Windows) |
-  | 35 | Microsoft Teams for Surface Hub based on Electron (Windows) |
-  | 38 | Microsoft Teams for Surface Hub 2 based on Electron (Windows) |
+  | 35 | Microsoft Teams classic for Surface Hub based on Electron (Windows) |
+  | 38 | Microsoft Teams classic for Surface Hub 2 based on Electron (Windows) |
   | 41 | Microsoft Teams classic based on Electron (Linux) |
-  | 48 | Microsoft Teams (free) based on WebView2 (Windows) |
-  | 49 | Microsoft Teams based on WebView2 (Windows) |
-  | 50 | Microsoft Teams based on WebView2 (macOS) |
-  | 51 | Microsoft Teams Rooms based on WebView2 (Windows) |
+  | 48 | Microsoft Teams (free) based on Microsoft Edge WebView2 (Windows) |
+  | 49 | Microsoft Teams based on Microsoft Edge WebView2 (Windows) |
+  | 50 | Microsoft Teams based on Microsoft Edge WebView2 (macOS) |
+  | 51 | Microsoft Teams Rooms based on Microsoft Edge WebView2 (Windows) |
   | 1415 | Microsoft Teams Web (Windows, macOS, and Linux) |
   | 1416 | Microsoft Teams (Android) |
   | 1417 | Microsoft Teams (iOS) |
