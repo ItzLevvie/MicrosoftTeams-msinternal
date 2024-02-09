@@ -114,7 +114,7 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
   | 1416 | Microsoft Teams (Android) |
   | 1417 | Microsoft Teams (iOS) |
   | 1449 | Microsoft Teams Rooms (Android) |
-  | 1454 | Microsoft Teams PWA |
+  | 1454 | Microsoft Teams PWA (Linux) |
 </details>
 
 ----
