@@ -80,7 +80,7 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
   | `environment` | `dev`; `prod`; `life`; `gcc`; `gcchigh`; `dod`; `gallatin`; `ag08`; `ag09` |
   | `audienceGroup` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
   | `teamsRing` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
-  | `experience` | `cdl-worker`; `react-web-client`; `meeting-room` |
+  | `experience` | `cdl-worker`; `react-web-client`; `multi-window`; `meeting-room` |
   | `buildType` | `production`; `container`; `local` |
   | `osPlatform` | `windows`; `mac`; `linux`; `chromeos` |
   | `id` | Your Object ID from Microsoft Entra ID. <br> <br> This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a` |
@@ -114,6 +114,7 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
   | 1416 | Microsoft Teams (Android) |
   | 1417 | Microsoft Teams (iOS) |
   | 1449 | Microsoft Teams Rooms (Android) |
+  | 1454 | Microsoft Teams PWA |
 </details>
 
 ----
