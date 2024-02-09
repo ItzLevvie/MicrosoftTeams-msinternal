@@ -107,8 +107,8 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
   | 38 | Microsoft Teams classic for Surface Hub 2 based on Electron (Windows) |
   | 41 | Microsoft Teams classic based on Electron (Linux) |
   | 48 | Microsoft Teams (free) based on Microsoft Edge WebView2 (Windows) |
-  | 49 | Microsoft Teams based on Microsoft Edge WebView2 (Windows) |
-  | 50 | Microsoft Teams based on Microsoft Edge WebView2 (macOS) |
+  | 49 | Microsoft Teams (work or school) based on Microsoft Edge WebView2 (Windows) |
+  | 50 | Microsoft Teams (work or school) based on Microsoft Edge WebView2 (macOS) |
   | 51 | Microsoft Teams Rooms based on Microsoft Edge WebView2 (Windows) |
   | 1415 | Microsoft Teams Web (Windows, macOS, and Linux) |
   | 1416 | Microsoft Teams (Android) |
