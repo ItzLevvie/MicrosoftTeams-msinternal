@@ -102,7 +102,7 @@ We use the `YYDDD.XXXX.XXXX.XXXX` version format for Teams 2.0 and Teams 2.1.
 
 ### What does client version 49/24021000300 mean?
 
-We use the `XXXX/YYMMDDXXXXX` version format for React Web Client (RWC) which is what powers the backend for Teams 2.0 and Teams 2.1.
+We use the `XXXX/YYMMDDXXXXX` version format for React Web Client (RWC).
 
 <details>
   <summary>Here is an example:</summary>
