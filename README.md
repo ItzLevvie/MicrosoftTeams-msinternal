@@ -73,6 +73,7 @@ We use the `1.X.00.DDDXX` version format for Teams 1.0.
   - `Experimental (E)`
 
   Any build version ending from `1` to `49` is a daily `Experimental (E)` build.
+  
   Any build version ending with `51` to `99` is a daily `Stable (S)` build.
 </details>
 
