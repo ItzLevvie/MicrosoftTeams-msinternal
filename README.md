@@ -108,7 +108,8 @@ We use the `XXXX/YYMMDDXXXXX` version format for React Web Client (RWC).
   <summary>Here is an example:</summary>
 
   Client version `49/24021000300` is broken down into the following:
-  - `49` (XXXX) is the platform ID. Please see [What are the different platform IDs?](#what-are-the-different-platform-ids) for more information.
+  - `49` (XXXX) is the platform ID.
+    - Please see [What are the different platform IDs?](#what-are-the-different-platform-ids) for more information.
   - `24` (YY) is the year of the build.
   - `02` (MM) is the month of the build.
   - `10` (DD) is the day of the build.
