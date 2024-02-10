@@ -20,7 +20,7 @@ param (
     $Version,
 
     [Parameter(Mandatory = $true)]
-    [ValidateSet("Desktop", "Rooms", IgnoreCase = $false)]
+    [ValidateSet("Desktop", "Rooms", "Xbox", IgnoreCase = $false)]
     [string]
     $Client,
 
@@ -173,6 +173,18 @@ elseif ($Version -eq "2.0") {
             $c53cc331b8934004bd5807be1b2b345e = "48"
         }
     }
+    if ($Client -eq "Xbox") {
+        if ($Platform -eq "win-x64") {
+            $bd3078f40b0117196fdb4853563084e9 = "production-windows-xbox-x64"
+            $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeamsPlayTogether_x64.msixbundle"
+            $c53cc331b8934004bd5807be1b2b345e = "48"
+        }
+        if ($Platform -eq "win-x86") {
+            $bd3078f40b0117196fdb4853563084e9 = "production-windows-xbox-x86"
+            $e7782dde7d9e6e4f63894a63138afbb9 = "MSTeamsPlayTogether_x86.msixbundle"
+            $c53cc331b8934004bd5807be1b2b345e = "48"
+        }
+    }
 }
 elseif ($Version -eq "2.1") {
     if ($Client -eq "Desktop") {
@@ -217,6 +229,14 @@ elseif ($Version -eq "2.1") {
 }
 
 #
+if ($Client -eq "Xbox") {
+    $e783048973935431707b367c535d6ea4 = "https://statics.teams.cdn.office.net"
+}
+if ($Client -eq "Xbox" -and $Ring -eq "ring0_s") {
+    $Ring = "ring0"
+}
+
+#
 $e49bb609ef26353d2c308ca6beb0de8f = 0
 while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
     try {
@@ -235,6 +255,11 @@ while ($e49bb609ef26353d2c308ca6beb0de8f -le 32) {
             if ($Client -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.WebView2.x64.latestVersion
+                }
+            }
+            if ($Client -eq "Xbox") {
+                if ($Platform -eq "win-x64" -or $Platform -eq "win-x86") {
+                    $a553ddde23e7dad4144c98d2e342ba31 = $dfd1dfb880a3f7093614df7cc6364a33.GamebarWidget.x64.latestVersion
                 }
             }
         }
