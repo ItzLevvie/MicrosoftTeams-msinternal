@@ -349,6 +349,7 @@ Write-Output "  Teams 2.1 — Microsoft Teams (work or school):"
 & "..\src\Get-MicrosoftTeams.ps1" -Environment "dod" -Ring "general" -Platform "win-arm64" -Version "2.1" -Client "Desktop"
 & "..\src\Get-MicrosoftTeams.ps1" -Environment "dod" -Ring "general" -Platform "osx-x64 + osx-arm64" -Version "2.1" -Client "Desktop"
 Write-Output ""
+Write-Output $c22f2c0b536d7939765bebeb5230288f
 Write-Output ""
 Write-Output "URLs for the latest Public Gallatin (R4) build of Microsoft Teams:"
 Write-Output ""
