@@ -167,4 +167,4 @@ Version `24040.2800.2689.5562` is broken down into the following:
 
 ### What does client version 49/24020918400 mean?
 
-We use the
+We use the `XXXX/YYMMDDXXXXX` version format for React Web Client (RWC).
