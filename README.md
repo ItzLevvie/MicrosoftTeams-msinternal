@@ -216,7 +216,7 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
 </details>
 
 <details>
-  <summary>Here are a few examples of these parameters:</summary>
+  <summary>Here are a few examples of these parameters which can be used with the Experimentation and Configuration Service (ECS):</summary>
 
   | Parameter | Value |
   | --------- | ----- |
