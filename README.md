@@ -124,6 +124,7 @@ We use the `XXXX/YYMMDDXXXXX` version format for the React Web Client (RWC).
   Microsoft Teams supports the `version` QSP which allows you to force different versions of the React Web Client (RWC).
 
   For example:
+  - https://teams.live.com/v2/?version=24020901500
   - https://teams.microsoft.com/v2/?version=24020205503
   - https://devspaces.skype.com/v2/?version=24021100400
 </details>
