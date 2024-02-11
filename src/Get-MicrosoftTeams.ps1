@@ -25,7 +25,7 @@ param (
     $Client,
 
     [Parameter(Mandatory = $false)]
-    [ValidateSet("exe", "msi", IgnoreCase = $false)]
+    [ValidateSet("exe", "msi", "msix", IgnoreCase = $false)]
     [string]
     $Type,
 
@@ -123,6 +123,11 @@ if ($Version -eq "1.0") {
                 $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_x64.msi"
                 $c53cc331b8934004bd5807be1b2b345e = "27"
             }
+            if ($Type -eq "msix") {
+                $bd3078f40b0117196fdb4853563084e9 = "production-windows-msix-x64"
+                $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_x64.msix"
+                $c53cc331b8934004bd5807be1b2b345e = "27"
+            }
         }
         if ($Platform -eq "win-x86") {
             if ($Type -eq "exe") {
@@ -135,6 +140,11 @@ if ($Version -eq "1.0") {
                 $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows.msi"
                 $c53cc331b8934004bd5807be1b2b345e = "27"
             }
+            if ($Type -eq "msix") {
+                $bd3078f40b0117196fdb4853563084e9 = "production-windows-msix"
+                $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows.msix"
+                $c53cc331b8934004bd5807be1b2b345e = "27"
+            }
         }
         if ($Platform -eq "win-arm64") {
             if ($Type -eq "exe") {
@@ -145,6 +155,11 @@ if ($Version -eq "1.0") {
             if ($Type -eq "msi") {
                 $bd3078f40b0117196fdb4853563084e9 = "production-windows-arm64"
                 $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_arm64.msi"
+                $c53cc331b8934004bd5807be1b2b345e = "27"
+            }
+            if ($Type -eq "msix") {
+                $bd3078f40b0117196fdb4853563084e9 = "production-windows-msix-arm64"
+                $e7782dde7d9e6e4f63894a63138afbb9 = "Teams_windows_arm64.msix"
                 $c53cc331b8934004bd5807be1b2b345e = "27"
             }
         }
