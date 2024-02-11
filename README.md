@@ -81,7 +81,7 @@ We use the `1.X.00.DDDXX` version format for Teams 1.0.
 
   We have two build flavors for Teams 1.0:
   - Stable (S) = Any build version ending with `51` to `99` is a stable build.
-  - Experimental (E) = Any build version ending from `1` to `49` is an experimental build.
+  - Experimental (E) = Any build version ending with `1` to `49` is an experimental build.
 </details>
 
 ----
