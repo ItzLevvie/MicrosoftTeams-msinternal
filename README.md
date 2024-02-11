@@ -216,10 +216,10 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
 </details>
 
 <details>
-  <summary>Here are a few examples of these parameters which can be used with the Experimentation and Configuration Service (ECS):</summary>
+  <summary>Here are a few examples of these parameters:</summary>
 
-  | Parameter | Value |
-  | --------- | ----- |
+  | Query String Parameter (QSP) | Value |
+  | ---------------------------- | ----- |
   | `environment` | `dev`; `prod`; `life`; `gcc`; `gcchigh`; `dod`; `gallatin`; `ag08`; `ag09` |
   | `audienceGroup` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
   | `teamsRing` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
