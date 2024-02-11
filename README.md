@@ -215,7 +215,7 @@ Microsoft Teams uses Experimentation and Configuration Service (ECS) to retrieve
   | `teamsRing` | `ring0`; `ring0_s`; `ring1`; `ring1_5`; `ring1_6`; `ring2`; `ring3`; `ring3_6`; `ring3_9`; `general`; `general_gcc` |
   | `experience` | `cdl-worker`; `react-web-client`; `multi-window`; `meeting-room` |
   | `buildType` | `production`; `container`; `local` |
-  | `osPlatform` | `windows`; `mac`; `linux`; `chromeos` |
+  | `osPlatform` | `windows`; `mac`; `linux`; `chromeos`; `android`; `ios` |
   | `id` | Your Object ID from Microsoft Entra ID. <br> <br> This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a` |
   | `aaduserid` | Your Object ID from Microsoft Entra ID. <br> <br> This repository uses `3a7cf1d3-06fa-4ead-bf45-a6286ff2620a` |
   | `tenantId` | Your Tenant ID from Microsoft Entra ID. <br> <br> This repository uses `72f988bf-86f1-41af-91ab-2d7cd011db47` |
