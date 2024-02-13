@@ -132,8 +132,10 @@ if ($Version -eq "2.1") {
 $i = 0
 while ($i -le 32) {
     try {
-        $TeamsBuilds = (Invoke-RestMethod -Uri "$ecsUrl/config/v1/MicrosoftTeams/$($platformId)_1.0.0.0?environment=$($Environment)&audienceGroup=$($Ring)&teamsRing=$($Ring)&id=$($ObjectId)&tenantId=$($TenantId)&agent=TeamsBuilds" -Method Get).BuildSettings
-        if ($null -eq $ObjectId -and $null -eq $TenantId) {
+        if ($ObjectId -and $TenantId) {
+            $TeamsBuilds = (Invoke-RestMethod -Uri "$ecsUrl/config/v1/MicrosoftTeams/$($platformId)_1.0.0.0?environment=$($Environment)&audienceGroup=$($Ring)&teamsRing=$($Ring)&id=$($ObjectId)&tenantId=$($TenantId)&agent=TeamsBuilds" -Method Get).BuildSettings
+        }
+        else {
             $TeamsBuilds = (Invoke-RestMethod -Uri "$ecsUrl/config/v1/MicrosoftTeams/$($platformId)_1.0.0.0?environment=$($Environment)&audienceGroup=$($Ring)&teamsRing=$($Ring)&agent=TeamsBuilds" -Method Get).BuildSettings
         }
         if ($Version -eq "2.0") {
