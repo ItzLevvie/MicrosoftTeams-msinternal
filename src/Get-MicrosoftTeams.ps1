@@ -20,6 +20,10 @@ param (
     [string]$Version,
 
     [Parameter(Mandatory = $false)]
+    [ValidateSet("exe", "msi", "msix", IgnoreCase = $false)]
+    [string]$Type,
+
+    [Parameter(Mandatory = $false)]
     [ArgumentCompletions("3a7cf1d3-06fa-4ead-bf45-a6286ff2620a")]
     [string]$ObjectId,
 
