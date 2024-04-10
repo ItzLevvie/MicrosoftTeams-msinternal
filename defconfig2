@@ -22,7 +22,7 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
   24100.1100.2809.2576 (win-x64) - published on Tuesday, April 9, 2024 at 9:01 PM with 165 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24100.1100.2809.2576/MSTeams-x64.msix
   24100.1100.2809.2576 (win-x86) - published on Tuesday, April 9, 2024 at 9:02 PM with 155 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/24100.1100.2809.2576/MSTeams-x86.msix
   24100.1100.2809.2576 (win-arm64) - published on Tuesday, April 9, 2024 at 9:03 PM with 151 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24100.1100.2809.2576/MSTeams-arm64.msix
-  24100.1200.2809.2577 (osx-x64 + osx-arm64) - published on Tuesday, April 9, 2024 at 9:36 PM with 289 MB: https://staticsint.teams.cdn.office.net/production-osx/24100.1200.2809.2577/MicrosoftTeams.pkg
+  24100.1300.2809.2783 (osx-x64 + osx-arm64) - published on Tuesday, April 9, 2024 at 10:09 PM with 289 MB: https://staticsint.teams.cdn.office.net/production-osx/24100.1300.2809.2783/MicrosoftTeams.pkg
 
   Teams 2.1 — Microsoft Teams Rooms:
   24100.1100.2809.2576 (win-x64) - published on Tuesday, April 9, 2024 at 9:01 PM with 154 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24100.1100.2809.2576/MSTeams-Rooms-x64.msix
@@ -77,7 +77,7 @@ URLs for the latest Teams (R1) build of Microsoft Teams:
 
   Teams 2.0 — Microsoft Teams (free):
   24100.200.2807.1332 (win-x64) - published on Tuesday, April 9, 2024 at 3:08 AM with 153 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/24100.200.2807.1332/MicrosoftTeams-x64.msix
-  24100.200.2807.1332 (win-x86) - published on Tuesday, April 9, 2024 at 3:09 AM with 148 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/24100.200.2807.1332/MicrosoftTeams-x86.msix
+  24100.900.2809.133 (win-x86) - published on Tuesday, April 9, 2024 at 6:35 PM with 148 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/24100.900.2809.133/MicrosoftTeams-x86.msix
   24100.200.2807.1332 (win-arm64) - published on Tuesday, April 9, 2024 at 3:10 AM with 150 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/24100.200.2807.1332/MicrosoftTeams-arm64.msix
 
   Teams 2.0 — Microsoft Teams Play Together:
