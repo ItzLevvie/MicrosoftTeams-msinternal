@@ -121,6 +121,9 @@ if ($Version -eq "1.0") {
 }
 if ($Version -eq "2.0") {
     $platformId = "48"
+    if ($Ring -eq "ring0") {
+        $platformId = "49"
+    }
     if ($Client -eq "Desktop") {
         if ($Platform -eq "win-x64") {
             $filePath = "production-windows-x64"
