@@ -4,16 +4,16 @@
 
 This repository contains multiple files:
 * [defconfig](defconfig) which shows daily builds, experimental builds, preview builds, and public builds for Microsoft Teams classic.
-* [defconfig2](defconfig2) which shows builds in all rings for Microsoft Teams classic, Microsoft Teams (free), Microsoft Teams (work or school), and Microsoft Teams Rooms.
+* [defconfig2](defconfig2) which shows builds in all rings for Microsoft Teams classic, Microsoft Teams (personal), Microsoft Teams, and Microsoft Teams Rooms.
 
 This repository contains the source code for:
 * [Get-MicrosoftTeams.ps1](src/Get-MicrosoftTeams.ps1) which allows you to fetch the latest builds in different environments, and different rings.
 * [launch.ps1](tools/launch.ps1) which allows you to create your own `RELEASES` file.
 
 > [!IMPORTANT]
-> If you have any feedback for Microsoft Teams (free), please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamslifeinternalfeedback).
+> If you have any feedback for Microsoft Teams (personal), please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamslifeinternalfeedback).
 >
-> If you have any feedback for Microsoft Teams (work or school), please submit them to our [public feedback portal](https://aka.ms/teamsfeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamsinternalfeedback).
+> If you have any feedback for Microsoft Teams, please submit them to our [public feedback portal](https://aka.ms/teamsfeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamsinternalfeedback).
 
 > [!NOTE]
 > Installing these builds does not necessarily mean you will have access to new features.
@@ -40,8 +40,8 @@ This repository contains the source code for:
 
 ----
 
-### Teams 2.0 — Microsoft Teams (free) based on Microsoft Edge WebView2
-### Teams 2.1 — Microsoft Teams (work or school) based on Microsoft Edge WebView2
+### Teams 2.0 — Microsoft Teams (personal) based on Microsoft Edge WebView2
+### Teams 2.1 — Microsoft Teams based on Microsoft Edge WebView2
 ### Teams 2.1 — Microsoft Teams Rooms based on Microsoft Edge WebView2
 
 <details>
@@ -149,9 +149,9 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
   | 35 | Microsoft Teams classic for Surface Hub based on Electron (Windows) |
   | 38 | Microsoft Teams classic for Surface Hub 2 based on Electron (Windows) |
   | 41 | Microsoft Teams classic based on Electron (Linux) |
-  | 48 | Microsoft Teams (free) based on Microsoft Edge WebView2 (Windows) |
-  | 49 | Microsoft Teams (work or school) based on Microsoft Edge WebView2 (Windows) |
-  | 50 | Microsoft Teams (work or school) based on Microsoft Edge WebView2 (macOS) |
+  | 48 | Microsoft Teams (personal) based on Microsoft Edge WebView2 (Windows) |
+  | 49 | Microsoft Teams based on Microsoft Edge WebView2 (Windows) |
+  | 50 | Microsoft Teams based on Microsoft Edge WebView2 (macOS) |
   | 51 | Microsoft Teams Rooms based on Microsoft Edge WebView2 (Windows) |
   | 1415 | Microsoft Teams Web (Windows, macOS, and Linux) |
   | 1416 | Microsoft Teams (Android) |
@@ -165,7 +165,7 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
 ### How can I enable Developer Tools?
 
 <details>
-  <summary>Teams 2.0 — Microsoft Teams (free):</summary>
+  <summary>Teams 2.0 — Microsoft Teams (personal):</summary>
 
   You will have to create a JSON file named `configuration.json` in `%LOCALAPPDATA%\Packages\MicrosoftTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
@@ -176,7 +176,7 @@ Microsoft Teams uses platform IDs to differentiate different platforms for fligh
 </details>
 
 <details>
-  <summary>Teams 2.1 — Microsoft Teams (work or school):</summary>
+  <summary>Teams 2.1 — Microsoft Teams:</summary>
 
   You will have to create a JSON file named `configuration.json` in `%LOCALAPPDATA%\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams`:
   ```json
