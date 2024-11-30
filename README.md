@@ -8,7 +8,7 @@ This repository contains multiple files:
 
 This repository contains the source code for:
 * [Get-MicrosoftTeams.ps1](src/Get-MicrosoftTeams.ps1) which allows you to fetch the latest builds in different environments, and different rings.
-* [launch.ps1](tools/launch.ps1) which allows you to create your own `RELEASES` file.
+* [launch.ps1](tools/v1.0%20%2B%20v2.0/launch.ps1) which allows you to create your own `RELEASES` file.
 
 > [!IMPORTANT]
 > If you have any feedback for Microsoft Teams (personal), please submit them to our [public feedback portal](https://aka.ms/teamslifefeedback), or to our [private feedback portal - only available to Microsoft employees](https://aka.ms/teamslifeinternalfeedback).
