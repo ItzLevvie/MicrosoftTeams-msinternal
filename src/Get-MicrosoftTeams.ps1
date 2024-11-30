@@ -59,7 +59,7 @@ if ($Environment -eq "life" -and $Ring -eq "ring0" -and $Version -eq "2.0" -and 
 if ($Environment -eq "life" -and $Ring -eq "ring0_s" -and $Version -eq "2.0" -and $Client -eq "Desktop") {
     $Environment = "prod"
 }
-if ($Environment -eq "gallatin" -and $Ring -eq "general" -and $Platform -eq "osx-x64 + osx-arm64" -and $Version -eq "1.0" -and $Client -eq "Desktop" -and $Type -eq "exe") {
+if ($Environment -eq "gallatin" -and $Ring -eq "general" -and $Platform -eq "osx-x64 + osx-arm64" -and $Version -eq "1.0" -and $Client -eq "Desktop") {
     $Environment = "prod"
     $Ring = "general_gcc"
 }
