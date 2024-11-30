@@ -58,6 +58,10 @@ if ($Environment -eq "gallatin" -and $Ring -eq "general" -and $Platform -eq "osx
     $Ring = "general_gcc"
 }
 
+if ($Environment -eq "life" -and $Ring -eq "ring0_s" -and $Version -eq "2.0" -and $Client -eq "Desktop") {
+    $Environment = "prod"
+}
+
 #
 if ($Ring -eq "ring0" -or $Ring -eq "ring0_s" -or $Ring -eq "ring1") {
     $staticsUrl = "https://staticsint.teams.cdn.office.net"
