@@ -21,7 +21,7 @@ This repository contains the source code for:
 
 ## Frequently Asked Questions (FAQ)
 
-### Teams 1.0 — Microsoft Teams classic based on Electron 19.1.8 and Electron 22.3.27
+### Teams 1.0 — Microsoft Teams classic based on Electron 22.3.27 and Electron 31.7.7
 
 <details>
   <summary>What are daily builds?</summary>
