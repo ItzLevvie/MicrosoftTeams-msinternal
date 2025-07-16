@@ -65,6 +65,7 @@ We use the `1.X.00.DDDXX` version format for Teams 1.0.
 
   Microsoft Teams version `1.7.00.4065` is broken down into the following:
   - `7` (X) is the year of the build.
+    - `8` represents 2025.
     - `7` represents 2024.
     - `6` represents 2023.
     - `5` represents 2022.
