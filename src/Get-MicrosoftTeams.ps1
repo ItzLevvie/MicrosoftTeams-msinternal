@@ -63,6 +63,9 @@ if ($Environment -eq "gallatin" -and $Ring -eq "general" -and $Platform -eq "osx
     $Environment = "prod"
     $Ring = "general_gcc"
 }
+if ($Environment -eq "prod" -and $Ring -eq "ring0" -and $Version -eq "2.1" -and $Client -eq "Rooms") {
+    $Client = "Desktop"
+}
 
 #
 if ($Ring -eq "ring0" -or $Ring -eq "ring0_s" -or $Ring -eq "ring1") {
