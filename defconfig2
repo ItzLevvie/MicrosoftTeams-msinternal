@@ -22,7 +22,7 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
   25274.300.3996.4391 (win-x64) - published on Wednesday, October 1, 2025 at 5:23 AM with 220 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25274.300.3996.4391/MSTeams-x64.msix
   25274.300.3996.4391 (win-x86) - published on Wednesday, October 1, 2025 at 5:23 AM with 208 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/25274.300.3996.4391/MSTeams-x86.msix
   25274.300.3996.4391 (win-arm64) - published on Wednesday, October 1, 2025 at 5:24 AM with 222 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/25274.300.3996.4391/MSTeams-arm64.msix
-  25273.400.3994.512 (osx-x64 + osx-arm64) - published on Tuesday, September 30, 2025 at 9:19 AM with 358 MB: https://staticsint.teams.cdn.office.net/production-osx/25273.400.3994.512/MicrosoftTeams.pkg
+  25274.300.3996.4392 (osx-x64 + osx-arm64) - published on Wednesday, October 1, 2025 at 6:36 AM with 358 MB: https://staticsint.teams.cdn.office.net/production-osx/25274.300.3996.4392/MicrosoftTeams.pkg
 
   Teams 2.1 — Microsoft Teams Rooms:
   25101.400.3567.9160 (win-x64) - published on Friday, April 11, 2025 at 4:55 AM with 184 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25101.400.3567.9160/MSTeams-Rooms-x64.msix
@@ -76,9 +76,9 @@ URLs for the latest Teams (R1) build of Microsoft Teams:
   1.8.00.18352 (osx-x64 + osx-arm64) - published on Wednesday, July 2, 2025 at 9:33 AM with 226 MB: https://staticsint.teams.cdn.office.net/production-osx/1.8.00.18352/Teams_osx.pkg
 
   Teams 2.0 — Microsoft Teams (personal):
-  25272.1600.3992.6402 (win-x64) - published on Monday, September 29, 2025 at 7:14 PM with 198 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25272.1600.3992.6402/MicrosoftTeams-x64.msix
-  25272.1600.3992.6402 (win-x86) - published on Monday, September 29, 2025 at 7:14 PM with 193 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/25272.1600.3992.6402/MicrosoftTeams-x86.msix
-  25272.1600.3992.6402 (win-arm64) - published on Monday, September 29, 2025 at 7:15 PM with 200 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/25272.1600.3992.6402/MicrosoftTeams-arm64.msix
+  25274.300.3996.4391 (win-x64) - published on Wednesday, October 1, 2025 at 5:22 AM with 198 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25274.300.3996.4391/MicrosoftTeams-x64.msix
+  25274.300.3996.4391 (win-x86) - published on Wednesday, October 1, 2025 at 5:22 AM with 193 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/25274.300.3996.4391/MicrosoftTeams-x86.msix
+  25274.300.3996.4391 (win-arm64) - published on Wednesday, October 1, 2025 at 5:23 AM with 200 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/25274.300.3996.4391/MicrosoftTeams-arm64.msix
 
   Teams 2.0 — Microsoft Teams Play Together for Xbox Game Bar:
   1.2501.1401.0 (win-x64) - published on Tuesday, February 18, 2025 at 11:31 AM with 87 MB: https://statics.teams.cdn.office.net/production-windows-xbox-x64/1.2501.1401.0/MSTeamsPlayTogether_x64.msixbundle
