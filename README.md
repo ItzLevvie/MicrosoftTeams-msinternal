@@ -3,7 +3,7 @@
 # Welcome to the build repository for Microsoft Teams
 
 > [!CAUTION]
-> README has not been updated for nearly an year and may contain inaccuracies.
+> This README.md file has not been updated for nearly an year or more and may contain inaccuracies.
 
 This repository contains multiple files:
 * [defconfig](defconfig) which shows daily builds, experimental builds, preview builds, and public builds for Microsoft Teams classic.
