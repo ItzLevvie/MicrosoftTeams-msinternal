@@ -52,14 +52,6 @@ if ($Environment -eq "gallatin") {
     $ecsUrl = "https://mooncake.config.teams.microsoft.com"
 }
 
-# Script bug fixes from 30th of November 2024
-if ($Environment -eq "life" -and $Ring -eq "ring0" -and $Version -eq "2.0" -and $Client -eq "Desktop") {
-    $Environment = "prod"
-}
-if ($Environment -eq "life" -and $Ring -eq "ring0_s" -and $Version -eq "2.0" -and $Client -eq "Desktop") {
-    $Environment = "prod"
-}
-
 #
 if ($Ring -eq "ring0" -or $Ring -eq "ring0_s" -or $Ring -eq "ring1") {
     $staticsUrl = "https://staticsint.teams.cdn.office.net"
