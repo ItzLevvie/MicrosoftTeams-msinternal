@@ -12,11 +12,11 @@ param (
     [string]$Platform,
 
     [Parameter(Mandatory = $true)]
-    [ValidateSet("Desktop", "Rooms", "Xbox", IgnoreCase = $false)]
+    [ValidateSet("Desktop", "Rooms", IgnoreCase = $false)]
     [string]$Client,
 
     [Parameter(Mandatory = $true)]
-    [ValidateSet("1.0", "2.0", "2.1", IgnoreCase = $false)]
+    [ValidateSet("2.0", "2.1", IgnoreCase = $false)]
     [string]$Version,
 
     [Parameter(Mandatory = $false)]
@@ -79,58 +79,6 @@ if ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring 
 }
 
 #
-if ($Version -eq "1.0") {
-    if ($Client -eq "Desktop") {
-        $platformId = "27"
-        if ($Platform -eq "win-x64") {
-            if ($Type -eq "exe") {
-                $filePath = "production-windows-x64"
-                $fileName = "Teams_windows_x64.exe"
-            }
-            if ($Type -eq "msi") {
-                $filePath = "production-windows-x64"
-                $fileName = "Teams_windows_x64.msi"
-            }
-            if ($Type -eq "msix") {
-                $filePath = "production-windows-msix-x64"
-                $fileName = "Teams_windows_x64.msix"
-            }
-        }
-        if ($Platform -eq "win-x86") {
-            if ($Type -eq "exe") {
-                $filePath = "production-windows"
-                $fileName = "Teams_windows.exe"
-            }
-            if ($Type -eq "msi") {
-                $filePath = "production-windows"
-                $fileName = "Teams_windows.msi"
-            }
-            if ($Type -eq "msix") {
-                $filePath = "production-windows-msix"
-                $fileName = "Teams_windows.msix"
-            }
-        }
-        if ($Platform -eq "win-arm64") {
-            if ($Type -eq "exe") {
-                $filePath = "production-windows-arm64"
-                $fileName = "Teams_windows_arm64.exe"
-            }
-            if ($Type -eq "msi") {
-                $filePath = "production-windows-arm64"
-                $fileName = "Teams_windows_arm64.msi"
-            }
-            if ($Type -eq "msix") {
-                $filePath = "production-windows-msix-arm64"
-                $fileName = "Teams_windows_arm64.msix"
-            }
-        }
-        if ($Platform -eq "osx-x64 + osx-arm64") {
-            $platformId = "28"
-            $filePath = "production-osx"
-            $fileName = "Teams_osx.pkg"
-        }
-    }
-}
 if ($Version -eq "2.0") {
     $platformId = "48"
     if ($Ring -eq "ring0") {
@@ -148,16 +96,6 @@ if ($Version -eq "2.0") {
         if ($Platform -eq "win-arm64") {
             $filePath = "production-windows-arm64"
             $fileName = "MicrosoftTeams-arm64.msix"
-        }
-    }
-    if ($Client -eq "Xbox") {
-        if ($Platform -eq "win-x64") {
-            $filePath = "production-windows-xbox-x64"
-            $fileName = "MSTeamsPlayTogether_x64.msixbundle"
-        }
-        if ($Platform -eq "win-x86") {
-            $filePath = "production-windows-xbox-x86"
-            $fileName = "MSTeamsPlayTogether_x86.msixbundle"
         }
     }
 }
@@ -223,11 +161,6 @@ while ($maxAttempts -le 32) {
             if ($Client -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $buildVersion = $TeamsBuilds.WebView2.x64.latestVersion
-                }
-            }
-            if ($Client -eq "Xbox") {
-                if ($Platform -eq "win-x64" -or $Platform -eq "win-x86") {
-                    $buildVersion = $TeamsBuilds.GamebarWidget.x64.latestVersion
                 }
             }
         }
