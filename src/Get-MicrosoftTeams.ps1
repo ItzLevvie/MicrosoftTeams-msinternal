@@ -67,12 +67,6 @@ if ($Environment -eq "gallatin" -and $Ring -eq "general" -and $Platform -eq "osx
 #
 if ($Ring -eq "ring0" -or $Ring -eq "ring0_s" -or $Ring -eq "ring1") {
     $staticsUrl = "https://staticsint.teams.cdn.office.net"
-    if ($Client -eq "Xbox") {
-        $staticsUrl = "https://statics.teams.cdn.office.net"
-        if ($Ring -eq "ring0_s") {
-            $Ring = "ring0"
-        }
-    }
 }
 if ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring -eq "ring3" -or $Ring -eq "ring3_6" -or $Ring -eq "ring3_9" -or $Ring -eq "general" -or $Ring -eq "general_gcc") {
     $staticsUrl = "https://statics.teams.cdn.office.net"
@@ -146,16 +140,6 @@ while ($maxAttempts -le 32) {
         }
         else {
             $TeamsBuilds = (Invoke-RestMethod -Uri "$ecsUrl/config/v1/MicrosoftTeams/$($platformId)_1.0.0.0?environment=$($Environment)&audienceGroup=$($Ring)&teamsRing=$($Ring)&agent=TeamsBuilds" -Method Get).BuildSettings
-        }
-        if ($Version -eq "1.0") {
-            if ($Client -eq "Desktop") {
-                if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
-                    $buildVersion = $TeamsBuilds.Desktop.windows64.latestVersion
-                }
-                if ($Platform -eq "osx-x64 + osx-arm64") {
-                    $buildVersion = $TeamsBuilds.Desktop.osx.latestVersion
-                }
-            }
         }
         if ($Version -eq "2.0") {
             if ($Client -eq "Desktop") {
