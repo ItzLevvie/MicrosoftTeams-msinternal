@@ -159,7 +159,6 @@ while ($maxAttempts -le 32) {
             $roundFileSize = [System.Math]::Round($convertFileSizeToMB)
 
             Write-Output "  [DEBUG]: $ecsUrl/config/v1/MicrosoftTeams/$($platformId)_1.0.0.0?environment=$($Environment)&audienceGroup=$($Ring)&teamsRing=$($Ring)&id=$($ObjectId)&tenantId=$($TenantId)&agent=TeamsBuilds"
-            Write-Output ""
             Write-Output "  $buildVersion ($Platform) - published on $formatDate with $roundFileSize MB: $staticsUrl/$filePath/$buildVersion/$fileName"
         }
         break
