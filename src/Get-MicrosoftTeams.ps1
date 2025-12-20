@@ -60,6 +60,11 @@ if ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring 
     $staticsUrl = "https://statics.teams.cdn.office.net"
 }
 
+# Script bug fixes from 20th of December 2025
+if ($Environment -eq "life" -and $Ring -eq "ring0_s" -and $Version -eq "2.0" -and $Client -eq "Desktop") {
+    $Environment = "prod"
+}
+
 #
 if ($Version -eq "2.0") {
     $platformId = "48"
@@ -130,6 +135,9 @@ while ($maxAttempts -le 32) {
             if ($Client -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $buildVersion = $TeamsBuilds.WebView2.x64.latestVersion
+                    if ($Ring -eq "ring0_s") {
+                        $buildVersion = $TeamsBuilds.WebView2Canary.x64.latestVersion
+                    }
                 }
             }
         }
