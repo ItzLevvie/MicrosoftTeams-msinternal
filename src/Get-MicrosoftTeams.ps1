@@ -100,7 +100,7 @@ if ($Version -eq "2.1") {
         }
     }
     if ($Client -eq "Rooms") {
-        $platformId = "51"
+        $platformId = "49"
         if ($Platform -eq "win-x64") {
             $filePath = "production-windows-x64"
             $fileName = "MSTeams-Rooms-x64.msix"
@@ -144,10 +144,7 @@ while ($maxAttempts -le 32) {
             }
             if ($Client -eq "Rooms") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
-                    $buildVersion = $TeamsBuilds.WebView2Canary.MTRW.x64.latestVersion
-                    if ($null -eq $buildVersion) {
-                        $buildVersion = $TeamsBuilds.WebView2Canary.x64.latestVersion
-                    }
+                    $buildVersion = $TeamsBuilds.WebView2Canary.x64.latestVersion
                 }
             }
         }
@@ -161,6 +158,8 @@ while ($maxAttempts -le 32) {
             $convertFileSizeToMB = [string]$fileUrl.Headers["Content-Length"] / 1024 / 1024
             $roundFileSize = [System.Math]::Round($convertFileSizeToMB)
 
+            Write-Output "  [DEBUG]: $ecsUrl/config/v1/MicrosoftTeams/$($platformId)_1.0.0.0?environment=$($Environment)&audienceGroup=$($Ring)&teamsRing=$($Ring)&id=$($ObjectId)&tenantId=$($TenantId)&agent=TeamsBuilds"
+            Write-Output ""
             Write-Output "  $buildVersion ($Platform) - published on $formatDate with $roundFileSize MB: $staticsUrl/$filePath/$buildVersion/$fileName"
         }
         break
