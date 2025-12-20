@@ -2,11 +2,11 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
 
   Teams 2.0 — Microsoft Teams (personal):
   [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=ring0&teamsRing=ring0&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
-  25308.3200.4085.1473 (win-x64) - published on Tuesday, November 4, 2025 at 10:30 PM with 206 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25308.3200.4085.1473/MicrosoftTeams-x64.msix
+  25353.900.4206.3670 (win-x64) - published on Friday, December 19, 2025 at 10:47 AM with 214 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25353.900.4206.3670/MicrosoftTeams-x64.msix
   [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=ring0&teamsRing=ring0&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
-  25308.3200.4085.1473 (win-x86) - published on Tuesday, November 4, 2025 at 10:31 PM with 201 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/25308.3200.4085.1473/MicrosoftTeams-x86.msix
+  25353.900.4206.3670 (win-x86) - published on Friday, December 19, 2025 at 10:48 AM with 209 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/25353.900.4206.3670/MicrosoftTeams-x86.msix
   [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=ring0&teamsRing=ring0&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
-  25308.3200.4085.1473 (win-arm64) - published on Tuesday, November 4, 2025 at 10:31 PM with 208 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/25308.3200.4085.1473/MicrosoftTeams-arm64.msix
+  25353.900.4206.3670 (win-arm64) - published on Friday, December 19, 2025 at 10:47 AM with 217 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/25353.900.4206.3670/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams:
   [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/49_1.0.0.0?environment=prod&audienceGroup=ring0&teamsRing=ring0&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
