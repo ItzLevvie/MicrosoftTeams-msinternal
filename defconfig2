@@ -31,6 +31,12 @@ URLs for the latest Canary (R0) build of Microsoft Teams:
 URLs for the latest Canary Slimcore (R0s) build of Microsoft Teams:
 
   Teams 2.0 — Microsoft Teams (personal):
+  [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=prod&audienceGroup=ring0_s&teamsRing=ring0_s&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
+  25350.200.4193.5513 (win-x64) - published on Tuesday, December 16, 2025 at 4:51 AM with 215 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25350.200.4193.5513/MicrosoftTeams-x64.msix
+  [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=prod&audienceGroup=ring0_s&teamsRing=ring0_s&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
+  25350.200.4193.5513 (win-x86) - published on Tuesday, December 16, 2025 at 4:51 AM with 210 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/25350.200.4193.5513/MicrosoftTeams-x86.msix
+  [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=prod&audienceGroup=ring0_s&teamsRing=ring0_s&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
+  25350.200.4193.5513 (win-arm64) - published on Tuesday, December 16, 2025 at 4:52 AM with 217 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/25350.200.4193.5513/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams:
   [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/49_1.0.0.0?environment=prod&audienceGroup=ring0_s&teamsRing=ring0_s&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
@@ -53,14 +59,6 @@ URLs for the latest Canary Slimcore (R0s) build of Microsoft Teams:
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 URLs for the latest Teams (R1) build of Microsoft Teams:
-
-  Teams 2.0 — Microsoft Teams (personal):
-  [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=ring1&teamsRing=ring1&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
-  25308.3200.4085.1473 (win-x64) - published on Tuesday, November 4, 2025 at 10:30 PM with 206 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/25308.3200.4085.1473/MicrosoftTeams-x64.msix
-  [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=ring1&teamsRing=ring1&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
-  25308.3200.4085.1473 (win-x86) - published on Tuesday, November 4, 2025 at 10:31 PM with 201 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/25308.3200.4085.1473/MicrosoftTeams-x86.msix
-  [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/48_1.0.0.0?environment=life&audienceGroup=ring1&teamsRing=ring1&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
-  25308.3200.4085.1473 (win-arm64) - published on Tuesday, November 4, 2025 at 10:31 PM with 208 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/25308.3200.4085.1473/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams:
   [DEBUG]: https://config.teams.microsoft.com/config/v1/MicrosoftTeams/49_1.0.0.0?environment=prod&audienceGroup=ring1&teamsRing=ring1&id=3a7cf1d3-06fa-4ead-bf45-a6286ff2620a&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&agent=TeamsBuilds
