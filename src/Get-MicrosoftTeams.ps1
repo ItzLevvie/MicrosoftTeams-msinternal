@@ -61,6 +61,9 @@ if ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring 
 }
 
 # Script bug fixes from 20th of December 2025
+if ($Environment -eq "life" -and $Ring -eq "ring0" -and $Version -eq "2.0" -and $Client -eq "Desktop") {
+    $Environment = "prod"
+}
 if ($Environment -eq "life" -and $Ring -eq "ring0_s" -and $Version -eq "2.0" -and $Client -eq "Desktop") {
     $Environment = "prod"
 }
