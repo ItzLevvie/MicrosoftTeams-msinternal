@@ -63,9 +63,6 @@ if ($Ring -eq "ring1_5" -or $Ring -eq "ring1_6" -or $Ring -eq "ring2" -or $Ring 
 #
 if ($Version -eq "2.0") {
     $platformId = "48"
-    if ($Ring -eq "ring0") {
-        $platformId = "49"
-    }
     if ($Client -eq "Desktop") {
         if ($Platform -eq "win-x64") {
             $filePath = "production-windows-x64"
