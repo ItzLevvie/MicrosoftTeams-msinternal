@@ -68,6 +68,9 @@ if ($Environment -eq "life" -and $Ring -eq "ring0_s" -and $Version -eq "2.0" -an
 #
 if ($Version -eq "2.0") {
     $platformId = "48"
+    if ($Ring -eq "ring0") {
+        $platformId = "49"
+    }
     if ($Client -eq "Desktop") {
         if ($Platform -eq "win-x64") {
             $filePath = "production-windows-x64"
