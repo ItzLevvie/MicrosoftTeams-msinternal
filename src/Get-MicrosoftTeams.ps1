@@ -138,7 +138,7 @@ while ($maxAttempts -le 32) {
             if ($Client -eq "Desktop") {
                 if ($Platform -eq "win-x64" -or $Platform -eq "win-x86" -or $Platform -eq "win-arm64") {
                     $buildVersion = $TeamsBuilds.WebView2.x64.latestVersion
-                    if ($Ring -eq "ring0" -or $Ring -eq "ring0_s") {
+                    if ($Ring -eq "ring0_s") {
                         $buildVersion = $TeamsBuilds.WebView2Canary.x64.latestVersion
                     }
                 }
