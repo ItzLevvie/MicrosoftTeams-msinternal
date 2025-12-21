@@ -1,4 +1,4 @@
-Write-Output "URLs for the latest production build of Microsoft Teams:"
+Write-Output "URLs for the latest production build of Microsoft Teams classic:"
 & "..\..\src\v1.0\Production\exe\win-x64.ps1"
 & "..\..\src\v1.0\Production\msi\win-x64.ps1"
 & "..\..\src\v1.0\Production\exe\win-x86.ps1"
