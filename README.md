@@ -2,6 +2,9 @@
 
 # Welcome to the build repository for Microsoft Teams
 
+> [!CAUTION]
+> This README.md file has not been updated for nearly an year or more and may contain inaccuracies.
+
 This repository contains multiple files:
 * [defconfig](defconfig) which shows daily builds, experimental builds, preview builds, and public builds for Microsoft Teams classic.
 * [defconfig2](defconfig2) which shows builds in all rings for Microsoft Teams classic, Microsoft Teams (personal), Microsoft Teams, and Microsoft Teams Rooms.
