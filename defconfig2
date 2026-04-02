@@ -1,20 +1,20 @@
 URLs for the latest Canary (R0) build of Microsoft Teams:
 
   Teams 2.0 — Microsoft Teams (personal):
-  26092.800.4555.2763 (win-x64) - published on Thursday, April 2, 2026 at 9:58 AM with 229 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26092.800.4555.2763/MicrosoftTeams-x64.msix
-  26092.800.4555.2763 (win-x86) - published on Thursday, April 2, 2026 at 9:58 AM with 223 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26092.800.4555.2763/MicrosoftTeams-x86.msix
-  26092.800.4555.2763 (win-arm64) - published on Thursday, April 2, 2026 at 9:58 AM with 231 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26092.800.4555.2763/MicrosoftTeams-arm64.msix
+  26092.1000.4555.3540 (win-x64) - published on Thursday, April 2, 2026 at 10:20 AM with 229 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26092.1000.4555.3540/MicrosoftTeams-x64.msix
+  26092.1000.4555.3540 (win-x86) - published on Thursday, April 2, 2026 at 10:20 AM with 223 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26092.1000.4555.3540/MicrosoftTeams-x86.msix
+  26092.1000.4555.3540 (win-arm64) - published on Thursday, April 2, 2026 at 10:20 AM with 231 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26092.1000.4555.3540/MicrosoftTeams-arm64.msix
 
   Teams 2.1 — Microsoft Teams:
-  26092.700.4555.2359 (win-x64) - published on Thursday, April 2, 2026 at 9:29 AM with 250 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26092.700.4555.2359/MSTeams-x64.msix
-  26092.800.4555.2763 (win-x86) - published on Thursday, April 2, 2026 at 9:58 AM with 237 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26092.800.4555.2763/MSTeams-x86.msix
-  26092.800.4555.2763 (win-arm64) - published on Thursday, April 2, 2026 at 9:58 AM with 252 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26092.800.4555.2763/MSTeams-arm64.msix
-  26092.900.4555.1885 (osx-x64 + osx-arm64) - published on Thursday, April 2, 2026 at 9:07 AM with 345 MB: https://staticsint.teams.cdn.office.net/production-osx/26092.900.4555.1885/MicrosoftTeams.pkg
+  26092.1000.4555.3540 (win-x64) - published on Thursday, April 2, 2026 at 10:20 AM with 250 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26092.1000.4555.3540/MSTeams-x64.msix
+  26092.1000.4555.3540 (win-x86) - published on Thursday, April 2, 2026 at 10:20 AM with 237 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26092.1000.4555.3540/MSTeams-x86.msix
+  26092.1000.4555.3540 (win-arm64) - published on Thursday, April 2, 2026 at 10:20 AM with 252 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26092.1000.4555.3540/MSTeams-arm64.msix
+  26092.1100.4555.2772 (osx-x64 + osx-arm64) - published on Thursday, April 2, 2026 at 10:26 AM with 345 MB: https://staticsint.teams.cdn.office.net/production-osx/26092.1100.4555.2772/MicrosoftTeams.pkg
 
   Teams 2.1 — Microsoft Teams Rooms:
-  26092.700.4555.2359 (win-x64) - published on Thursday, April 2, 2026 at 9:29 AM with 235 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26092.700.4555.2359/MSTeams-Rooms-x64.msix
-  26092.800.4555.2763 (win-x86) - published on Thursday, April 2, 2026 at 9:58 AM with 229 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26092.800.4555.2763/MSTeams-Rooms-x86.msix
-  26092.800.4555.2763 (win-arm64) - published on Thursday, April 2, 2026 at 9:58 AM with 238 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26092.800.4555.2763/MSTeams-Rooms-arm64.msix
+  26092.1000.4555.3540 (win-x64) - published on Thursday, April 2, 2026 at 10:20 AM with 235 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26092.1000.4555.3540/MSTeams-Rooms-x64.msix
+  26092.1000.4555.3540 (win-x86) - published on Thursday, April 2, 2026 at 10:20 AM with 229 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26092.1000.4555.3540/MSTeams-Rooms-x86.msix
+  26092.1000.4555.3540 (win-arm64) - published on Thursday, April 2, 2026 at 10:20 AM with 238 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26092.1000.4555.3540/MSTeams-Rooms-arm64.msix
 
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
@@ -41,9 +41,9 @@ URLs for the latest Canary Slimcore (R0s) build of Microsoft Teams:
 URLs for the latest Teams (R1) build of Microsoft Teams:
 
   Teams 2.1 — Microsoft Teams:
-  26090.900.4545.7496 (win-x64) - published on Tuesday, March 31, 2026 at 9:08 AM with 249 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26090.900.4545.7496/MSTeams-x64.msix
-  26090.900.4545.7496 (win-x86) - published on Tuesday, March 31, 2026 at 9:08 AM with 237 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26090.900.4545.7496/MSTeams-x86.msix
-  26090.900.4545.7496 (win-arm64) - published on Tuesday, March 31, 2026 at 9:07 AM with 252 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26090.900.4545.7496/MSTeams-arm64.msix
+  26092.300.4554.5925 (win-x64) - published on Thursday, April 2, 2026 at 5:38 AM with 250 MB: https://staticsint.teams.cdn.office.net/production-windows-x64/26092.300.4554.5925/MSTeams-x64.msix
+  26092.300.4554.5925 (win-x86) - published on Thursday, April 2, 2026 at 5:39 AM with 237 MB: https://staticsint.teams.cdn.office.net/production-windows-x86/26092.300.4554.5925/MSTeams-x86.msix
+  26092.300.4554.5925 (win-arm64) - published on Thursday, April 2, 2026 at 5:38 AM with 252 MB: https://staticsint.teams.cdn.office.net/production-windows-arm64/26092.300.4554.5925/MSTeams-arm64.msix
   26091.1600.4552.4135 (osx-x64 + osx-arm64) - published on Wednesday, April 1, 2026 at 6:12 PM with 344 MB: https://staticsint.teams.cdn.office.net/production-osx/26091.1600.4552.4135/MicrosoftTeams.pkg
 
 ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
