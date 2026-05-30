@@ -22,19 +22,11 @@ jobs:
           git config --local user.email msftgits@microsoft.com
 
       - run: |
-          cd .\tools\v1.0
-          .\launch.ps1 > ..\..\defconfig
-
-      - run: |
-          git add defconfig
-          git commit --message "Update to the latest Microsoft Teams builds"
-          git push
-
-      - run: |
           cd ".\tools\v2.0"
-          .\launch.ps1 > ..\..\defconfig2
+          .\launch.ps1 > ..\..\defconfig
+          Copy-Item -Path ..\..\defconfig ..\..\defconfig2
 
       - run: |
-          git add defconfig2
+          git add defconfig defconfig2
           git commit --message "Update to the latest Microsoft Teams builds"
           git push
